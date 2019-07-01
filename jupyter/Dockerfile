@@ -23,7 +23,7 @@ RUN apt-get update && apt-get install -yq --no-install-recommends \
     nano \
     && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /usr/src/app
+WORKDIR /app
 RUN pip3 install --upgrade pip
 RUN pip3 install --upgrade jupyter
 RUN pip3 install notebook
