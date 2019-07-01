@@ -27,6 +27,8 @@ WORKDIR /app
 RUN pip3 install --upgrade pip
 RUN pip3 install --upgrade jupyter
 RUN pip3 install notebook
+RUN pip3 install pandas numpy matplotlib seaborn
+RUN pip3 install requests parse
 
 # jupyter config
 RUN jupyter notebook --allow-root --generate-config -y
