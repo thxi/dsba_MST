@@ -5,7 +5,7 @@
       v-for="(map_name, index) in maps"
       :title="map_name"
       seamless
-      >{{ `/maps/${map_name}${postfix}` }}
+      >{{ map_name }}
       <iframe :src="`/maps/${map_name}${postfix}`" seamless></iframe
     ></b-tab>
 
