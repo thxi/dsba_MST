@@ -1,20 +1,16 @@
 <template>
   <div id="app">
-    <yMap />
+    <mapht />
   </div>
 </template>
 
 <script>
-import yMap from '@/components/yMap.vue'
+import mapht from './components/mapht.vue'
 
 export default {
   name: 'app',
   components: {
-    yMap
-  },
-  data() {
-    return {
-    }
+    mapht
   }
 }
 </script>
