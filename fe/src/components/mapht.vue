@@ -23,7 +23,7 @@ export default {
   name: 'mapht',
   data() {
     return {
-      maps: ["boruvka"],
+      maps: ["boruvka", "prim", "kruskal"],
       enable_markers: false
     }
   },
