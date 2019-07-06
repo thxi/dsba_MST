@@ -1,5 +1,5 @@
 #Graph implementation
-file = "ru_dist_mat.txt"
+file = "ru_dist_mat_v1.txt"
 with open(file) as f:
     content = f.readlines()
 content = [x.strip() for x in content]
@@ -13,15 +13,6 @@ for i in range(n):
         if k != i:
             matrix[i][k] = float(row[k + 1])
 
-
-
-'''symmetric = True
-for i in range(n):
-    for j in range(i + 1,n):
-        if matrix[i][j] != matrix[j][i]:
-            symmetric = False
-print(symmetric)
-'''
 
 from collections import defaultdict
         
@@ -43,13 +34,13 @@ class Graph:
         if parent[i] == i: 
             return i 
         return self.find(parent, parent[i]) 
-  
+#smth hrd
     # A function that does union of two sets of x and y 
     # (uses union by rank) 
     def union(self, parent, rank, x, y): 
         xroot = self.find(parent, x) 
         yroot = self.find(parent, y) 
-  
+
         # Attach smaller rank tree under root of  
         # high rank tree (Union by Rank) 
         if rank[xroot] < rank[yroot]: 
@@ -62,20 +53,15 @@ class Graph:
         else : 
             parent[yroot] = xroot 
             rank[xroot] += 1
-  
-    # The main function to construct MST using Kruskal's  
-        # algorithm 
+#
+    # The main function to construct MST using Kruskal's algorithm 
     def KruskalMST(self): 
   
-        result =[] #This will store the resultant MST 
-  
+        result =[] #This will store the resultant MST
         i = 0 # An index variable, used for sorted edges 
         e = 0 # An index variable, used for result[] 
   
-            # Step 1:  Sort all the edges in non-decreasing  
-                # order of their 
-                # weight.  If we are not allowed to change the  
-                # given graph, we can create a copy of graph 
+            # Sorting if all edges
         self.graph =  sorted(self.graph,key=lambda item: item[2]) 
   
         parent = [] ; rank = [] 
@@ -88,8 +74,7 @@ class Graph:
         # Number of edges to be taken is equal to V-1 
         while e < self.V - 1: 
   
-            # Step 2: Pick the smallest edge and increment  
-                    # the index for next iteration 
+            # Construction of STree 
             u,v,w =  self.graph[i]
             i = i + 1
             x = self.find(parent, u) 
@@ -102,19 +87,14 @@ class Graph:
                 e = e + 1     
                 result.append([u,v,w]) 
                 self.union(parent, rank, x, y)             
-            # Else discard the edge 
   
-        # print the contents of result[] to display the built MST 
-        print ("Following are the edges in the constructed MST")
+        print ("MST is:")
         for u,v,weight  in result: 
-            #print str(u) + " -- " + str(v) + " == " + str(weight) 
-            print ("{} -- {} == {}".format(u,v,weight)) 
-  
-g = Graph(n)
+            print ("{} -- {} == {}".format(cities[u],cities[v],weight))
+            g = Graph(n)
 
 for i in range(n):
     for j in range(i + 1,n):
         if matrix[i][j] != -1:
             g.addEdge(i, j, matrix[i][j])
 g.KruskalMST()
-print (matrix[9][36])
