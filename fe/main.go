@@ -5,8 +5,6 @@ import (
 )
 
 func main() {
-	// http.Handle("/dist/",
-	// 	http.StripPrefix("./dist/", http.FileServer(http.Dir("dist/"))))
 	http.Handle("/",
 		http.FileServer(http.Dir("dist")))
 	http.Handle("/maps/",
