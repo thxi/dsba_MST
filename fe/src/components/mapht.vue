@@ -1,5 +1,5 @@
 <template>
-  <b-tabs content-class="mt-3">
+  <b-tabs content-class="mt-3" v-model="tabIndex">
     <b-tab
       :key="index"
       v-for="(map_name, index) in maps"
@@ -9,12 +9,12 @@
       <iframe :src="`/maps/${map_name}${postfix}`" seamless></iframe
     ></b-tab>
 
-    <template slot="tabs">
+    <template slot="tabs" v-if="tabIndex != 3">
       <b-button @click="markers()" variant="outline-primary"
         >{{ markers_prefix }} markers</b-button
       >
     </template>
-    <template slot="tabs">
+    <template slot="tabs" v-if="tabIndex != 3">
       <b-button @click="cities()" variant="outline-primary"
         >Use {{ cities_prefix }} cities</b-button
       >
@@ -37,7 +37,8 @@ export default {
     return {
       maps: ["boruvka", "prim", "kruskal"],
       enable_markers: false,
-      enable_cities: false
+      enable_cities: false,
+      tabIndex: 0
     }
   },
   methods: {

@@ -6,7 +6,7 @@ ymaps.ready(function () {
    * The coordinates to build a route to.
    * For example, set the coordinates of your office.
    */
-  var targetCoords = [55.752, 37.616];
+  var targetCoords = [61, 73];
 
   // Initializing the map.
   var myMap = new ymaps.Map('map', {
