@@ -14,6 +14,11 @@
         >{{ markers_prefix }} markers</b-button
       >
     </template>
+    <template slot="tabs">
+      <b-button @click="cities()" variant="outline-primary"
+        >Use {{ cities_prefix }} cities</b-button
+      >
+    </template>
   </b-tabs>
 </template>
 
@@ -25,15 +30,24 @@ export default {
     return {
       maps: ["boruvka", "prim", "kruskal"],
       enable_markers: false,
-      ver_post: '_v1'
+      enable_cities: false
     }
   },
   methods: {
     markers() {
       this.enable_markers = !this.enable_markers
+    },
+    cities() {
+      this.enable_cities = !this.enable_cities
     }
   },
   computed: {
+    cities_prefix() {
+      if (this.enable_cities) {
+        return 'Large'
+      }
+      return 'Small'
+    },
     markers_prefix() {
       if (this.enable_markers) {
         return 'Disable'
@@ -41,12 +55,16 @@ export default {
       return 'Enable'
     },
     postfix() {
-      let s = "_map";
+      let s = "_map"
       if (this.enable_markers) {
-        s += "_markers";
+        s += "_markers"
       }
-      s += this.ver_post;
-      s += ".html";
+      if (this.enable_cities) {
+        s += "_v1"
+      } else {
+        s += "_v2"
+      }
+      s += ".html"
       return s
     }
   }
