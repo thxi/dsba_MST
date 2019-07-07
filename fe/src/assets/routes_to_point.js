@@ -1,4 +1,4 @@
-import l from '../../../data/mst.json'
+import l from './mst.json'
 
 ymaps.ready(function () {
 

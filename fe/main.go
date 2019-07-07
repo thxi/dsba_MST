@@ -2,6 +2,7 @@ package main
 
 import (
 	"net/http"
+	"os"
 )
 
 func main() {
@@ -9,5 +10,11 @@ func main() {
 		http.FileServer(http.Dir("dist")))
 	http.Handle("/maps/",
 		http.StripPrefix("/maps", http.FileServer(http.Dir("src/assets/maps"))))
-	http.ListenAndServe(":1337", nil)
+
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "1337"
+	}
+
+	http.ListenAndServe(":"+port, nil)
 }

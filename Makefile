@@ -8,9 +8,9 @@ run-jp:
 	jp
 
 build-front:
-	cd fe; \
-	npm run build
-	cp maps/* fe/src/assets/maps/
+	# cd fe; \
+	# npm run build
+	# cp maps/* fe/src/assets/maps/
 	docker build fe -t front
 
 run-front:
