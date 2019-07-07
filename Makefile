@@ -22,4 +22,5 @@ run-front:
 	front
 
 kill-front:
-	docker kill killme
+	@-docker kill killme
+	docker rm killme

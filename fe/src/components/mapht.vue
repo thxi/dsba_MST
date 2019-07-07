@@ -24,7 +24,8 @@ export default {
   data() {
     return {
       maps: ["boruvka", "prim", "kruskal"],
-      enable_markers: false
+      enable_markers: false,
+      ver_post: '_v1'
     }
   },
   methods: {
@@ -44,6 +45,7 @@ export default {
       if (this.enable_markers) {
         s += "_markers";
       }
+      s += this.ver_post;
       s += ".html";
       return s
     }
