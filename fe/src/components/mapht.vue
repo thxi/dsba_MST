@@ -19,13 +19,20 @@
         >Use {{ cities_prefix }} cities</b-button
       >
     </template>
+    <b-tab title="Yandex map">
+      <yMap />
+    </b-tab>
   </b-tabs>
 </template>
 
 <script>
+import yMap from '@/components/yMap.vue'
 
 export default {
   name: 'mapht',
+  components: {
+    yMap
+  },
   data() {
     return {
       maps: ["boruvka", "prim", "kruskal"],

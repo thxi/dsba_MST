@@ -3,7 +3,7 @@
 </template>
 
 <script>
-// import t from '@/assets/routes_to_point.js'
+import t from '@/assets/routes_to_point.js'
 
 export default {
 }
