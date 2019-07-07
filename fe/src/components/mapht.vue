@@ -9,12 +9,12 @@
       <iframe :src="`/maps/${map_name}${postfix}`" seamless></iframe
     ></b-tab>
 
-    <template slot="tabs" v-if="tabIndex != 3">
+    <template slot="tabs" v-if="tabIndex != 4">
       <b-button @click="markers()" variant="outline-primary"
         >{{ markers_prefix }} markers</b-button
       >
     </template>
-    <template slot="tabs" v-if="tabIndex != 3">
+    <template slot="tabs" v-if="tabIndex != 4">
       <b-button @click="cities()" variant="outline-primary"
         >Use {{ cities_prefix }} cities</b-button
       >
@@ -35,7 +35,7 @@ export default {
   },
   data() {
     return {
-      maps: ["boruvka", "prim", "kruskal"],
+      maps: ["boruvka", "prim", "kruskal", "comparison"],
       enable_markers: false,
       enable_cities: false,
       tabIndex: 0

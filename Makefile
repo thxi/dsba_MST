@@ -10,7 +10,7 @@ run-jp:
 build-front:
 	# cd fe; \
 	# npm run build
-	# cp maps/* fe/src/assets/maps/
+	cp maps/* fe/src/assets/maps/
 	docker build fe -t front
 
 run-front:
@@ -18,7 +18,6 @@ run-front:
 	--name killme \
 	-d \
 	-p1337:1337 \
-	-v$(shell pwd)/fe:/app \
 	front
 
 kill-front:

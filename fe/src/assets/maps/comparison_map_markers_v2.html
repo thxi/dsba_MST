@@ -1,0 +1,3564 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_945f99570bd24dcb855c810f1ff50be5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_945f99570bd24dcb855c810f1ff50be5" ></div>
+        
+</body>
+<script>    
+    
+            var map_945f99570bd24dcb855c810f1ff50be5 = L.map(
+                "map_945f99570bd24dcb855c810f1ff50be5",
+                {
+                    center: [61.254035, 73.396221],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6bc7cccec0aa4136a5a64f94d6546bb7 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var poly_line_dd0b23ca401b42a29057a110db0d322d = L.polyline(
+                [[52.544358, 103.88824], [52.287054, 104.281047]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.22244015775106657, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_e4c646696a4e4650a0b9351172018fbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80f47e571bfe4497b3d48d627462995f = $(`<div id="html_80f47e571bfe4497b3d48d627462995f" style="width: 100.0%; height: 100.0%;">Angarsk-Irkutsk Real dist: 45.151  Line length: 32.03556535499335 (in km)</div>`)[0];
+            popup_e4c646696a4e4650a0b9351172018fbb.setContent(html_80f47e571bfe4497b3d48d627462995f);
+        
+
+        poly_line_dd0b23ca401b42a29057a110db0d322d.bindPopup(popup_e4c646696a4e4650a0b9351172018fbb)
+        ;
+
+        
+    
+    
+            var marker_ba4b2192014741d1a7cb427ef21a091c = L.marker(
+                [52.544358, 103.88824],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_f9f0fe68611040b8b4f66285f5056d5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ba4b2192014741d1a7cb427ef21a091c.setIcon(icon_f9f0fe68611040b8b4f66285f5056d5d);
+        
+    
+        var popup_a7856c8180a8431887d94573fcf2d119 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c701d3c1d8674be8882312b7b7ec8a03 = $(`<div id="html_c701d3c1d8674be8882312b7b7ec8a03" style="width: 100.0%; height: 100.0%;">Angarsk</div>`)[0];
+            popup_a7856c8180a8431887d94573fcf2d119.setContent(html_c701d3c1d8674be8882312b7b7ec8a03);
+        
+
+        marker_ba4b2192014741d1a7cb427ef21a091c.bindPopup(popup_a7856c8180a8431887d94573fcf2d119)
+        ;
+
+        
+    
+    
+            var marker_b967fc2746a34d2f87c9305f78ed5929 = L.marker(
+                [52.287054, 104.281047],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_ac782597c1404e6db69dbd8b3970e074 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b967fc2746a34d2f87c9305f78ed5929.setIcon(icon_ac782597c1404e6db69dbd8b3970e074);
+        
+    
+        var popup_9fbd384114cf40a8b769efc88fd85591 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9482be02a70946798d3c972c986f9b3c = $(`<div id="html_9482be02a70946798d3c972c986f9b3c" style="width: 100.0%; height: 100.0%;">Irkutsk</div>`)[0];
+            popup_9fbd384114cf40a8b769efc88fd85591.setContent(html_9482be02a70946798d3c972c986f9b3c);
+        
+
+        marker_b967fc2746a34d2f87c9305f78ed5929.bindPopup(popup_9fbd384114cf40a8b769efc88fd85591)
+        ;
+
+        
+    
+    
+            var poly_line_63d5c87c7efe4d0ea0886d4f7be0d9cc = L.polyline(
+                [[44.997655, 41.129644], [43.585525, 39.723062]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.741987304854161, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_920f758a08bf42ff995cef8f55136bed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50841e5ebde04880aaf10cc15dfcde22 = $(`<div id="html_50841e5ebde04880aaf10cc15dfcde22" style="width: 100.0%; height: 100.0%;">Armavir-Sochi Real dist: 371.442  Line length: 134.2926339421908 (in km)</div>`)[0];
+            popup_920f758a08bf42ff995cef8f55136bed.setContent(html_50841e5ebde04880aaf10cc15dfcde22);
+        
+
+        poly_line_63d5c87c7efe4d0ea0886d4f7be0d9cc.bindPopup(popup_920f758a08bf42ff995cef8f55136bed)
+        ;
+
+        
+    
+    
+            var marker_768e85161a92427b84a135b87648392e = L.marker(
+                [44.997655, 41.129644],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_bf96411f3bf44f068d6dbde045d718e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_768e85161a92427b84a135b87648392e.setIcon(icon_bf96411f3bf44f068d6dbde045d718e3);
+        
+    
+        var popup_b960a43a9fb147d59d606f2ae1f0eb69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c7489d54f984840b60b593a4d27eb5c = $(`<div id="html_7c7489d54f984840b60b593a4d27eb5c" style="width: 100.0%; height: 100.0%;">Armavir</div>`)[0];
+            popup_b960a43a9fb147d59d606f2ae1f0eb69.setContent(html_7c7489d54f984840b60b593a4d27eb5c);
+        
+
+        marker_768e85161a92427b84a135b87648392e.bindPopup(popup_b960a43a9fb147d59d606f2ae1f0eb69)
+        ;
+
+        
+    
+    
+            var marker_0b4960293d534d5293f821c0f8a91042 = L.marker(
+                [43.585525, 39.723062],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_9e22de7ddacf48168cc3027b7fe53cbf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0b4960293d534d5293f821c0f8a91042.setIcon(icon_9e22de7ddacf48168cc3027b7fe53cbf);
+        
+    
+        var popup_11001b008a13486884464346ef4c8a71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95e9f1e1459a4571841cec8f61a66c22 = $(`<div id="html_95e9f1e1459a4571841cec8f61a66c22" style="width: 100.0%; height: 100.0%;">Sochi</div>`)[0];
+            popup_11001b008a13486884464346ef4c8a71.setContent(html_95e9f1e1459a4571841cec8f61a66c22);
+        
+
+        marker_0b4960293d534d5293f821c0f8a91042.bindPopup(popup_11001b008a13486884464346ef4c8a71)
+        ;
+
+        
+    
+    
+            var poly_line_feaa3084ece1415d83790a24b679a120 = L.polyline(
+                [[46.347869, 48.033574], [42.98306, 47.504682]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9673086487206783, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_7cabcee34d0641eaa23fd884b76fe579 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c1b03ca70c14139b6e189da600ff4fd = $(`<div id="html_8c1b03ca70c14139b6e189da600ff4fd" style="width: 100.0%; height: 100.0%;">Astrakhan-Makhachkala Real dist: 509.198  Line length: 183.9029881119954 (in km)</div>`)[0];
+            popup_7cabcee34d0641eaa23fd884b76fe579.setContent(html_8c1b03ca70c14139b6e189da600ff4fd);
+        
+
+        poly_line_feaa3084ece1415d83790a24b679a120.bindPopup(popup_7cabcee34d0641eaa23fd884b76fe579)
+        ;
+
+        
+    
+    
+            var marker_49f882af2d65485ba5ffd2e232b11919 = L.marker(
+                [46.347869, 48.033574],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_d471efa6451844b89768199f1ae603bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_49f882af2d65485ba5ffd2e232b11919.setIcon(icon_d471efa6451844b89768199f1ae603bd);
+        
+    
+        var popup_6f89b9098fd54c1fa1a3eea56be5246b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_796441c446694dd7b3ca807bebd6c967 = $(`<div id="html_796441c446694dd7b3ca807bebd6c967" style="width: 100.0%; height: 100.0%;">Astrakhan</div>`)[0];
+            popup_6f89b9098fd54c1fa1a3eea56be5246b.setContent(html_796441c446694dd7b3ca807bebd6c967);
+        
+
+        marker_49f882af2d65485ba5ffd2e232b11919.bindPopup(popup_6f89b9098fd54c1fa1a3eea56be5246b)
+        ;
+
+        
+    
+    
+            var marker_f201e83d15814624a8b08aea0f2ee386 = L.marker(
+                [42.98306, 47.504682],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_6a5f5978c4c5475bad3701bf2315d6f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f201e83d15814624a8b08aea0f2ee386.setIcon(icon_6a5f5978c4c5475bad3701bf2315d6f7);
+        
+    
+        var popup_e5e6aaec683d4c95a81083597a003bad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4315e11996ef4292a349a6ceb39b8c44 = $(`<div id="html_4315e11996ef4292a349a6ceb39b8c44" style="width: 100.0%; height: 100.0%;">Makhachkala</div>`)[0];
+            popup_e5e6aaec683d4c95a81083597a003bad.setContent(html_4315e11996ef4292a349a6ceb39b8c44);
+        
+
+        marker_f201e83d15814624a8b08aea0f2ee386.bindPopup(popup_e5e6aaec683d4c95a81083597a003bad)
+        ;
+
+        
+    
+    
+            var poly_line_d24151fd6148492cac47813752aa4519 = L.polyline(
+                [[52.018424, 47.819667], [51.533103, 46.03415800000001]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2825339274745927, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_da006c09569f47f39e827df5c40e9884 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a233575895240878d259a54ce40a82b = $(`<div id="html_6a233575895240878d259a54ce40a82b" style="width: 100.0%; height: 100.0%;">Balakovo-Saratov Real dist: 169.632  Line length: 126.78005768038767 (in km)</div>`)[0];
+            popup_da006c09569f47f39e827df5c40e9884.setContent(html_6a233575895240878d259a54ce40a82b);
+        
+
+        poly_line_d24151fd6148492cac47813752aa4519.bindPopup(popup_da006c09569f47f39e827df5c40e9884)
+        ;
+
+        
+    
+    
+            var marker_c60e8b0eb1204caaa8b6c67dee6018d5 = L.marker(
+                [52.018424, 47.819667],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_57142e0a2f354d488356d3a9c3708f7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c60e8b0eb1204caaa8b6c67dee6018d5.setIcon(icon_57142e0a2f354d488356d3a9c3708f7b);
+        
+    
+        var popup_6acc817518f5400983314568e33e91da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee68ae0b2bb94323881d51049c942e83 = $(`<div id="html_ee68ae0b2bb94323881d51049c942e83" style="width: 100.0%; height: 100.0%;">Balakovo</div>`)[0];
+            popup_6acc817518f5400983314568e33e91da.setContent(html_ee68ae0b2bb94323881d51049c942e83);
+        
+
+        marker_c60e8b0eb1204caaa8b6c67dee6018d5.bindPopup(popup_6acc817518f5400983314568e33e91da)
+        ;
+
+        
+    
+    
+            var marker_bb2056194d444bceaf3f25dc5e09bd94 = L.marker(
+                [51.533103, 46.03415800000001],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_475e877b3c664a1097fe39fd566ef86a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bb2056194d444bceaf3f25dc5e09bd94.setIcon(icon_475e877b3c664a1097fe39fd566ef86a);
+        
+    
+        var popup_385452cb6f5440d985a0cff9431567b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63aa7a3389dd4974b7c0977b905fcf09 = $(`<div id="html_63aa7a3389dd4974b7c0977b905fcf09" style="width: 100.0%; height: 100.0%;">Saratov</div>`)[0];
+            popup_385452cb6f5440d985a0cff9431567b9.setContent(html_63aa7a3389dd4974b7c0977b905fcf09);
+        
+
+        marker_bb2056194d444bceaf3f25dc5e09bd94.bindPopup(popup_385452cb6f5440d985a0cff9431567b9)
+        ;
+
+        
+    
+    
+            var poly_line_7b9f816c2a3e44d9887f8eaa87249333 = L.polyline(
+                [[55.796339, 37.938199], [55.67649399999999, 37.898116]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2210232774539382, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_372dac4dbed6456e8ad36924391f6f08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f03a7b68e7e34a90859345d2ede496b8 = $(`<div id="html_f03a7b68e7e34a90859345d2ede496b8" style="width: 100.0%; height: 100.0%;">Balashikha-Lyubertsy Real dist: 21.779  Line length: 9.418607895483932 (in km)</div>`)[0];
+            popup_372dac4dbed6456e8ad36924391f6f08.setContent(html_f03a7b68e7e34a90859345d2ede496b8);
+        
+
+        poly_line_7b9f816c2a3e44d9887f8eaa87249333.bindPopup(popup_372dac4dbed6456e8ad36924391f6f08)
+        ;
+
+        
+    
+    
+            var marker_a584ecaa5eb642fea6d68f26e13a4d78 = L.marker(
+                [55.796339, 37.938199],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_360f03ba40474e079fb4b16a8fc09904 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a584ecaa5eb642fea6d68f26e13a4d78.setIcon(icon_360f03ba40474e079fb4b16a8fc09904);
+        
+    
+        var popup_e497ce47c27b4724b0d310da29d39ede = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44b806f17ccc49faba8fc1027de0d86b = $(`<div id="html_44b806f17ccc49faba8fc1027de0d86b" style="width: 100.0%; height: 100.0%;">Balashikha</div>`)[0];
+            popup_e497ce47c27b4724b0d310da29d39ede.setContent(html_44b806f17ccc49faba8fc1027de0d86b);
+        
+
+        marker_a584ecaa5eb642fea6d68f26e13a4d78.bindPopup(popup_e497ce47c27b4724b0d310da29d39ede)
+        ;
+
+        
+    
+    
+            var marker_8191ba4d96e7451fa51d77c11f95582b = L.marker(
+                [55.67649399999999, 37.898116],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_f887ba6e959f4a52b5b4341cfe1c9ff5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8191ba4d96e7451fa51d77c11f95582b.setIcon(icon_f887ba6e959f4a52b5b4341cfe1c9ff5);
+        
+    
+        var popup_c714334d96fb46318721d08ce22d322c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f16f2af7f034958babc991446bf78ce = $(`<div id="html_4f16f2af7f034958babc991446bf78ce" style="width: 100.0%; height: 100.0%;">Lyubertsy</div>`)[0];
+            popup_c714334d96fb46318721d08ce22d322c.setContent(html_4f16f2af7f034958babc991446bf78ce);
+        
+
+        marker_8191ba4d96e7451fa51d77c11f95582b.bindPopup(popup_c714334d96fb46318721d08ce22d322c)
+        ;
+
+        
+    
+    
+            var poly_line_cd230ff70800487c9a4bbc39ebb4f0ad = L.polyline(
+                [[53.346785, 83.77685600000002], [52.539297, 85.21382]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.31034435142287353, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_d3fff3d1e7484982a16ac15e5d4fe976 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b951566f7c7a4f3e827879a0a630d9e8 = $(`<div id="html_b951566f7c7a4f3e827879a0a630d9e8" style="width: 100.0%; height: 100.0%;">Barnaul-Biysk Real dist: 167.152  Line length: 111.35345555373296 (in km)</div>`)[0];
+            popup_d3fff3d1e7484982a16ac15e5d4fe976.setContent(html_b951566f7c7a4f3e827879a0a630d9e8);
+        
+
+        poly_line_cd230ff70800487c9a4bbc39ebb4f0ad.bindPopup(popup_d3fff3d1e7484982a16ac15e5d4fe976)
+        ;
+
+        
+    
+    
+            var marker_ed5b9249f73f457d81dc36eaed93c01b = L.marker(
+                [53.346785, 83.77685600000002],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_cc24843dd18c46d5a844dc0ea10dac9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ed5b9249f73f457d81dc36eaed93c01b.setIcon(icon_cc24843dd18c46d5a844dc0ea10dac9e);
+        
+    
+        var popup_c7c400a6f6ae4a22ac808005eefde750 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d88c1b6dbb44896a2a7713b0ad879be = $(`<div id="html_0d88c1b6dbb44896a2a7713b0ad879be" style="width: 100.0%; height: 100.0%;">Barnaul</div>`)[0];
+            popup_c7c400a6f6ae4a22ac808005eefde750.setContent(html_0d88c1b6dbb44896a2a7713b0ad879be);
+        
+
+        marker_ed5b9249f73f457d81dc36eaed93c01b.bindPopup(popup_c7c400a6f6ae4a22ac808005eefde750)
+        ;
+
+        
+    
+    
+            var marker_8a1d95db6fe548bfb7cd5f5c0fbfccc3 = L.marker(
+                [52.539297, 85.21382],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_365d123671aa49658d7f3a8d12c8f3c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8a1d95db6fe548bfb7cd5f5c0fbfccc3.setIcon(icon_365d123671aa49658d7f3a8d12c8f3c5);
+        
+    
+        var popup_a4d30b148daa466d8b6f415dc18dc54e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ea1d3b7eea941a985ea7b9fb1661756 = $(`<div id="html_3ea1d3b7eea941a985ea7b9fb1661756" style="width: 100.0%; height: 100.0%;">Biysk</div>`)[0];
+            popup_a4d30b148daa466d8b6f415dc18dc54e.setContent(html_3ea1d3b7eea941a985ea7b9fb1661756);
+        
+
+        marker_8a1d95db6fe548bfb7cd5f5c0fbfccc3.bindPopup(popup_a4d30b148daa466d8b6f415dc18dc54e)
+        ;
+
+        
+    
+    
+            var poly_line_342265bdeebb4cbbb9d1dd4918495810 = L.polyline(
+                [[50.59566, 36.587223], [51.730361, 36.192647]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_4c9115bcfea74a119718815ee740beb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07c3b3990ac34b46b9cd277ede709666 = $(`<div id="html_07c3b3990ac34b46b9cd277ede709666" style="width: 100.0%; height: 100.0%;">Belgorod-Kursk Real dist: 81.82954629139346  Line length: 81.82954629139346 (in km)</div>`)[0];
+            popup_4c9115bcfea74a119718815ee740beb7.setContent(html_07c3b3990ac34b46b9cd277ede709666);
+        
+
+        poly_line_342265bdeebb4cbbb9d1dd4918495810.bindPopup(popup_4c9115bcfea74a119718815ee740beb7)
+        ;
+
+        
+    
+    
+            var marker_7af5b79943b6446e98948f35f23fcc4e = L.marker(
+                [50.59566, 36.587223],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_47fbe9b61a8e4c7baaec59aa077b2b9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7af5b79943b6446e98948f35f23fcc4e.setIcon(icon_47fbe9b61a8e4c7baaec59aa077b2b9b);
+        
+    
+        var popup_816042928e784c5493ddf6165d27b056 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6eee01273b7b4587b7c23835b0ac305d = $(`<div id="html_6eee01273b7b4587b7c23835b0ac305d" style="width: 100.0%; height: 100.0%;">Belgorod</div>`)[0];
+            popup_816042928e784c5493ddf6165d27b056.setContent(html_6eee01273b7b4587b7c23835b0ac305d);
+        
+
+        marker_7af5b79943b6446e98948f35f23fcc4e.bindPopup(popup_816042928e784c5493ddf6165d27b056)
+        ;
+
+        
+    
+    
+            var marker_62d30b3abc38425ab80fdba77aa17543 = L.marker(
+                [51.730361, 36.192647],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_1951465c21f641689730402dd8003966 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_62d30b3abc38425ab80fdba77aa17543.setIcon(icon_1951465c21f641689730402dd8003966);
+        
+    
+        var popup_8fad75989ec8448193d0142c70142c72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f525dca2c0ac453db7b049c38fee0394 = $(`<div id="html_f525dca2c0ac453db7b049c38fee0394" style="width: 100.0%; height: 100.0%;">Kursk</div>`)[0];
+            popup_8fad75989ec8448193d0142c70142c72.setContent(html_f525dca2c0ac453db7b049c38fee0394);
+        
+
+        marker_62d30b3abc38425ab80fdba77aa17543.bindPopup(popup_8fad75989ec8448193d0142c70142c72)
+        ;
+
+        
+    
+    
+            var poly_line_18d89ae35d2f478ebafb2ca30ba2c61e = L.polyline(
+                [[50.29064, 127.527173], [48.480223, 135.07191699999998]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.48726674506821527, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_9ea6c5aeb7044007b186bc9e5ba2e7a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8076c5506c4141d8be45f1683733f84b = $(`<div id="html_8076c5506c4141d8be45f1683733f84b" style="width: 100.0%; height: 100.0%;">Blagoveshchensk-Khabarovsk Real dist: 694.732  Line length: 561.5694246441162 (in km)</div>`)[0];
+            popup_9ea6c5aeb7044007b186bc9e5ba2e7a4.setContent(html_8076c5506c4141d8be45f1683733f84b);
+        
+
+        poly_line_18d89ae35d2f478ebafb2ca30ba2c61e.bindPopup(popup_9ea6c5aeb7044007b186bc9e5ba2e7a4)
+        ;
+
+        
+    
+    
+            var marker_04890095dea442448143dacfc2338da5 = L.marker(
+                [50.29064, 127.527173],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_a2051e1c3610448385627f0b5d1b71c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_04890095dea442448143dacfc2338da5.setIcon(icon_a2051e1c3610448385627f0b5d1b71c2);
+        
+    
+        var popup_172e841340a54712a7927769a2c91bdd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f800c51d8124c13a2617d356ca3b66f = $(`<div id="html_5f800c51d8124c13a2617d356ca3b66f" style="width: 100.0%; height: 100.0%;">Blagoveshchensk</div>`)[0];
+            popup_172e841340a54712a7927769a2c91bdd.setContent(html_5f800c51d8124c13a2617d356ca3b66f);
+        
+
+        marker_04890095dea442448143dacfc2338da5.bindPopup(popup_172e841340a54712a7927769a2c91bdd)
+        ;
+
+        
+    
+    
+            var marker_18e8f04ef4eb427bb17b58ab292818f1 = L.marker(
+                [48.480223, 135.07191699999998],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_2599b15de0a54376ae418d9dfd9e88ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_18e8f04ef4eb427bb17b58ab292818f1.setIcon(icon_2599b15de0a54376ae418d9dfd9e88ce);
+        
+    
+        var popup_4138d197c9244cf28913a08d6db308aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7665fa2da6254817bc47569a371927cf = $(`<div id="html_7665fa2da6254817bc47569a371927cf" style="width: 100.0%; height: 100.0%;">Khabarovsk</div>`)[0];
+            popup_4138d197c9244cf28913a08d6db308aa.setContent(html_7665fa2da6254817bc47569a371927cf);
+        
+
+        marker_18e8f04ef4eb427bb17b58ab292818f1.bindPopup(popup_4138d197c9244cf28913a08d6db308aa)
+        ;
+
+        
+    
+    
+            var poly_line_18345afe679e4e7a9bbfbd9cafaea109 = L.polyline(
+                [[52.544358, 103.88824], [56.151362, 101.63408]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8436733157312533, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_191dab6142a1478d8b0d48da13cf3ec5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5acfc714f9f45e9be683824d55cd535 = $(`<div id="html_e5acfc714f9f45e9be683824d55cd535" style="width: 100.0%; height: 100.0%;">Angarsk-Bratsk Real dist: 573.051  Line length: 295.7767134713315 (in km)</div>`)[0];
+            popup_191dab6142a1478d8b0d48da13cf3ec5.setContent(html_e5acfc714f9f45e9be683824d55cd535);
+        
+
+        poly_line_18345afe679e4e7a9bbfbd9cafaea109.bindPopup(popup_191dab6142a1478d8b0d48da13cf3ec5)
+        ;
+
+        
+    
+    
+            var marker_29c0b76f35f740f09dd7ab1fbb607aa9 = L.marker(
+                [56.151362, 101.63408],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_9bc991837c104882a088e7ef8fc2d622 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_29c0b76f35f740f09dd7ab1fbb607aa9.setIcon(icon_9bc991837c104882a088e7ef8fc2d622);
+        
+    
+        var popup_0dbdd45ef04142cda3b3d6e91a24d42f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_322c4ba3c69b4d55a384a819f55eb2dd = $(`<div id="html_322c4ba3c69b4d55a384a819f55eb2dd" style="width: 100.0%; height: 100.0%;">Bratsk</div>`)[0];
+            popup_0dbdd45ef04142cda3b3d6e91a24d42f.setContent(html_322c4ba3c69b4d55a384a819f55eb2dd);
+        
+
+        marker_29c0b76f35f740f09dd7ab1fbb607aa9.bindPopup(popup_0dbdd45ef04142cda3b3d6e91a24d42f)
+        ;
+
+        
+    
+    
+            var poly_line_91c9f66c04cc442e840f8e6049603488 = L.polyline(
+                [[53.243562, 34.363407], [54.513845, 36.261215]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3513297416661313, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_bafd6145cead43f1b85b058f49dc204b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a34d20f416cf4a99ab0a096dce6a96d6 = $(`<div id="html_a34d20f416cf4a99ab0a096dce6a96d6" style="width: 100.0%; height: 100.0%;">Bryansk-Kaluga Real dist: 229.873  Line length: 155.51517566418977 (in km)</div>`)[0];
+            popup_bafd6145cead43f1b85b058f49dc204b.setContent(html_a34d20f416cf4a99ab0a096dce6a96d6);
+        
+
+        poly_line_91c9f66c04cc442e840f8e6049603488.bindPopup(popup_bafd6145cead43f1b85b058f49dc204b)
+        ;
+
+        
+    
+    
+            var marker_694996b144ac4b41b8b956d657d6efc3 = L.marker(
+                [53.243562, 34.363407],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_855f1c557c8c47229af897e385f27763 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_694996b144ac4b41b8b956d657d6efc3.setIcon(icon_855f1c557c8c47229af897e385f27763);
+        
+    
+        var popup_117808cbc8aa44f8ad4cbff4615cad59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_924180b76aa547d3bb0438860be39858 = $(`<div id="html_924180b76aa547d3bb0438860be39858" style="width: 100.0%; height: 100.0%;">Bryansk</div>`)[0];
+            popup_117808cbc8aa44f8ad4cbff4615cad59.setContent(html_924180b76aa547d3bb0438860be39858);
+        
+
+        marker_694996b144ac4b41b8b956d657d6efc3.bindPopup(popup_117808cbc8aa44f8ad4cbff4615cad59)
+        ;
+
+        
+    
+    
+            var marker_81b16b1c707b48b687e0d68f0bba88da = L.marker(
+                [54.513845, 36.261215],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_7c6ff6fe6522446cbc16156ca315aa7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_81b16b1c707b48b687e0d68f0bba88da.setIcon(icon_7c6ff6fe6522446cbc16156ca315aa7d);
+        
+    
+        var popup_4bbad68820a94df1823da9e6f513fe42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57fa895b899f4f42b9541f6ce1e896a4 = $(`<div id="html_57fa895b899f4f42b9541f6ce1e896a4" style="width: 100.0%; height: 100.0%;">Kaluga</div>`)[0];
+            popup_4bbad68820a94df1823da9e6f513fe42.setContent(html_57fa895b899f4f42b9541f6ce1e896a4);
+        
+
+        marker_81b16b1c707b48b687e0d68f0bba88da.bindPopup(popup_4bbad68820a94df1823da9e6f513fe42)
+        ;
+
+        
+    
+    
+            var poly_line_e22f4e81230a4132b9089967e688a84f = L.polyline(
+                [[56.14627700000001, 47.251079], [56.631595, 47.886178]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.27406494672208614, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_4071eaf9c11b4e6ca575cd5260827922 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92ad405c9f1045a9988761e6c832ed30 = $(`<div id="html_92ad405c9f1045a9988761e6c832ed30" style="width: 100.0%; height: 100.0%;">Cheboksary-Yoshkar-Ola Real dist: 92.989  Line length: 54.15382724341155 (in km)</div>`)[0];
+            popup_4071eaf9c11b4e6ca575cd5260827922.setContent(html_92ad405c9f1045a9988761e6c832ed30);
+        
+
+        poly_line_e22f4e81230a4132b9089967e688a84f.bindPopup(popup_4071eaf9c11b4e6ca575cd5260827922)
+        ;
+
+        
+    
+    
+            var marker_05925b8d21f8437f973595cee1c869f8 = L.marker(
+                [56.14627700000001, 47.251079],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_be9579199f1b4ae8b9bea8696e95b2fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_05925b8d21f8437f973595cee1c869f8.setIcon(icon_be9579199f1b4ae8b9bea8696e95b2fd);
+        
+    
+        var popup_91f1e3e49c244fa68b1f562f371fed5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27b61507201e43cd9e467d67ad5c7b32 = $(`<div id="html_27b61507201e43cd9e467d67ad5c7b32" style="width: 100.0%; height: 100.0%;">Cheboksary</div>`)[0];
+            popup_91f1e3e49c244fa68b1f562f371fed5d.setContent(html_27b61507201e43cd9e467d67ad5c7b32);
+        
+
+        marker_05925b8d21f8437f973595cee1c869f8.bindPopup(popup_91f1e3e49c244fa68b1f562f371fed5d)
+        ;
+
+        
+    
+    
+            var marker_9f091a7834ad42208c7acf59b99d1238 = L.marker(
+                [56.631595, 47.886178],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_f08800944aaa41ff9e98dde0c69eaeb5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9f091a7834ad42208c7acf59b99d1238.setIcon(icon_f08800944aaa41ff9e98dde0c69eaeb5);
+        
+    
+        var popup_64629623963141c9a6f26113c8002e17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c37b03e860b46929da9deb9c665e7bc = $(`<div id="html_3c37b03e860b46929da9deb9c665e7bc" style="width: 100.0%; height: 100.0%;">Yoshkar-Ola</div>`)[0];
+            popup_64629623963141c9a6f26113c8002e17.setContent(html_3c37b03e860b46929da9deb9c665e7bc);
+        
+
+        marker_9f091a7834ad42208c7acf59b99d1238.bindPopup(popup_64629623963141c9a6f26113c8002e17)
+        ;
+
+        
+    
+    
+            var poly_line_b0dd3a2da0d44bd09f5e7f2755dcda7a = L.polyline(
+                [[55.159897, 61.402554], [56.838011, 60.597465]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.352071828191105, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_0ef59b2a9e304cdf9c6be417f14a1f93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f28a7cc8193c4856a4cb8a583496df12 = $(`<div id="html_f28a7cc8193c4856a4cb8a583496df12" style="width: 100.0%; height: 100.0%;">Chelyabinsk-Yekaterinburg Real dist: 213.435  Line length: 138.7457641434268 (in km)</div>`)[0];
+            popup_0ef59b2a9e304cdf9c6be417f14a1f93.setContent(html_f28a7cc8193c4856a4cb8a583496df12);
+        
+
+        poly_line_b0dd3a2da0d44bd09f5e7f2755dcda7a.bindPopup(popup_0ef59b2a9e304cdf9c6be417f14a1f93)
+        ;
+
+        
+    
+    
+            var marker_46c1e19b3c0e449c86a87c607396b14b = L.marker(
+                [55.159897, 61.402554],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_c8e5931d78b540d68e51b11673cb52a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_46c1e19b3c0e449c86a87c607396b14b.setIcon(icon_c8e5931d78b540d68e51b11673cb52a5);
+        
+    
+        var popup_6ea6dfe2a9014c49b81698c27c367361 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c4e26ea4e94443cba11c32360493400 = $(`<div id="html_2c4e26ea4e94443cba11c32360493400" style="width: 100.0%; height: 100.0%;">Chelyabinsk</div>`)[0];
+            popup_6ea6dfe2a9014c49b81698c27c367361.setContent(html_2c4e26ea4e94443cba11c32360493400);
+        
+
+        marker_46c1e19b3c0e449c86a87c607396b14b.bindPopup(popup_6ea6dfe2a9014c49b81698c27c367361)
+        ;
+
+        
+    
+    
+            var marker_c0770f84b318480d808cc1ff9b02e28b = L.marker(
+                [56.838011, 60.597465],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_d70b44aa60b148be88a869c8a0a419b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c0770f84b318480d808cc1ff9b02e28b.setIcon(icon_d70b44aa60b148be88a869c8a0a419b2);
+        
+    
+        var popup_8440fb0e30bd4070b9125ee7ddb3592e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_608d1c75a6ab4f3ab118f44f607b85cd = $(`<div id="html_608d1c75a6ab4f3ab118f44f607b85cd" style="width: 100.0%; height: 100.0%;">Yekaterinburg</div>`)[0];
+            popup_8440fb0e30bd4070b9125ee7ddb3592e.setContent(html_608d1c75a6ab4f3ab118f44f607b85cd);
+        
+
+        marker_c0770f84b318480d808cc1ff9b02e28b.bindPopup(popup_8440fb0e30bd4070b9125ee7ddb3592e)
+        ;
+
+        
+    
+    
+            var poly_line_ff2188fa7db2497ba380edaab7f5a168 = L.polyline(
+                [[59.122612, 37.903461], [59.220496, 39.891523]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.23941585386030004, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_bc91552b278c43e28b5be0f55f0c2d99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9614b1061f74ef49a28eb34ec9ac15a = $(`<div id="html_d9614b1061f74ef49a28eb34ec9ac15a" style="width: 100.0%; height: 100.0%;">Cherepovets-Vologda Real dist: 135.298  Line length: 113.41094831277019 (in km)</div>`)[0];
+            popup_bc91552b278c43e28b5be0f55f0c2d99.setContent(html_d9614b1061f74ef49a28eb34ec9ac15a);
+        
+
+        poly_line_ff2188fa7db2497ba380edaab7f5a168.bindPopup(popup_bc91552b278c43e28b5be0f55f0c2d99)
+        ;
+
+        
+    
+    
+            var marker_439770b4a3a741f4b6e9d55ce625c763 = L.marker(
+                [59.122612, 37.903461],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_08264d950cf547b8adc665d238fea1cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_439770b4a3a741f4b6e9d55ce625c763.setIcon(icon_08264d950cf547b8adc665d238fea1cd);
+        
+    
+        var popup_b23b4c49582c4bf1997dc2b869a987e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b24709ca523e46c88b75fc01421fbdec = $(`<div id="html_b24709ca523e46c88b75fc01421fbdec" style="width: 100.0%; height: 100.0%;">Cherepovets</div>`)[0];
+            popup_b23b4c49582c4bf1997dc2b869a987e5.setContent(html_b24709ca523e46c88b75fc01421fbdec);
+        
+
+        marker_439770b4a3a741f4b6e9d55ce625c763.bindPopup(popup_b23b4c49582c4bf1997dc2b869a987e5)
+        ;
+
+        
+    
+    
+            var marker_2ffad9fa9970467eb8d81ae12f6bd13e = L.marker(
+                [59.220496, 39.891523],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_72c50baa3e094dcbaac37ac22993367b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2ffad9fa9970467eb8d81ae12f6bd13e.setIcon(icon_72c50baa3e094dcbaac37ac22993367b);
+        
+    
+        var popup_f4015a121eb3451ea694bfae84b10723 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_826770981b65454c9f40d9a662bb12f9 = $(`<div id="html_826770981b65454c9f40d9a662bb12f9" style="width: 100.0%; height: 100.0%;">Vologda</div>`)[0];
+            popup_f4015a121eb3451ea694bfae84b10723.setContent(html_826770981b65454c9f40d9a662bb12f9);
+        
+
+        marker_2ffad9fa9970467eb8d81ae12f6bd13e.bindPopup(popup_f4015a121eb3451ea694bfae84b10723)
+        ;
+
+        
+    
+    
+            var poly_line_e9d15583bbd8453fa0309a8914a6700e = L.polyline(
+                [[52.033973, 113.499432], [51.834464, 107.584574]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6594110166552676, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_8e368ec921cb415daa7ae833199f3a29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fe82fb9d71540a08df3732a80446e24 = $(`<div id="html_1fe82fb9d71540a08df3732a80446e24" style="width: 100.0%; height: 100.0%;">Chita-Ulan-Ude Real dist: 608.646  Line length: 404.58481012202793 (in km)</div>`)[0];
+            popup_8e368ec921cb415daa7ae833199f3a29.setContent(html_1fe82fb9d71540a08df3732a80446e24);
+        
+
+        poly_line_e9d15583bbd8453fa0309a8914a6700e.bindPopup(popup_8e368ec921cb415daa7ae833199f3a29)
+        ;
+
+        
+    
+    
+            var marker_a22db24c62e243dca52851c379ed7f78 = L.marker(
+                [52.033973, 113.499432],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_ecac661a53b34a3b93b7a248d559869a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a22db24c62e243dca52851c379ed7f78.setIcon(icon_ecac661a53b34a3b93b7a248d559869a);
+        
+    
+        var popup_3b6e3bc7d5da4a2cb7f310d9ba0a31de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aec2602c0dfb4b47864d4efc5f2f8b70 = $(`<div id="html_aec2602c0dfb4b47864d4efc5f2f8b70" style="width: 100.0%; height: 100.0%;">Chita</div>`)[0];
+            popup_3b6e3bc7d5da4a2cb7f310d9ba0a31de.setContent(html_aec2602c0dfb4b47864d4efc5f2f8b70);
+        
+
+        marker_a22db24c62e243dca52851c379ed7f78.bindPopup(popup_3b6e3bc7d5da4a2cb7f310d9ba0a31de)
+        ;
+
+        
+    
+    
+            var marker_9249e79f6aa144eb9551afcc7a0ede0d = L.marker(
+                [51.834464, 107.584574],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_769eb4ae63de4bdeb312ca84a433e98c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9249e79f6aa144eb9551afcc7a0ede0d.setIcon(icon_769eb4ae63de4bdeb312ca84a433e98c);
+        
+    
+        var popup_94938718e2024534b07ee7a619a44a41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efec020f2e5c425083dfccadc4f14e42 = $(`<div id="html_efec020f2e5c425083dfccadc4f14e42" style="width: 100.0%; height: 100.0%;">Ulan-Ude</div>`)[0];
+            popup_94938718e2024534b07ee7a619a44a41.setContent(html_efec020f2e5c425083dfccadc4f14e42);
+        
+
+        marker_9249e79f6aa144eb9551afcc7a0ede0d.bindPopup(popup_94938718e2024534b07ee7a619a44a41)
+        ;
+
+        
+    
+    
+            var poly_line_d582d876877c4f3183df11601a9e53ef = L.polyline(
+                [[56.238377, 43.461625], [57.000348, 40.973921]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3828143620233637, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_1308d2f0aee944b4ad108a7445ad9bd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b39deafbf6f947c4bb27491de6aaac52 = $(`<div id="html_b39deafbf6f947c4bb27491de6aaac52" style="width: 100.0%; height: 100.0%;">Dzerzhinsk-Ivanovo Real dist: 251.786  Line length: 163.4881092925366 (in km)</div>`)[0];
+            popup_1308d2f0aee944b4ad108a7445ad9bd7.setContent(html_b39deafbf6f947c4bb27491de6aaac52);
+        
+
+        poly_line_d582d876877c4f3183df11601a9e53ef.bindPopup(popup_1308d2f0aee944b4ad108a7445ad9bd7)
+        ;
+
+        
+    
+    
+            var marker_8e703ccfd5254a658142a13c61fda2a5 = L.marker(
+                [56.238377, 43.461625],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_d6203fb8403942e68c15eba8696cf5c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8e703ccfd5254a658142a13c61fda2a5.setIcon(icon_d6203fb8403942e68c15eba8696cf5c3);
+        
+    
+        var popup_278e9a49b62d4211afde1905223632e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9eff9ad05be947599477b4df12f391a9 = $(`<div id="html_9eff9ad05be947599477b4df12f391a9" style="width: 100.0%; height: 100.0%;">Dzerzhinsk</div>`)[0];
+            popup_278e9a49b62d4211afde1905223632e4.setContent(html_9eff9ad05be947599477b4df12f391a9);
+        
+
+        marker_8e703ccfd5254a658142a13c61fda2a5.bindPopup(popup_278e9a49b62d4211afde1905223632e4)
+        ;
+
+        
+    
+    
+            var marker_47034737721448198849d3d02d1c7179 = L.marker(
+                [57.000348, 40.973921],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_57bfe52f747d490f94247cfa05d34bb4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_47034737721448198849d3d02d1c7179.setIcon(icon_57bfe52f747d490f94247cfa05d34bb4);
+        
+    
+        var popup_ca9bcf3d76544589ac22e5eaee0bee16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2feb61411fc34fb39d6d8fa63a865d6d = $(`<div id="html_2feb61411fc34fb39d6d8fa63a865d6d" style="width: 100.0%; height: 100.0%;">Ivanovo</div>`)[0];
+            popup_ca9bcf3d76544589ac22e5eaee0bee16.setContent(html_2feb61411fc34fb39d6d8fa63a865d6d);
+        
+
+        marker_47034737721448198849d3d02d1c7179.bindPopup(popup_ca9bcf3d76544589ac22e5eaee0bee16)
+        ;
+
+        
+    
+    
+            var poly_line_4192543d51134b7b81db2fa8a138b362 = L.polyline(
+                [[57.000348, 40.973921], [57.767961, 40.926858]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.28693554849373976, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_d4bc1a61336f43c981de1f9a22c3d69f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b30c142ea244c06981a8aa858435dab = $(`<div id="html_6b30c142ea244c06981a8aa858435dab" style="width: 100.0%; height: 100.0%;">Ivanovo-Kostroma Real dist: 105.702  Line length: 60.777418007163455 (in km)</div>`)[0];
+            popup_d4bc1a61336f43c981de1f9a22c3d69f.setContent(html_6b30c142ea244c06981a8aa858435dab);
+        
+
+        poly_line_4192543d51134b7b81db2fa8a138b362.bindPopup(popup_d4bc1a61336f43c981de1f9a22c3d69f)
+        ;
+
+        
+    
+    
+            var marker_18b7b0f5a46a4200919c381174f446d2 = L.marker(
+                [57.767961, 40.926858],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_4d0d7055b2fb4343a73f51f10d94bdb6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_18b7b0f5a46a4200919c381174f446d2.setIcon(icon_4d0d7055b2fb4343a73f51f10d94bdb6);
+        
+    
+        var popup_4e2589dc7c2f4855929f1388fe5026f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ac5ea38371d45909464bb7d97092c71 = $(`<div id="html_6ac5ea38371d45909464bb7d97092c71" style="width: 100.0%; height: 100.0%;">Kostroma</div>`)[0];
+            popup_4e2589dc7c2f4855929f1388fe5026f7.setContent(html_6ac5ea38371d45909464bb7d97092c71);
+        
+
+        marker_18b7b0f5a46a4200919c381174f446d2.bindPopup(popup_4e2589dc7c2f4855929f1388fe5026f7)
+        ;
+
+        
+    
+    
+            var poly_line_e079c60cc6a5429ca141c9aef0eebeb9 = L.polyline(
+                [[56.85259300000001, 53.204843], [55.63407, 51.809112]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.378429970825039, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_f1aa59edea2f4a68b5bfe6c6028121eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4d76fa677b5452d8ce86029870adce9 = $(`<div id="html_e4d76fa677b5452d8ce86029870adce9" style="width: 100.0%; height: 100.0%;">Izhevsk-Nizhnekamsk Real dist: 212.686  Line length: 126.31534123065146 (in km)</div>`)[0];
+            popup_f1aa59edea2f4a68b5bfe6c6028121eb.setContent(html_e4d76fa677b5452d8ce86029870adce9);
+        
+
+        poly_line_e079c60cc6a5429ca141c9aef0eebeb9.bindPopup(popup_f1aa59edea2f4a68b5bfe6c6028121eb)
+        ;
+
+        
+    
+    
+            var marker_a8f620e2cef94868b003622e93c8bf4f = L.marker(
+                [56.85259300000001, 53.204843],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_41549890b0014d5484538817e97a2b9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a8f620e2cef94868b003622e93c8bf4f.setIcon(icon_41549890b0014d5484538817e97a2b9f);
+        
+    
+        var popup_183c8d69b6b849ba900b79d226812989 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0480a72691474a7591a062a519dd8654 = $(`<div id="html_0480a72691474a7591a062a519dd8654" style="width: 100.0%; height: 100.0%;">Izhevsk</div>`)[0];
+            popup_183c8d69b6b849ba900b79d226812989.setContent(html_0480a72691474a7591a062a519dd8654);
+        
+
+        marker_a8f620e2cef94868b003622e93c8bf4f.bindPopup(popup_183c8d69b6b849ba900b79d226812989)
+        ;
+
+        
+    
+    
+            var marker_ba9198888d70454284c3a7d447a60a71 = L.marker(
+                [55.63407, 51.809112],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_0887ed92ada2470ebd55f012bdc0a3c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ba9198888d70454284c3a7d447a60a71.setIcon(icon_0887ed92ada2470ebd55f012bdc0a3c2);
+        
+    
+        var popup_7489164c52c94729adb74ebfb068a279 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30115e56c3e1434d9fae71fdfd9bc8ca = $(`<div id="html_30115e56c3e1434d9fae71fdfd9bc8ca" style="width: 100.0%; height: 100.0%;">Nizhnekamsk</div>`)[0];
+            popup_7489164c52c94729adb74ebfb068a279.setContent(html_30115e56c3e1434d9fae71fdfd9bc8ca);
+        
+
+        marker_ba9198888d70454284c3a7d447a60a71.bindPopup(popup_7489164c52c94729adb74ebfb068a279)
+        ;
+
+        
+    
+    
+            var poly_line_5d3e43c06a7948e1844ce40dbc8755f3 = L.polyline(
+                [[54.70739, 20.507307], [59.939095, 30.315868]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7742423546700667, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_7179e7b66dcd407a87de3a93dc68ad64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8a2a89845fe44a7954ebbfb913e7f94 = $(`<div id="html_c8a2a89845fe44a7954ebbfb913e7f94" style="width: 100.0%; height: 100.0%;">Kaliningrad-Saint Petersburg Real dist: 983.29  Line length: 733.3442811701372 (in km)</div>`)[0];
+            popup_7179e7b66dcd407a87de3a93dc68ad64.setContent(html_c8a2a89845fe44a7954ebbfb913e7f94);
+        
+
+        poly_line_5d3e43c06a7948e1844ce40dbc8755f3.bindPopup(popup_7179e7b66dcd407a87de3a93dc68ad64)
+        ;
+
+        
+    
+    
+            var marker_c08f90a10ad04e6497097a19cca0dd77 = L.marker(
+                [54.70739, 20.507307],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_1e8a646f3d5e419ebbadbb2b716664ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c08f90a10ad04e6497097a19cca0dd77.setIcon(icon_1e8a646f3d5e419ebbadbb2b716664ce);
+        
+    
+        var popup_e62177d9ff11447997cdf91f844814fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c704e9c6705849aab8facb314dee7e76 = $(`<div id="html_c704e9c6705849aab8facb314dee7e76" style="width: 100.0%; height: 100.0%;">Kaliningrad</div>`)[0];
+            popup_e62177d9ff11447997cdf91f844814fb.setContent(html_c704e9c6705849aab8facb314dee7e76);
+        
+
+        marker_c08f90a10ad04e6497097a19cca0dd77.bindPopup(popup_e62177d9ff11447997cdf91f844814fb)
+        ;
+
+        
+    
+    
+            var marker_cc7d1af02db84b7d96cd6f7730deba8a = L.marker(
+                [59.939095, 30.315868],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_7627d6680a30481ba7ee350e95c2badf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cc7d1af02db84b7d96cd6f7730deba8a.setIcon(icon_7627d6680a30481ba7ee350e95c2badf);
+        
+    
+        var popup_db43ff7036714305ac0230dd90b400b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a8ed8a8b8794576900f9f259d545c9a = $(`<div id="html_5a8ed8a8b8794576900f9f259d545c9a" style="width: 100.0%; height: 100.0%;">Saint Petersburg</div>`)[0];
+            popup_db43ff7036714305ac0230dd90b400b1.setContent(html_5a8ed8a8b8794576900f9f259d545c9a);
+        
+
+        marker_cc7d1af02db84b7d96cd6f7730deba8a.bindPopup(popup_db43ff7036714305ac0230dd90b400b1)
+        ;
+
+        
+    
+    
+            var poly_line_dbb55fe6655c483985f8b3adc776237f = L.polyline(
+                [[54.513845, 36.261215], [54.193122, 37.617348]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_c855f8da5cc14678a2a952cfda49884e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a7b99de28cf4a9795671f0d1c78aa40 = $(`<div id="html_4a7b99de28cf4a9795671f0d1c78aa40" style="width: 100.0%; height: 100.0%;">Kaluga-Tula Real dist: 90.6960050591086  Line length: 90.6960050591086 (in km)</div>`)[0];
+            popup_c855f8da5cc14678a2a952cfda49884e.setContent(html_4a7b99de28cf4a9795671f0d1c78aa40);
+        
+
+        poly_line_dbb55fe6655c483985f8b3adc776237f.bindPopup(popup_c855f8da5cc14678a2a952cfda49884e)
+        ;
+
+        
+    
+    
+            var marker_d55a04f4d39240199bd9ca0e1d669439 = L.marker(
+                [54.193122, 37.617348],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_2ef54612baed4c698b7233d154dc1ca5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d55a04f4d39240199bd9ca0e1d669439.setIcon(icon_2ef54612baed4c698b7233d154dc1ca5);
+        
+    
+        var popup_bb6c03fcc42f470e834f945c710ac234 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1dbb8301511f4e4fb049c5b2179c3a22 = $(`<div id="html_1dbb8301511f4e4fb049c5b2179c3a22" style="width: 100.0%; height: 100.0%;">Tula</div>`)[0];
+            popup_bb6c03fcc42f470e834f945c710ac234.setContent(html_1dbb8301511f4e4fb049c5b2179c3a22);
+        
+
+        marker_d55a04f4d39240199bd9ca0e1d669439.bindPopup(popup_bb6c03fcc42f470e834f945c710ac234)
+        ;
+
+        
+    
+    
+            var poly_line_a2f2ee22614f4f558f8052510dfa35b1 = L.polyline(
+                [[55.796289, 49.108795], [56.631595, 47.886178]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.28201089530816603, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_0648915a838e4df2ac33be4c15a22063 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff88fb79bb86439789aa32f8467294b7 = $(`<div id="html_ff88fb79bb86439789aa32f8467294b7" style="width: 100.0%; height: 100.0%;">Kazan-Yoshkar-Ola Real dist: 141.981  Line length: 99.37600202489647 (in km)</div>`)[0];
+            popup_0648915a838e4df2ac33be4c15a22063.setContent(html_ff88fb79bb86439789aa32f8467294b7);
+        
+
+        poly_line_a2f2ee22614f4f558f8052510dfa35b1.bindPopup(popup_0648915a838e4df2ac33be4c15a22063)
+        ;
+
+        
+    
+    
+            var marker_181e85df83194e75918b8a1b5ed1de65 = L.marker(
+                [55.796289, 49.108795],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_75cbad72592440598c7f8dca94a57c0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_181e85df83194e75918b8a1b5ed1de65.setIcon(icon_75cbad72592440598c7f8dca94a57c0e);
+        
+    
+        var popup_76f488f029be4b3a8ef2088899606344 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a2f0270615943d4b686d7a000003690 = $(`<div id="html_7a2f0270615943d4b686d7a000003690" style="width: 100.0%; height: 100.0%;">Kazan</div>`)[0];
+            popup_76f488f029be4b3a8ef2088899606344.setContent(html_7a2f0270615943d4b686d7a000003690);
+        
+
+        marker_181e85df83194e75918b8a1b5ed1de65.bindPopup(popup_76f488f029be4b3a8ef2088899606344)
+        ;
+
+        
+    
+    
+            var poly_line_9cd58dd26a694c01ae5a3f31104fd0dd = L.polyline(
+                [[55.354727, 86.088374], [56.48464, 84.947649]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.4221784974356153, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_65b9aae106b649d8abf4a57d22b62852 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4e993c068cf41179e705d803ef930d4 = $(`<div id="html_d4e993c068cf41179e705d803ef930d4" style="width: 100.0%; height: 100.0%;">Kemerovo-Tomsk Real dist: 217.596  Line length: 112.17119739485443 (in km)</div>`)[0];
+            popup_65b9aae106b649d8abf4a57d22b62852.setContent(html_d4e993c068cf41179e705d803ef930d4);
+        
+
+        poly_line_9cd58dd26a694c01ae5a3f31104fd0dd.bindPopup(popup_65b9aae106b649d8abf4a57d22b62852)
+        ;
+
+        
+    
+    
+            var marker_494e068db6b94790a943534d69c70f7b = L.marker(
+                [55.354727, 86.088374],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_c8bb2ff2c7264e7c94edee8e6400311d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_494e068db6b94790a943534d69c70f7b.setIcon(icon_c8bb2ff2c7264e7c94edee8e6400311d);
+        
+    
+        var popup_242b7162ddb7487c86318b336bcbed90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d096f988c4204526b70411a786da3b0b = $(`<div id="html_d096f988c4204526b70411a786da3b0b" style="width: 100.0%; height: 100.0%;">Kemerovo</div>`)[0];
+            popup_242b7162ddb7487c86318b336bcbed90.setContent(html_d096f988c4204526b70411a786da3b0b);
+        
+
+        marker_494e068db6b94790a943534d69c70f7b.bindPopup(popup_242b7162ddb7487c86318b336bcbed90)
+        ;
+
+        
+    
+    
+            var marker_17675678cc7d415593e4daa49b78167d = L.marker(
+                [56.48464, 84.947649],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_086f0c0df8d4438982baec1fcc46b1dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_17675678cc7d415593e4daa49b78167d.setIcon(icon_086f0c0df8d4438982baec1fcc46b1dd);
+        
+    
+        var popup_4b03d643df0844f1a8ee07349b20d68b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14273f1f46a8469d8b18c81912317384 = $(`<div id="html_14273f1f46a8469d8b18c81912317384" style="width: 100.0%; height: 100.0%;">Tomsk</div>`)[0];
+            popup_4b03d643df0844f1a8ee07349b20d68b.setContent(html_14273f1f46a8469d8b18c81912317384);
+        
+
+        marker_17675678cc7d415593e4daa49b78167d.bindPopup(popup_4b03d643df0844f1a8ee07349b20d68b)
+        ;
+
+        
+    
+    
+            var poly_line_1112c9856f8d4a2cb2ea50d41bee767f = L.polyline(
+                [[48.480223, 135.07191699999998], [50.549923, 137.007948]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6671051467124298, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_0ccade0963bd4faf9d9eb6faeed01b3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abf43ebf5ec54ef1bf411c1561bd99bb = $(`<div id="html_abf43ebf5ec54ef1bf411c1561bd99bb" style="width: 100.0%; height: 100.0%;">Khabarovsk-Komsomolsk-on-Amur Real dist: 402.188  Line length: 195.02227122125464 (in km)</div>`)[0];
+            popup_0ccade0963bd4faf9d9eb6faeed01b3a.setContent(html_abf43ebf5ec54ef1bf411c1561bd99bb);
+        
+
+        poly_line_1112c9856f8d4a2cb2ea50d41bee767f.bindPopup(popup_0ccade0963bd4faf9d9eb6faeed01b3a)
+        ;
+
+        
+    
+    
+            var marker_e9c532e5697c4e93b3736447e9001ebd = L.marker(
+                [50.549923, 137.007948],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_675ff47f428341d28c216b994aa2586b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e9c532e5697c4e93b3736447e9001ebd.setIcon(icon_675ff47f428341d28c216b994aa2586b);
+        
+    
+        var popup_07f419b462fa4dbda9041351c737f418 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3ea3e86cf5548f0ae113a7ea285b05a = $(`<div id="html_c3ea3e86cf5548f0ae113a7ea285b05a" style="width: 100.0%; height: 100.0%;">Komsomolsk-on-Amur</div>`)[0];
+            popup_07f419b462fa4dbda9041351c737f418.setContent(html_c3ea3e86cf5548f0ae113a7ea285b05a);
+        
+
+        marker_e9c532e5697c4e93b3736447e9001ebd.bindPopup(popup_07f419b462fa4dbda9041351c737f418)
+        ;
+
+        
+    
+    
+            var poly_line_25cf1288556a4fedb2a3e6a7cdcf5b83 = L.polyline(
+                [[55.88874000000001, 37.43039], [55.755814, 37.617635]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.20864930638895984, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_9fb6150bb01943489c3801de48b92c06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a76fd39ee7754791b05ea1a9e91172c4 = $(`<div id="html_a76fd39ee7754791b05ea1a9e91172c4" style="width: 100.0%; height: 100.0%;">Khimki-Moscow Real dist: 20.94  Line length: 15.427120700344195 (in km)</div>`)[0];
+            popup_9fb6150bb01943489c3801de48b92c06.setContent(html_a76fd39ee7754791b05ea1a9e91172c4);
+        
+
+        poly_line_25cf1288556a4fedb2a3e6a7cdcf5b83.bindPopup(popup_9fb6150bb01943489c3801de48b92c06)
+        ;
+
+        
+    
+    
+            var marker_46a8190a0d1742bb8b5d4aec06faef0d = L.marker(
+                [55.88874000000001, 37.43039],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_eb43476a73834cb19949af3ebcbac5c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_46a8190a0d1742bb8b5d4aec06faef0d.setIcon(icon_eb43476a73834cb19949af3ebcbac5c6);
+        
+    
+        var popup_b680ad985acf4aa68bb0ef12953dae51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce198689c5934f90af8622a888dd4b6b = $(`<div id="html_ce198689c5934f90af8622a888dd4b6b" style="width: 100.0%; height: 100.0%;">Khimki</div>`)[0];
+            popup_b680ad985acf4aa68bb0ef12953dae51.setContent(html_ce198689c5934f90af8622a888dd4b6b);
+        
+
+        marker_46a8190a0d1742bb8b5d4aec06faef0d.bindPopup(popup_b680ad985acf4aa68bb0ef12953dae51)
+        ;
+
+        
+    
+    
+            var marker_5fdfa75a60c74bd59a85592998328f8d = L.marker(
+                [55.755814, 37.617635],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_6c17831ae5a9479692f46eca28f4412f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5fdfa75a60c74bd59a85592998328f8d.setIcon(icon_6c17831ae5a9479692f46eca28f4412f);
+        
+    
+        var popup_26d0c8e30451476f86921cdbb2bd9a51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_446cabec4e424f3db2d92befbf29c9eb = $(`<div id="html_446cabec4e424f3db2d92befbf29c9eb" style="width: 100.0%; height: 100.0%;">Moscow</div>`)[0];
+            popup_26d0c8e30451476f86921cdbb2bd9a51.setContent(html_446cabec4e424f3db2d92befbf29c9eb);
+        
+
+        marker_5fdfa75a60c74bd59a85592998328f8d.bindPopup(popup_26d0c8e30451476f86921cdbb2bd9a51)
+        ;
+
+        
+    
+    
+            var poly_line_0121eff1cb2549968e7f420492d39c6b = L.polyline(
+                [[58.603591, 49.668014], [56.631595, 47.886178]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.4414457152557021, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_106f846b54804ce8966203615f2a2da2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e8a11861389468a95fd715078dd1f1f = $(`<div id="html_4e8a11861389468a95fd715078dd1f1f" style="width: 100.0%; height: 100.0%;">Kirov-Yoshkar-Ola Real dist: 300.492  Line length: 186.7877057674129 (in km)</div>`)[0];
+            popup_106f846b54804ce8966203615f2a2da2.setContent(html_4e8a11861389468a95fd715078dd1f1f);
+        
+
+        poly_line_0121eff1cb2549968e7f420492d39c6b.bindPopup(popup_106f846b54804ce8966203615f2a2da2)
+        ;
+
+        
+    
+    
+            var marker_e55e61e12b1346bcb6c65307c69e3276 = L.marker(
+                [58.603591, 49.668014],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_6c03e44fd64e466dbe62dcd0e581b884 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e55e61e12b1346bcb6c65307c69e3276.setIcon(icon_6c03e44fd64e466dbe62dcd0e581b884);
+        
+    
+        var popup_0fcaf92c8c994f19afafcfcec81e8b5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28a94ac0caba4bd39c06d16bfd2438f6 = $(`<div id="html_28a94ac0caba4bd39c06d16bfd2438f6" style="width: 100.0%; height: 100.0%;">Kirov</div>`)[0];
+            popup_0fcaf92c8c994f19afafcfcec81e8b5c.setContent(html_28a94ac0caba4bd39c06d16bfd2438f6);
+        
+
+        marker_e55e61e12b1346bcb6c65307c69e3276.bindPopup(popup_0fcaf92c8c994f19afafcfcec81e8b5c)
+        ;
+
+        
+    
+    
+            var poly_line_9d72a191ae3c48dbabea9520ca601383 = L.polyline(
+                [[45.03547, 38.975313], [44.723912, 37.768974]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.30559405949585117, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_da664f350fae4ca195e7a171afc52f57 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ddd2fc2732540a2a47e25be0f82cf5d = $(`<div id="html_4ddd2fc2732540a2a47e25be0f82cf5d" style="width: 100.0%; height: 100.0%;">Krasnodar-Novorossiysk Real dist: 149.907  Line length: 96.29653437219199 (in km)</div>`)[0];
+            popup_da664f350fae4ca195e7a171afc52f57.setContent(html_4ddd2fc2732540a2a47e25be0f82cf5d);
+        
+
+        poly_line_9d72a191ae3c48dbabea9520ca601383.bindPopup(popup_da664f350fae4ca195e7a171afc52f57)
+        ;
+
+        
+    
+    
+            var marker_67d6650e557643908273b2707ddc083d = L.marker(
+                [45.03547, 38.975313],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_68bab31c4e3a4ce1a455713ce1b04a36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_67d6650e557643908273b2707ddc083d.setIcon(icon_68bab31c4e3a4ce1a455713ce1b04a36);
+        
+    
+        var popup_80149232e0c34e6dafaa73613def7b92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01064c153beb40df846be0fc89bc5f58 = $(`<div id="html_01064c153beb40df846be0fc89bc5f58" style="width: 100.0%; height: 100.0%;">Krasnodar</div>`)[0];
+            popup_80149232e0c34e6dafaa73613def7b92.setContent(html_01064c153beb40df846be0fc89bc5f58);
+        
+
+        marker_67d6650e557643908273b2707ddc083d.bindPopup(popup_80149232e0c34e6dafaa73613def7b92)
+        ;
+
+        
+    
+    
+            var marker_333a5c3fab1840cbb1c4329de766e942 = L.marker(
+                [44.723912, 37.768974],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_86d1204726e64affa92db53747e870da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_333a5c3fab1840cbb1c4329de766e942.setIcon(icon_86d1204726e64affa92db53747e870da);
+        
+    
+        var popup_ed4f70dd57f743219951c41f0b00629a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82a1fd71ed494ab08637b2b86abfc368 = $(`<div id="html_82a1fd71ed494ab08637b2b86abfc368" style="width: 100.0%; height: 100.0%;">Novorossiysk</div>`)[0];
+            popup_ed4f70dd57f743219951c41f0b00629a.setContent(html_82a1fd71ed494ab08637b2b86abfc368);
+        
+
+        marker_333a5c3fab1840cbb1c4329de766e942.bindPopup(popup_ed4f70dd57f743219951c41f0b00629a)
+        ;
+
+        
+    
+    
+            var poly_line_39be2096dfb540488a9eecfb1a40f5df = L.polyline(
+                [[56.010563, 92.852572], [53.757547, 87.136044]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0402409480721133, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_cece27906ebc460d8cccb3a365d9347f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c542cc5bfc01419283fdb7527d00fa34 = $(`<div id="html_c542cc5bfc01419283fdb7527d00fa34" style="width: 100.0%; height: 100.0%;">Krasnoyarsk-Novokuznetsk Real dist: 750.646  Line length: 397.3601309062488 (in km)</div>`)[0];
+            popup_cece27906ebc460d8cccb3a365d9347f.setContent(html_c542cc5bfc01419283fdb7527d00fa34);
+        
+
+        poly_line_39be2096dfb540488a9eecfb1a40f5df.bindPopup(popup_cece27906ebc460d8cccb3a365d9347f)
+        ;
+
+        
+    
+    
+            var marker_34fd77e42a784ac49155a7b8fc46aab5 = L.marker(
+                [56.010563, 92.852572],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_c10ddb7d8dfa493d9fa8cab6f6cfae2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_34fd77e42a784ac49155a7b8fc46aab5.setIcon(icon_c10ddb7d8dfa493d9fa8cab6f6cfae2b);
+        
+    
+        var popup_9966e4a11f444a119a075bd16846366e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e381bc437d44fb691fd273d6f81e767 = $(`<div id="html_2e381bc437d44fb691fd273d6f81e767" style="width: 100.0%; height: 100.0%;">Krasnoyarsk</div>`)[0];
+            popup_9966e4a11f444a119a075bd16846366e.setContent(html_2e381bc437d44fb691fd273d6f81e767);
+        
+
+        marker_34fd77e42a784ac49155a7b8fc46aab5.bindPopup(popup_9966e4a11f444a119a075bd16846366e)
+        ;
+
+        
+    
+    
+            var marker_cb03478c60554907af0cce52b884c11a = L.marker(
+                [53.757547, 87.136044],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_e65bcdef278743ec806ea017b4fbc82e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cb03478c60554907af0cce52b884c11a.setIcon(icon_e65bcdef278743ec806ea017b4fbc82e);
+        
+    
+        var popup_9c9ed7789594439a904fa0de754ce6db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7b54009543649d5872d5f62142f433a = $(`<div id="html_d7b54009543649d5872d5f62142f433a" style="width: 100.0%; height: 100.0%;">Novokuznetsk</div>`)[0];
+            popup_9c9ed7789594439a904fa0de754ce6db.setContent(html_d7b54009543649d5872d5f62142f433a);
+        
+
+        marker_cb03478c60554907af0cce52b884c11a.bindPopup(popup_9c9ed7789594439a904fa0de754ce6db)
+        ;
+
+        
+    
+    
+            var poly_line_56fc07ff23f24ff8989cc2148d8db775 = L.polyline(
+                [[55.44100400000001, 65.34111800000001], [57.15303299999999, 65.534328]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_d6b3e131862d4acfa517b3a156ff1dfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0136af9a34bc41a1834b40842a041f60 = $(`<div id="html_0136af9a34bc41a1834b40842a041f60" style="width: 100.0%; height: 100.0%;">Kurgan-Tyumen Real dist: 133.393334929586  Line length: 133.393334929586 (in km)</div>`)[0];
+            popup_d6b3e131862d4acfa517b3a156ff1dfc.setContent(html_0136af9a34bc41a1834b40842a041f60);
+        
+
+        poly_line_56fc07ff23f24ff8989cc2148d8db775.bindPopup(popup_d6b3e131862d4acfa517b3a156ff1dfc)
+        ;
+
+        
+    
+    
+            var marker_631d869db3a0414991e15ad2a8476485 = L.marker(
+                [55.44100400000001, 65.34111800000001],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_12cc2835256e4622aa8a1c8c31d4c0e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_631d869db3a0414991e15ad2a8476485.setIcon(icon_12cc2835256e4622aa8a1c8c31d4c0e9);
+        
+    
+        var popup_e2218c3f7a054623a736bb26a669c0e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e694a50e979c436c881e683bfa750284 = $(`<div id="html_e694a50e979c436c881e683bfa750284" style="width: 100.0%; height: 100.0%;">Kurgan</div>`)[0];
+            popup_e2218c3f7a054623a736bb26a669c0e0.setContent(html_e694a50e979c436c881e683bfa750284);
+        
+
+        marker_631d869db3a0414991e15ad2a8476485.bindPopup(popup_e2218c3f7a054623a736bb26a669c0e0)
+        ;
+
+        
+    
+    
+            var marker_05bf1f676bb24982909667f2b9ed1c08 = L.marker(
+                [57.15303299999999, 65.534328],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_9a0865b1dc3742cd9143612c79caef15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_05bf1f676bb24982909667f2b9ed1c08.setIcon(icon_9a0865b1dc3742cd9143612c79caef15);
+        
+    
+        var popup_95ea3a6fac6046afabf6fcce3f253d1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5e8532249be4e74af1814895c085849 = $(`<div id="html_d5e8532249be4e74af1814895c085849" style="width: 100.0%; height: 100.0%;">Tyumen</div>`)[0];
+            popup_95ea3a6fac6046afabf6fcce3f253d1c.setContent(html_d5e8532249be4e74af1814895c085849);
+        
+
+        marker_05bf1f676bb24982909667f2b9ed1c08.bindPopup(popup_95ea3a6fac6046afabf6fcce3f253d1c)
+        ;
+
+        
+    
+    
+            var poly_line_35d4cba4c52144dabcbd115edbd4f7f8 = L.polyline(
+                [[52.60882, 39.59922], [51.660781, 39.200269]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3276040804743704, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_8f55cce30a7540d6b5938747e22af487 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd3313c563d0402aaca2740f41caa272 = $(`<div id="html_fd3313c563d0402aaca2740f41caa272" style="width: 100.0%; height: 100.0%;">Lipetsk-Voronezh Real dist: 134.246  Line length: 70.56649947922733 (in km)</div>`)[0];
+            popup_8f55cce30a7540d6b5938747e22af487.setContent(html_fd3313c563d0402aaca2740f41caa272);
+        
+
+        poly_line_35d4cba4c52144dabcbd115edbd4f7f8.bindPopup(popup_8f55cce30a7540d6b5938747e22af487)
+        ;
+
+        
+    
+    
+            var marker_a9f33417e93342b6bc492d189fdef9e5 = L.marker(
+                [52.60882, 39.59922],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_8a1fae5c2e4c4504b52946d9de05b76e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a9f33417e93342b6bc492d189fdef9e5.setIcon(icon_8a1fae5c2e4c4504b52946d9de05b76e);
+        
+    
+        var popup_7618d55b401941d290cee6dfebebb067 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b27e7b60b3684d7aaae62c4574558a4c = $(`<div id="html_b27e7b60b3684d7aaae62c4574558a4c" style="width: 100.0%; height: 100.0%;">Lipetsk</div>`)[0];
+            popup_7618d55b401941d290cee6dfebebb067.setContent(html_b27e7b60b3684d7aaae62c4574558a4c);
+        
+
+        marker_a9f33417e93342b6bc492d189fdef9e5.bindPopup(popup_7618d55b401941d290cee6dfebebb067)
+        ;
+
+        
+    
+    
+            var marker_0f1e7514430546479ce6b800c4bd47df = L.marker(
+                [51.660781, 39.200269],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_75140fa164384207b40cbb17de32bea1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0f1e7514430546479ce6b800c4bd47df.setIcon(icon_75140fa164384207b40cbb17de32bea1);
+        
+    
+        var popup_c1cd000d2a994f8da8c90aa3c9e12a3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe4b1c5e5e904fd1ae7ff48e7106094a = $(`<div id="html_fe4b1c5e5e904fd1ae7ff48e7106094a" style="width: 100.0%; height: 100.0%;">Voronezh</div>`)[0];
+            popup_c1cd000d2a994f8da8c90aa3c9e12a3b.setContent(html_fe4b1c5e5e904fd1ae7ff48e7106094a);
+        
+
+        marker_0f1e7514430546479ce6b800c4bd47df.bindPopup(popup_c1cd000d2a994f8da8c90aa3c9e12a3b)
+        ;
+
+        
+    
+    
+            var poly_line_f16a03b5a0a64a22b9c3f10517f44405 = L.polyline(
+                [[53.407158, 58.980282], [51.229362, 58.475196]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5280575297144348, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_ef36200ca5fa45b1af1998666e92310b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82701d1a77af432f9580c235032b3cb0 = $(`<div id="html_82701d1a77af432f9580c235032b3cb0" style="width: 100.0%; height: 100.0%;">Magnitogorsk-Orsk Real dist: 303.291  Line length: 153.04441795787577 (in km)</div>`)[0];
+            popup_ef36200ca5fa45b1af1998666e92310b.setContent(html_82701d1a77af432f9580c235032b3cb0);
+        
+
+        poly_line_f16a03b5a0a64a22b9c3f10517f44405.bindPopup(popup_ef36200ca5fa45b1af1998666e92310b)
+        ;
+
+        
+    
+    
+            var marker_4b0bc703206b458dbce5392ca3b05e47 = L.marker(
+                [53.407158, 58.980282],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_91b0b96b70ce4a6eaf1c9d4d2fe72045 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4b0bc703206b458dbce5392ca3b05e47.setIcon(icon_91b0b96b70ce4a6eaf1c9d4d2fe72045);
+        
+    
+        var popup_132ad6d741b040b6844b061bc39b6b7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_532eb2b381654516bfaa1d6403231eb1 = $(`<div id="html_532eb2b381654516bfaa1d6403231eb1" style="width: 100.0%; height: 100.0%;">Magnitogorsk</div>`)[0];
+            popup_132ad6d741b040b6844b061bc39b6b7c.setContent(html_532eb2b381654516bfaa1d6403231eb1);
+        
+
+        marker_4b0bc703206b458dbce5392ca3b05e47.bindPopup(popup_132ad6d741b040b6844b061bc39b6b7c)
+        ;
+
+        
+    
+    
+            var marker_cd7d47d56dd443d4a3e6d564a785be75 = L.marker(
+                [51.229362, 58.475196],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_02399f818a7740f894f749442be1f73a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cd7d47d56dd443d4a3e6d564a785be75.setIcon(icon_02399f818a7740f894f749442be1f73a);
+        
+    
+        var popup_d7f7b22733ea4e9fb329e20ed959251f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_217d3cb15e1e42f186ba85011532aa57 = $(`<div id="html_217d3cb15e1e42f186ba85011532aa57" style="width: 100.0%; height: 100.0%;">Orsk</div>`)[0];
+            popup_d7f7b22733ea4e9fb329e20ed959251f.setContent(html_217d3cb15e1e42f186ba85011532aa57);
+        
+
+        marker_cd7d47d56dd443d4a3e6d564a785be75.bindPopup(popup_d7f7b22733ea4e9fb329e20ed959251f)
+        ;
+
+        
+    
+    
+            var poly_line_3108232b63654ab1872b1f3ab8ae98ca = L.polyline(
+                [[55.755814, 37.617635], [55.910483, 37.73640200000001]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.21487772400972863, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_6cc11714cd3f45dfa96ddc9e0feceefa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c9c8f4b34794eb4ac8ec5fa977eba21 = $(`<div id="html_3c9c8f4b34794eb4ac8ec5fa977eba21" style="width: 100.0%; height: 100.0%;">Moscow-Mytishchi Real dist: 22.929  Line length: 13.902495773013834 (in km)</div>`)[0];
+            popup_6cc11714cd3f45dfa96ddc9e0feceefa.setContent(html_3c9c8f4b34794eb4ac8ec5fa977eba21);
+        
+
+        poly_line_3108232b63654ab1872b1f3ab8ae98ca.bindPopup(popup_6cc11714cd3f45dfa96ddc9e0feceefa)
+        ;
+
+        
+    
+    
+            var marker_7f3667c76b7440cca624a64d7110437d = L.marker(
+                [55.910483, 37.73640200000001],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_fbafa77d2e264d24ba553c3063b862cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7f3667c76b7440cca624a64d7110437d.setIcon(icon_fbafa77d2e264d24ba553c3063b862cf);
+        
+    
+        var popup_b7e3e9621f3a43d3a459a9c71e794354 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30169e079ccc4ef793ae6b6a87810d96 = $(`<div id="html_30169e079ccc4ef793ae6b6a87810d96" style="width: 100.0%; height: 100.0%;">Mytishchi</div>`)[0];
+            popup_b7e3e9621f3a43d3a459a9c71e794354.setContent(html_30169e079ccc4ef793ae6b6a87810d96);
+        
+
+        marker_7f3667c76b7440cca624a64d7110437d.bindPopup(popup_b7e3e9621f3a43d3a459a9c71e794354)
+        ;
+
+        
+    
+    
+            var poly_line_bfe5a8b2cc0e49d1ac3ee14ee6fe7624 = L.polyline(
+                [[68.970682, 33.074981], [61.785017, 34.346878000000004]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8704879696587098, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_d5c9d2fe24324c8b8af89cc1176cacac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4366c9f4df840e2af6f8205ec6a1c16 = $(`<div id="html_a4366c9f4df840e2af6f8205ec6a1c16" style="width: 100.0%; height: 100.0%;">Murmansk-Petrozavodsk Real dist: 931.661  Line length: 643.9054734378366 (in km)</div>`)[0];
+            popup_d5c9d2fe24324c8b8af89cc1176cacac.setContent(html_a4366c9f4df840e2af6f8205ec6a1c16);
+        
+
+        poly_line_bfe5a8b2cc0e49d1ac3ee14ee6fe7624.bindPopup(popup_d5c9d2fe24324c8b8af89cc1176cacac)
+        ;
+
+        
+    
+    
+            var marker_584933afd7dd4fd598781e6e1b3e2bce = L.marker(
+                [68.970682, 33.074981],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_65c2bf593e2645f788ccb8fdfb7bc665 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_584933afd7dd4fd598781e6e1b3e2bce.setIcon(icon_65c2bf593e2645f788ccb8fdfb7bc665);
+        
+    
+        var popup_06aa77fbfdc640bca63000fd2398df96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d432b561d184ac2bb4e044b6f013dca = $(`<div id="html_4d432b561d184ac2bb4e044b6f013dca" style="width: 100.0%; height: 100.0%;">Murmansk</div>`)[0];
+            popup_06aa77fbfdc640bca63000fd2398df96.setContent(html_4d432b561d184ac2bb4e044b6f013dca);
+        
+
+        marker_584933afd7dd4fd598781e6e1b3e2bce.bindPopup(popup_06aa77fbfdc640bca63000fd2398df96)
+        ;
+
+        
+    
+    
+            var marker_274202f2242d4af0a713a882851a0b28 = L.marker(
+                [61.785017, 34.346878000000004],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_3cbff696882f4e4f9a8a85d098d59767 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_274202f2242d4af0a713a882851a0b28.setIcon(icon_3cbff696882f4e4f9a8a85d098d59767);
+        
+    
+        var popup_17a6f494a7a7487c9a2b9cededf76323 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f88446f19dff43e49c44ae4d95b3523e = $(`<div id="html_f88446f19dff43e49c44ae4d95b3523e" style="width: 100.0%; height: 100.0%;">Petrozavodsk</div>`)[0];
+            popup_17a6f494a7a7487c9a2b9cededf76323.setContent(html_f88446f19dff43e49c44ae4d95b3523e);
+        
+
+        marker_274202f2242d4af0a713a882851a0b28.bindPopup(popup_17a6f494a7a7487c9a2b9cededf76323)
+        ;
+
+        
+    
+    
+            var poly_line_e1a3987652f24a93b4150d0cacae78b2 = L.polyline(
+                [[60.939716, 76.56962800000002], [61.254035, 73.396221]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.29291214626232387, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_4b345dbe6ad443a1abe6c4a01144444e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c64aa8ed7ad347e0a73d52fc44cc8dfe = $(`<div id="html_c64aa8ed7ad347e0a73d52fc44cc8dfe" style="width: 100.0%; height: 100.0%;">Nizhnevartovsk-Surgut Real dist: 220.246  Line length: 172.52229745432166 (in km)</div>`)[0];
+            popup_4b345dbe6ad443a1abe6c4a01144444e.setContent(html_c64aa8ed7ad347e0a73d52fc44cc8dfe);
+        
+
+        poly_line_e1a3987652f24a93b4150d0cacae78b2.bindPopup(popup_4b345dbe6ad443a1abe6c4a01144444e)
+        ;
+
+        
+    
+    
+            var marker_1e1bf988a58d434b8257d4b289c54360 = L.marker(
+                [60.939716, 76.56962800000002],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_d12c0559b1e9470f999c6a4255ce8af7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1e1bf988a58d434b8257d4b289c54360.setIcon(icon_d12c0559b1e9470f999c6a4255ce8af7);
+        
+    
+        var popup_92e3933c4c4148dba6fa11ceaadc8676 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71ee1526457e4440ba54ad51e4a83c57 = $(`<div id="html_71ee1526457e4440ba54ad51e4a83c57" style="width: 100.0%; height: 100.0%;">Nizhnevartovsk</div>`)[0];
+            popup_92e3933c4c4148dba6fa11ceaadc8676.setContent(html_71ee1526457e4440ba54ad51e4a83c57);
+        
+
+        marker_1e1bf988a58d434b8257d4b289c54360.bindPopup(popup_92e3933c4c4148dba6fa11ceaadc8676)
+        ;
+
+        
+    
+    
+            var marker_626a41dbde0d4a549b80459e47ff3441 = L.marker(
+                [61.254035, 73.396221],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_1abdef19f2d84983ac6c1c02c012cdff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_626a41dbde0d4a549b80459e47ff3441.setIcon(icon_1abdef19f2d84983ac6c1c02c012cdff);
+        
+    
+        var popup_a3e82a42647344d789c5c7204056e999 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84c922fd8cc649589d57c76f5a5df1e3 = $(`<div id="html_84c922fd8cc649589d57c76f5a5df1e3" style="width: 100.0%; height: 100.0%;">Surgut</div>`)[0];
+            popup_a3e82a42647344d789c5c7204056e999.setContent(html_84c922fd8cc649589d57c76f5a5df1e3);
+        
+
+        marker_626a41dbde0d4a549b80459e47ff3441.bindPopup(popup_a3e82a42647344d789c5c7204056e999)
+        ;
+
+        
+    
+    
+            var poly_line_d077c2f16ccc4fbbb454ea036cb25760 = L.polyline(
+                [[55.354727, 86.088374], [53.757547, 87.136044]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3842570915580904, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_25b7a8b6d73a48248d1eef4ced859d8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8dae31779579400ba44c4e940ea9801b = $(`<div id="html_8dae31779579400ba44c4e940ea9801b" style="width: 100.0%; height: 100.0%;">Kemerovo-Novokuznetsk Real dist: 223.331  Line length: 134.39985683497898 (in km)</div>`)[0];
+            popup_25b7a8b6d73a48248d1eef4ced859d8f.setContent(html_8dae31779579400ba44c4e940ea9801b);
+        
+
+        poly_line_d077c2f16ccc4fbbb454ea036cb25760.bindPopup(popup_25b7a8b6d73a48248d1eef4ced859d8f)
+        ;
+
+        
+    
+    
+            var poly_line_6197143712f04647a2d98e24e86e5a90 = L.polyline(
+                [[53.346785, 83.77685600000002], [55.030199, 82.92043000000002]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.39909485358624175, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_0d7db74612164be08b26c56b9a3d5802 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d829ce141aa448a4b3ad9152758c53c8 = $(`<div id="html_d829ce141aa448a4b3ad9152758c53c8" style="width: 100.0%; height: 100.0%;">Barnaul-Novosibirsk Real dist: 231.668  Line length: 136.24965153839096 (in km)</div>`)[0];
+            popup_0d7db74612164be08b26c56b9a3d5802.setContent(html_d829ce141aa448a4b3ad9152758c53c8);
+        
+
+        poly_line_6197143712f04647a2d98e24e86e5a90.bindPopup(popup_0d7db74612164be08b26c56b9a3d5802)
+        ;
+
+        
+    
+    
+            var marker_a64621194a9547ee8f5520975e81d9c9 = L.marker(
+                [55.030199, 82.92043000000002],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_60d5341a144f4e45bda7f9c2980165ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a64621194a9547ee8f5520975e81d9c9.setIcon(icon_60d5341a144f4e45bda7f9c2980165ce);
+        
+    
+        var popup_916f744718734a098a22fc8e71b154ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb0ede5c49504fe7a22e4246918ecad7 = $(`<div id="html_fb0ede5c49504fe7a22e4246918ecad7" style="width: 100.0%; height: 100.0%;">Novosibirsk</div>`)[0];
+            popup_916f744718734a098a22fc8e71b154ef.setContent(html_fb0ede5c49504fe7a22e4246918ecad7);
+        
+
+        marker_a64621194a9547ee8f5520975e81d9c9.bindPopup(popup_916f744718734a098a22fc8e71b154ef)
+        ;
+
+        
+    
+    
+            var poly_line_6fe2516863554e8e88d39e59d37779c8 = L.polyline(
+                [[60.939716, 76.56962800000002], [54.98934200000001, 73.368212]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 2.671851022594789, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_fc20e018bd334754b898d5f37e5ba9d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e72dbcc832c3464292a9963ed1f15cc5 = $(`<div id="html_e72dbcc832c3464292a9963ed1f15cc5" style="width: 100.0%; height: 100.0%;">Nizhnevartovsk-Omsk Real dist: 1437.56  Line length: 495.3601313883243 (in km)</div>`)[0];
+            popup_fc20e018bd334754b898d5f37e5ba9d0.setContent(html_e72dbcc832c3464292a9963ed1f15cc5);
+        
+
+        poly_line_6fe2516863554e8e88d39e59d37779c8.bindPopup(popup_fc20e018bd334754b898d5f37e5ba9d0)
+        ;
+
+        
+    
+    
+            var marker_3e98b34824d945ad99ebde6fedc95f59 = L.marker(
+                [54.98934200000001, 73.368212],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_adda5663bc62498abb8c9b0ed69ffa4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3e98b34824d945ad99ebde6fedc95f59.setIcon(icon_adda5663bc62498abb8c9b0ed69ffa4b);
+        
+    
+        var popup_f2e405fc275a4c47b7fedbad1fa12d92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ae87510a59f44c196835e97544629cd = $(`<div id="html_7ae87510a59f44c196835e97544629cd" style="width: 100.0%; height: 100.0%;">Omsk</div>`)[0];
+            popup_f2e405fc275a4c47b7fedbad1fa12d92.setContent(html_7ae87510a59f44c196835e97544629cd);
+        
+
+        marker_3e98b34824d945ad99ebde6fedc95f59.bindPopup(popup_f2e405fc275a4c47b7fedbad1fa12d92)
+        ;
+
+        
+    
+    
+            var poly_line_68f6692646954d598d455349af72df15 = L.polyline(
+                [[51.768199, 55.096955], [53.630403, 55.930825]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.43982421603501504, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_ff03b27e7a144ea49b84c26e4b32c261 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a77320f6fac44f239582089d8132201c = $(`<div id="html_a77320f6fac44f239582089d8132201c" style="width: 100.0%; height: 100.0%;">Orenburg-Sterlitamak Real dist: 257.01  Line length: 144.00011310616682 (in km)</div>`)[0];
+            popup_ff03b27e7a144ea49b84c26e4b32c261.setContent(html_a77320f6fac44f239582089d8132201c);
+        
+
+        poly_line_68f6692646954d598d455349af72df15.bindPopup(popup_ff03b27e7a144ea49b84c26e4b32c261)
+        ;
+
+        
+    
+    
+            var marker_563605d9c47045098f40e11c2713708a = L.marker(
+                [51.768199, 55.096955],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_36f43b7eab1c4ba098dc691aa99aca58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_563605d9c47045098f40e11c2713708a.setIcon(icon_36f43b7eab1c4ba098dc691aa99aca58);
+        
+    
+        var popup_b81aecfe22b7469385a994827f820c10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23f0e7e90ff343a88967d3cfe5d6ffb8 = $(`<div id="html_23f0e7e90ff343a88967d3cfe5d6ffb8" style="width: 100.0%; height: 100.0%;">Orenburg</div>`)[0];
+            popup_b81aecfe22b7469385a994827f820c10.setContent(html_23f0e7e90ff343a88967d3cfe5d6ffb8);
+        
+
+        marker_563605d9c47045098f40e11c2713708a.bindPopup(popup_b81aecfe22b7469385a994827f820c10)
+        ;
+
+        
+    
+    
+            var marker_efc89168cc674f1997b0d9b032e615b3 = L.marker(
+                [53.630403, 55.930825],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_c6ffb0e3452943fdbeed781ef9288daa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_efc89168cc674f1997b0d9b032e615b3.setIcon(icon_c6ffb0e3452943fdbeed781ef9288daa);
+        
+    
+        var popup_c139be0a12d14f39ab6479a85b96183c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ea1437058a842c1ad90bebe9aae12ff = $(`<div id="html_4ea1437058a842c1ad90bebe9aae12ff" style="width: 100.0%; height: 100.0%;">Sterlitamak</div>`)[0];
+            popup_c139be0a12d14f39ab6479a85b96183c.setContent(html_4ea1437058a842c1ad90bebe9aae12ff);
+        
+
+        marker_efc89168cc674f1997b0d9b032e615b3.bindPopup(popup_c139be0a12d14f39ab6479a85b96183c)
+        ;
+
+        
+    
+    
+            var poly_line_237cab6008464ec99f98c545d85cc9d5 = L.polyline(
+                [[53.195063, 45.018316], [54.187433, 45.183938]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.35232887745945063, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_09236287d1f2406396dfc65cbdd3bb18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_373fb5ddcc024a31a17fe25ee310046f = $(`<div id="html_373fb5ddcc024a31a17fe25ee310046f" style="width: 100.0%; height: 100.0%;">Penza-Saransk Real dist: 147.619  Line length: 72.81500175257172 (in km)</div>`)[0];
+            popup_09236287d1f2406396dfc65cbdd3bb18.setContent(html_373fb5ddcc024a31a17fe25ee310046f);
+        
+
+        poly_line_237cab6008464ec99f98c545d85cc9d5.bindPopup(popup_09236287d1f2406396dfc65cbdd3bb18)
+        ;
+
+        
+    
+    
+            var marker_9e3b68c910e54555ade557e8ee6981a4 = L.marker(
+                [53.195063, 45.018316],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_c1ac6aa1febb4a9da592c9e50dfc541b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9e3b68c910e54555ade557e8ee6981a4.setIcon(icon_c1ac6aa1febb4a9da592c9e50dfc541b);
+        
+    
+        var popup_23509b98242441689dedfaeeebd37a53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bf055bc597b4c8fa75ebb44f1d897fa = $(`<div id="html_2bf055bc597b4c8fa75ebb44f1d897fa" style="width: 100.0%; height: 100.0%;">Penza</div>`)[0];
+            popup_23509b98242441689dedfaeeebd37a53.setContent(html_2bf055bc597b4c8fa75ebb44f1d897fa);
+        
+
+        marker_9e3b68c910e54555ade557e8ee6981a4.bindPopup(popup_23509b98242441689dedfaeeebd37a53)
+        ;
+
+        
+    
+    
+            var marker_f29435b071d241ae9abb9b5c60fcf339 = L.marker(
+                [54.187433, 45.183938],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_54df882260c146a6b634c45344a7063a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f29435b071d241ae9abb9b5c60fcf339.setIcon(icon_54df882260c146a6b634c45344a7063a);
+        
+    
+        var popup_5dac110abea24e84bf4eaf8793031d96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e49743a658da405d9b29398107c9fd5b = $(`<div id="html_e49743a658da405d9b29398107c9fd5b" style="width: 100.0%; height: 100.0%;">Saransk</div>`)[0];
+            popup_5dac110abea24e84bf4eaf8793031d96.setContent(html_e49743a658da405d9b29398107c9fd5b);
+        
+
+        marker_f29435b071d241ae9abb9b5c60fcf339.bindPopup(popup_5dac110abea24e84bf4eaf8793031d96)
+        ;
+
+        
+    
+    
+            var poly_line_92396af6c3544a36a790ab15c24507c9 = L.polyline(
+                [[56.85259300000001, 53.204843], [58.010374, 56.229398]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_d87cfc17df10432c9115b78a8c8c6875 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_199d24a6ff154a6092e0a50ba3985d48 = $(`<div id="html_199d24a6ff154a6092e0a50ba3985d48" style="width: 100.0%; height: 100.0%;">Izhevsk-Perm Real dist: 203.44418359459485  Line length: 203.44418359459485 (in km)</div>`)[0];
+            popup_d87cfc17df10432c9115b78a8c8c6875.setContent(html_199d24a6ff154a6092e0a50ba3985d48);
+        
+
+        poly_line_92396af6c3544a36a790ab15c24507c9.bindPopup(popup_d87cfc17df10432c9115b78a8c8c6875)
+        ;
+
+        
+    
+    
+            var marker_eed049ce293a484ca3a97a678c5c5d05 = L.marker(
+                [58.010374, 56.229398],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_c61eb06390e243abb6b310f1d6758873 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eed049ce293a484ca3a97a678c5c5d05.setIcon(icon_c61eb06390e243abb6b310f1d6758873);
+        
+    
+        var popup_2da8093c32134a5abdcbd975286e5c96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9f07ea738044e69987fc4f17607d20f = $(`<div id="html_f9f07ea738044e69987fc4f17607d20f" style="width: 100.0%; height: 100.0%;">Perm</div>`)[0];
+            popup_2da8093c32134a5abdcbd975286e5c96.setContent(html_f9f07ea738044e69987fc4f17607d20f);
+        
+
+        marker_eed049ce293a484ca3a97a678c5c5d05.bindPopup(popup_2da8093c32134a5abdcbd975286e5c96)
+        ;
+
+        
+    
+    
+            var poly_line_fe4dd64c4e0747ae916da7b92cead73a = L.polyline(
+                [[61.785017, 34.346878000000004], [59.939095, 30.315868]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5566579091318122, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_c6e4007ede994e3bbffd2a36858d0bbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8df248c721c24049969d8ff20eca2f7c = $(`<div id="html_8df248c721c24049969d8ff20eca2f7c" style="width: 100.0%; height: 100.0%;">Petrozavodsk-Saint Petersburg Real dist: 428.147  Line length: 266.0383153758563 (in km)</div>`)[0];
+            popup_c6e4007ede994e3bbffd2a36858d0bbc.setContent(html_8df248c721c24049969d8ff20eca2f7c);
+        
+
+        poly_line_fe4dd64c4e0747ae916da7b92cead73a.bindPopup(popup_c6e4007ede994e3bbffd2a36858d0bbc)
+        ;
+
+        
+    
+    
+            var poly_line_e082bae08d1e45e08101be666d51f8ea = L.polyline(
+                [[53.195538, 50.10178300000001], [54.31419200000001, 48.403123]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.41380946861866885, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_567458aad33e41e6a287277bfcb73926 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a216d531c82429d97c625c315cabc84 = $(`<div id="html_9a216d531c82429d97c625c315cabc84" style="width: 100.0%; height: 100.0%;">Samara-Ulyanovsk Real dist: 240.226  Line length: 138.41759754100437 (in km)</div>`)[0];
+            popup_567458aad33e41e6a287277bfcb73926.setContent(html_9a216d531c82429d97c625c315cabc84);
+        
+
+        poly_line_e082bae08d1e45e08101be666d51f8ea.bindPopup(popup_567458aad33e41e6a287277bfcb73926)
+        ;
+
+        
+    
+    
+            var marker_9819a92f41a7497884d417af9a8f2cdb = L.marker(
+                [53.195538, 50.10178300000001],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_26207fc774f24615a84f90908faaa447 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9819a92f41a7497884d417af9a8f2cdb.setIcon(icon_26207fc774f24615a84f90908faaa447);
+        
+    
+        var popup_23092584e56a4c3c853e1aa8880b2ccd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f74cfd92844646f9b32962a4c288a559 = $(`<div id="html_f74cfd92844646f9b32962a4c288a559" style="width: 100.0%; height: 100.0%;">Samara</div>`)[0];
+            popup_23092584e56a4c3c853e1aa8880b2ccd.setContent(html_f74cfd92844646f9b32962a4c288a559);
+        
+
+        marker_9819a92f41a7497884d417af9a8f2cdb.bindPopup(popup_23092584e56a4c3c853e1aa8880b2ccd)
+        ;
+
+        
+    
+    
+            var marker_d3f0848171ce45308de5b1957bedee1e = L.marker(
+                [54.31419200000001, 48.403123],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_535d8b285ad241228d93618d38634c2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d3f0848171ce45308de5b1957bedee1e.setIcon(icon_535d8b285ad241228d93618d38634c2f);
+        
+    
+        var popup_615fd0a6681849fa8af412fc858be670 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7eec94ada29246eca238fe58a69d8151 = $(`<div id="html_7eec94ada29246eca238fe58a69d8151" style="width: 100.0%; height: 100.0%;">Ulyanovsk</div>`)[0];
+            popup_615fd0a6681849fa8af412fc858be670.setContent(html_7eec94ada29246eca238fe58a69d8151);
+        
+
+        marker_d3f0848171ce45308de5b1957bedee1e.bindPopup(popup_615fd0a6681849fa8af412fc858be670)
+        ;
+
+        
+    
+    
+            var poly_line_5f28e2f560164873933874d5e8b0a904 = L.polyline(
+                [[47.709601, 40.215797], [47.220983, 38.9173]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.28853213013735207, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_8b460f7a6e8e4b22834ce9585e644ca2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44a43edc54804dcab7ecc7f1374b4b62 = $(`<div id="html_44a43edc54804dcab7ecc7f1374b4b62" style="width: 100.0%; height: 100.0%;">Shakhty-Taganrog Real dist: 147.234  Line length: 101.55999883017405 (in km)</div>`)[0];
+            popup_8b460f7a6e8e4b22834ce9585e644ca2.setContent(html_44a43edc54804dcab7ecc7f1374b4b62);
+        
+
+        poly_line_5f28e2f560164873933874d5e8b0a904.bindPopup(popup_8b460f7a6e8e4b22834ce9585e644ca2)
+        ;
+
+        
+    
+    
+            var marker_b792403cc28a4d48b3e17718a8e82ce8 = L.marker(
+                [47.709601, 40.215797],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_0897a65d0f0e40ff87c5cebe0e60c2cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b792403cc28a4d48b3e17718a8e82ce8.setIcon(icon_0897a65d0f0e40ff87c5cebe0e60c2cf);
+        
+    
+        var popup_3ee82e130d514eff9fc05c0660bb67f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_679650c9cd6e4c0491a2bce759b876f4 = $(`<div id="html_679650c9cd6e4c0491a2bce759b876f4" style="width: 100.0%; height: 100.0%;">Shakhty</div>`)[0];
+            popup_3ee82e130d514eff9fc05c0660bb67f7.setContent(html_679650c9cd6e4c0491a2bce759b876f4);
+        
+
+        marker_b792403cc28a4d48b3e17718a8e82ce8.bindPopup(popup_3ee82e130d514eff9fc05c0660bb67f7)
+        ;
+
+        
+    
+    
+            var marker_2bfeb88253354bfabcfac737b656dc81 = L.marker(
+                [47.220983, 38.9173],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_1d9bc89e1c244fc0ac77db45d2d44e58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2bfeb88253354bfabcfac737b656dc81.setIcon(icon_1d9bc89e1c244fc0ac77db45d2d44e58);
+        
+    
+        var popup_f515a69e5b2f4a67bc118cbcd4aa5954 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f64dd6f8abd24bf18bc65f5f9f5bf8a7 = $(`<div id="html_f64dd6f8abd24bf18bc65f5f9f5bf8a7" style="width: 100.0%; height: 100.0%;">Taganrog</div>`)[0];
+            popup_f515a69e5b2f4a67bc118cbcd4aa5954.setContent(html_f64dd6f8abd24bf18bc65f5f9f5bf8a7);
+        
+
+        marker_2bfeb88253354bfabcfac737b656dc81.bindPopup(popup_f515a69e5b2f4a67bc118cbcd4aa5954)
+        ;
+
+        
+    
+    
+            var poly_line_b980bb39081c4864bdc884d2839a5962 = L.polyline(
+                [[53.243562, 34.363407], [54.782635, 32.045251]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3213301785217882, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_4a802f2f634149628da660f5f74b0d65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d019851d824d4eb7980413ee9b410a6a = $(`<div id="html_d019851d824d4eb7980413ee9b410a6a" style="width: 100.0%; height: 100.0%;">Bryansk-Smolensk Real dist: 250.318  Line length: 189.49127373002463 (in km)</div>`)[0];
+            popup_4a802f2f634149628da660f5f74b0d65.setContent(html_d019851d824d4eb7980413ee9b410a6a);
+        
+
+        poly_line_b980bb39081c4864bdc884d2839a5962.bindPopup(popup_4a802f2f634149628da660f5f74b0d65)
+        ;
+
+        
+    
+    
+            var marker_2ba979c9615f407ba68aa1527bb67d36 = L.marker(
+                [54.782635, 32.045251],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_bd7c43ba58a2402a9841125f1405e140 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2ba979c9615f407ba68aa1527bb67d36.setIcon(icon_bd7c43ba58a2402a9841125f1405e140);
+        
+    
+        var popup_b50775e4001f40fd8eaee035f11fc80a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_094c56d2e1b249b98766cbd388869749 = $(`<div id="html_094c56d2e1b249b98766cbd388869749" style="width: 100.0%; height: 100.0%;">Smolensk</div>`)[0];
+            popup_b50775e4001f40fd8eaee035f11fc80a.setContent(html_094c56d2e1b249b98766cbd388869749);
+        
+
+        marker_2ba979c9615f407ba68aa1527bb67d36.bindPopup(popup_b50775e4001f40fd8eaee035f11fc80a)
+        ;
+
+        
+    
+    
+            var poly_line_b83d680958e2472d8c59ee0127864f57 = L.polyline(
+                [[45.03547, 38.975313], [43.585525, 39.723062]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6270191498457005, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_8a34c2acbb224e3e830f141454812396 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ab406b09a5d4a0bafe2b8f67599a12e = $(`<div id="html_3ab406b09a5d4a0bafe2b8f67599a12e" style="width: 100.0%; height: 100.0%;">Krasnodar-Sochi Real dist: 288.376  Line length: 97.43768174207187 (in km)</div>`)[0];
+            popup_8a34c2acbb224e3e830f141454812396.setContent(html_3ab406b09a5d4a0bafe2b8f67599a12e);
+        
+
+        poly_line_b83d680958e2472d8c59ee0127864f57.bindPopup(popup_8a34c2acbb224e3e830f141454812396)
+        ;
+
+        
+    
+    
+            var poly_line_5faaf0d33f144e31a9b4e9275a217dfe = L.polyline(
+                [[53.630403, 55.930825], [54.735147, 55.958727]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.28747543354028215, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_ca386cddebe34656a59458e80eda298c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_120a74359b6b488bb80d73e89f124df6 = $(`<div id="html_120a74359b6b488bb80d73e89f124df6" style="width: 100.0%; height: 100.0%;">Sterlitamak-Ufa Real dist: 126.397  Line length: 81.21886257125794 (in km)</div>`)[0];
+            popup_ca386cddebe34656a59458e80eda298c.setContent(html_120a74359b6b488bb80d73e89f124df6);
+        
+
+        poly_line_5faaf0d33f144e31a9b4e9275a217dfe.bindPopup(popup_ca386cddebe34656a59458e80eda298c)
+        ;
+
+        
+    
+    
+            var marker_4818b34e4e134588800e312ec7f44d86 = L.marker(
+                [54.735147, 55.958727],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_3548ae0a860a43f5ac38da58be53a03a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4818b34e4e134588800e312ec7f44d86.setIcon(icon_3548ae0a860a43f5ac38da58be53a03a);
+        
+    
+        var popup_f86cac4daf614487ba213a04b9e7814f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d592a4fdc26417ba1900fde23a5517b = $(`<div id="html_0d592a4fdc26417ba1900fde23a5517b" style="width: 100.0%; height: 100.0%;">Ufa</div>`)[0];
+            popup_f86cac4daf614487ba213a04b9e7814f.setContent(html_0d592a4fdc26417ba1900fde23a5517b);
+        
+
+        marker_4818b34e4e134588800e312ec7f44d86.bindPopup(popup_f86cac4daf614487ba213a04b9e7814f)
+        ;
+
+        
+    
+    
+            var poly_line_97162cad7227438ab9a1a046928ec72c = L.polyline(
+                [[58.603591, 49.668014], [61.66879300000001, 50.836399]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5073880797289639, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_18ed0e55643c49aa8aae57f76b796748 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc729ffccba446dc967b377cc3af7bb9 = $(`<div id="html_dc729ffccba446dc967b377cc3af7bb9" style="width: 100.0%; height: 100.0%;">Kirov-Syktyvkar Real dist: 409.596  Line length: 267.9804396317597 (in km)</div>`)[0];
+            popup_18ed0e55643c49aa8aae57f76b796748.setContent(html_dc729ffccba446dc967b377cc3af7bb9);
+        
+
+        poly_line_97162cad7227438ab9a1a046928ec72c.bindPopup(popup_18ed0e55643c49aa8aae57f76b796748)
+        ;
+
+        
+    
+    
+            var marker_3fe30521de864b8a862380f1840e385d = L.marker(
+                [61.66879300000001, 50.836399],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_d35e06ffe952416fba0164c4ac20ec78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3fe30521de864b8a862380f1840e385d.setIcon(icon_d35e06ffe952416fba0164c4ac20ec78);
+        
+    
+        var popup_c776598e586841c1b91b77a17d5f4ef2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_907fb3047b724138a77c144919c55ee9 = $(`<div id="html_907fb3047b724138a77c144919c55ee9" style="width: 100.0%; height: 100.0%;">Syktyvkar</div>`)[0];
+            popup_c776598e586841c1b91b77a17d5f4ef2.setContent(html_907fb3047b724138a77c144919c55ee9);
+        
+
+        marker_3fe30521de864b8a862380f1840e385d.bindPopup(popup_c776598e586841c1b91b77a17d5f4ef2)
+        ;
+
+        
+    
+    
+            var poly_line_ddbacf4cfe6d42bb871b0c77250b9b1e = L.polyline(
+                [[52.60882, 39.59922], [52.721219, 41.452274]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2138901400621119, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_337664a6dfd743f3bbfd7422dd6c42e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42924c469c2d4e848b82e4a06b3bcca8 = $(`<div id="html_42924c469c2d4e848b82e4a06b3bcca8" style="width: 100.0%; height: 100.0%;">Lipetsk-Tambov Real dist: 133.53  Line length: 125.04988926377577 (in km)</div>`)[0];
+            popup_337664a6dfd743f3bbfd7422dd6c42e6.setContent(html_42924c469c2d4e848b82e4a06b3bcca8);
+        
+
+        poly_line_ddbacf4cfe6d42bb871b0c77250b9b1e.bindPopup(popup_337664a6dfd743f3bbfd7422dd6c42e6)
+        ;
+
+        
+    
+    
+            var marker_bcd0fdc59cb74912ab7553e0bc602e94 = L.marker(
+                [52.721219, 41.452274],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_709462cf49934c64a2c4c702b1bfb7c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bcd0fdc59cb74912ab7553e0bc602e94.setIcon(icon_709462cf49934c64a2c4c702b1bfb7c1);
+        
+    
+        var popup_7c420066a90846f4a43fbf8dd159743a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d630f32e88bd474bbb8f2e7c1d79ee43 = $(`<div id="html_d630f32e88bd474bbb8f2e7c1d79ee43" style="width: 100.0%; height: 100.0%;">Tambov</div>`)[0];
+            popup_7c420066a90846f4a43fbf8dd159743a.setContent(html_d630f32e88bd474bbb8f2e7c1d79ee43);
+        
+
+        marker_bcd0fdc59cb74912ab7553e0bc602e94.bindPopup(popup_7c420066a90846f4a43fbf8dd159743a)
+        ;
+
+        
+    
+    
+            var poly_line_a4956efba1a346989d86f016e925dc51 = L.polyline(
+                [[55.88874000000001, 37.43039], [56.859847, 35.91199500000001]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2772309704434186, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_d639c2ebcfd04b02af9c18d55e647a41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2f35c53a1084fbdbbf7824aac423ed6 = $(`<div id="html_a2f35c53a1084fbdbbf7824aac423ed6" style="width: 100.0%; height: 100.0%;">Khimki-Tver Real dist: 160.455  Line length: 120.1135594317977 (in km)</div>`)[0];
+            popup_d639c2ebcfd04b02af9c18d55e647a41.setContent(html_a2f35c53a1084fbdbbf7824aac423ed6);
+        
+
+        poly_line_a4956efba1a346989d86f016e925dc51.bindPopup(popup_d639c2ebcfd04b02af9c18d55e647a41)
+        ;
+
+        
+    
+    
+            var marker_40a46075a56a4832a7e69831c8154ce5 = L.marker(
+                [56.859847, 35.91199500000001],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_81a9b5f02a50494290414bc7465651e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_40a46075a56a4832a7e69831c8154ce5.setIcon(icon_81a9b5f02a50494290414bc7465651e3);
+        
+    
+        var popup_ce7e04c0e30f47b4a8bed784fff7315f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5dbc277efdf4591b724b96717015845 = $(`<div id="html_a5dbc277efdf4591b724b96717015845" style="width: 100.0%; height: 100.0%;">Tver</div>`)[0];
+            popup_ce7e04c0e30f47b4a8bed784fff7315f.setContent(html_a5dbc277efdf4591b724b96717015845);
+        
+
+        marker_40a46075a56a4832a7e69831c8154ce5.bindPopup(popup_ce7e04c0e30f47b4a8bed784fff7315f)
+        ;
+
+        
+    
+    
+            var poly_line_eebf4df4a3874bdbb66c2a65c7f67220 = L.polyline(
+                [[52.287054, 104.281047], [51.834464, 107.584574]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7231906198451532, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_6de8719e09d94f7fbb474a8866d76b05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcf7343512714d89b0e5cd68a1a76163 = $(`<div id="html_bcf7343512714d89b0e5cd68a1a76163" style="width: 100.0%; height: 100.0%;">Irkutsk-Ulan-Ude Real dist: 456.806  Line length: 227.14546960019257 (in km)</div>`)[0];
+            popup_6de8719e09d94f7fbb474a8866d76b05.setContent(html_bcf7343512714d89b0e5cd68a1a76163);
+        
+
+        poly_line_eebf4df4a3874bdbb66c2a65c7f67220.bindPopup(popup_6de8719e09d94f7fbb474a8866d76b05)
+        ;
+
+        
+    
+    
+            var poly_line_35e2081e286a4ec99c6efb944a650cbf = L.polyline(
+                [[55.796289, 49.108795], [54.31419200000001, 48.403123]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.40930413252003406, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_41947809c5764a6eb6431dd35c8192c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10d9be0f15134431834a469989c7e61c = $(`<div id="html_10d9be0f15134431834a469989c7e61c" style="width: 100.0%; height: 100.0%;">Kazan-Ulyanovsk Real dist: 218.136  Line length: 118.27973407346956 (in km)</div>`)[0];
+            popup_41947809c5764a6eb6431dd35c8192c4.setContent(html_10d9be0f15134431834a469989c7e61c);
+        
+
+        poly_line_35e2081e286a4ec99c6efb944a650cbf.bindPopup(popup_41947809c5764a6eb6431dd35c8192c4)
+        ;
+
+        
+    
+    
+            var poly_line_cf5335dee6d24b1f8900cedae100dadb = L.polyline(
+                [[42.98306, 47.504682], [43.02115, 44.68196]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2948310601861143, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_060edc6f9abc4ff1b6a000244d6a12c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a591ab29efc247ba8ca7c22549aeb459 = $(`<div id="html_a591ab29efc247ba8ca7c22549aeb459" style="width: 100.0%; height: 100.0%;">Makhachkala-Vladikavkaz Real dist: 277.796  Line length: 229.17709846390954 (in km)</div>`)[0];
+            popup_060edc6f9abc4ff1b6a000244d6a12c5.setContent(html_a591ab29efc247ba8ca7c22549aeb459);
+        
+
+        poly_line_cf5335dee6d24b1f8900cedae100dadb.bindPopup(popup_060edc6f9abc4ff1b6a000244d6a12c5)
+        ;
+
+        
+    
+    
+            var marker_b0cc07e86fa443499de2c306a84ad0f4 = L.marker(
+                [43.02115, 44.68196],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_c3a49d9ec0e9497d990ebed17ed624e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b0cc07e86fa443499de2c306a84ad0f4.setIcon(icon_c3a49d9ec0e9497d990ebed17ed624e8);
+        
+    
+        var popup_e0a3e8569ea942bb8837c64fcdc2c8c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c74de3960f94d2cb1d67d1256389b74 = $(`<div id="html_2c74de3960f94d2cb1d67d1256389b74" style="width: 100.0%; height: 100.0%;">Vladikavkaz</div>`)[0];
+            popup_e0a3e8569ea942bb8837c64fcdc2c8c9.setContent(html_2c74de3960f94d2cb1d67d1256389b74);
+        
+
+        marker_b0cc07e86fa443499de2c306a84ad0f4.bindPopup(popup_e0a3e8569ea942bb8837c64fcdc2c8c9)
+        ;
+
+        
+    
+    
+            var poly_line_2e0b714c8b0548118e89d3e20ff073b4 = L.polyline(
+                [[57.000348, 40.973921], [56.129057, 40.406635]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_5a9901815fcd45448cb57d908ad4eecd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87124bd29ec046a7930cebc77ebf7ed1 = $(`<div id="html_87124bd29ec046a7930cebc77ebf7ed1" style="width: 100.0%; height: 100.0%;">Ivanovo-Vladimir Real dist: 75.40837535657836  Line length: 75.40837535657836 (in km)</div>`)[0];
+            popup_5a9901815fcd45448cb57d908ad4eecd.setContent(html_87124bd29ec046a7930cebc77ebf7ed1);
+        
+
+        poly_line_2e0b714c8b0548118e89d3e20ff073b4.bindPopup(popup_5a9901815fcd45448cb57d908ad4eecd)
+        ;
+
+        
+    
+    
+            var marker_316ee2e5e8a3489a81ad6230c46d4046 = L.marker(
+                [56.129057, 40.406635],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_1cd046edc4854588a248f21cae593a95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_316ee2e5e8a3489a81ad6230c46d4046.setIcon(icon_1cd046edc4854588a248f21cae593a95);
+        
+    
+        var popup_55b8f16583304fc187c258bc4c8a2008 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91d053d3a63e4021b677fc1c5f1d2de4 = $(`<div id="html_91d053d3a63e4021b677fc1c5f1d2de4" style="width: 100.0%; height: 100.0%;">Vladimir</div>`)[0];
+            popup_55b8f16583304fc187c258bc4c8a2008.setContent(html_91d053d3a63e4021b677fc1c5f1d2de4);
+        
+
+        marker_316ee2e5e8a3489a81ad6230c46d4046.bindPopup(popup_55b8f16583304fc187c258bc4c8a2008)
+        ;
+
+        
+    
+    
+            var poly_line_a473b7aecdeb4d449e3ba4f116d92cc0 = L.polyline(
+                [[48.480223, 135.07191699999998], [43.115536, 131.88548500000002]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.1108844828249451, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_fdc107defa6341a99cc81d7bfa8d5a6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6066f0af61f4d9f867b2adc7ffef04c = $(`<div id="html_b6066f0af61f4d9f867b2adc7ffef04c" style="width: 100.0%; height: 100.0%;">Khabarovsk-Vladivostok Real dist: 759.306  Line length: 379.1179131275836 (in km)</div>`)[0];
+            popup_fdc107defa6341a99cc81d7bfa8d5a6a.setContent(html_b6066f0af61f4d9f867b2adc7ffef04c);
+        
+
+        poly_line_a473b7aecdeb4d449e3ba4f116d92cc0.bindPopup(popup_fdc107defa6341a99cc81d7bfa8d5a6a)
+        ;
+
+        
+    
+    
+            var marker_e832b6ab634649e2aa273adeda9ff522 = L.marker(
+                [43.115536, 131.88548500000002],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_be7e8926dfb7434f9aa8a20a94a97061 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e832b6ab634649e2aa273adeda9ff522.setIcon(icon_be7e8926dfb7434f9aa8a20a94a97061);
+        
+    
+        var popup_2619cdc6afb941ea85beddfaa6e057eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20d548b4d78a41ab8d5dd12cac4e4c15 = $(`<div id="html_20d548b4d78a41ab8d5dd12cac4e4c15" style="width: 100.0%; height: 100.0%;">Vladivostok</div>`)[0];
+            popup_2619cdc6afb941ea85beddfaa6e057eb.setContent(html_20d548b4d78a41ab8d5dd12cac4e4c15);
+        
+
+        marker_e832b6ab634649e2aa273adeda9ff522.bindPopup(popup_2619cdc6afb941ea85beddfaa6e057eb)
+        ;
+
+        
+    
+    
+            var poly_line_e669c2004398473ab75ed49f8d69c02f = L.polyline(
+                [[51.533103, 46.03415800000001], [48.707073, 44.51693]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.578084246018963, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_e56a8974ebdf4f77b90c90c10fdcb6d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e888f1428bb4ed0b4fe0e4dc476d45a = $(`<div id="html_9e888f1428bb4ed0b4fe0e4dc476d45a" style="width: 100.0%; height: 100.0%;">Saratov-Volgograd Real dist: 381.044  Line length: 210.1055877113505 (in km)</div>`)[0];
+            popup_e56a8974ebdf4f77b90c90c10fdcb6d4.setContent(html_9e888f1428bb4ed0b4fe0e4dc476d45a);
+        
+
+        poly_line_e669c2004398473ab75ed49f8d69c02f.bindPopup(popup_e56a8974ebdf4f77b90c90c10fdcb6d4)
+        ;
+
+        
+    
+    
+            var marker_7aade450357f407398a051793872bec1 = L.marker(
+                [48.707073, 44.51693],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_c45a1226c00a4cf982febe4d3832438f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7aade450357f407398a051793872bec1.setIcon(icon_c45a1226c00a4cf982febe4d3832438f);
+        
+    
+        var popup_ad7aa8db262b4d298f564d22ee24e5bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff5b7eb720ff4088ae9a7bc72298f3fe = $(`<div id="html_ff5b7eb720ff4088ae9a7bc72298f3fe" style="width: 100.0%; height: 100.0%;">Volgograd</div>`)[0];
+            popup_ad7aa8db262b4d298f564d22ee24e5bc.setContent(html_ff5b7eb720ff4088ae9a7bc72298f3fe);
+        
+
+        marker_7aade450357f407398a051793872bec1.bindPopup(popup_ad7aa8db262b4d298f564d22ee24e5bc)
+        ;
+
+        
+    
+    
+            var poly_line_76a6f48751c046b3b9e5835c802e152e = L.polyline(
+                [[50.29064, 127.527173], [62.028082, 129.732609]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 2.6740084780997018, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_631cafea48984ba49e7fb0d600d271ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb6bf969a170447ea4e444b2ac186a82 = $(`<div id="html_cb6bf969a170447ea4e444b2ac186a82" style="width: 100.0%; height: 100.0%;">Blagoveshchensk-Yakutsk Real dist: 1796.536  Line length: 853.5885599770926 (in km)</div>`)[0];
+            popup_631cafea48984ba49e7fb0d600d271ac.setContent(html_cb6bf969a170447ea4e444b2ac186a82);
+        
+
+        poly_line_76a6f48751c046b3b9e5835c802e152e.bindPopup(popup_631cafea48984ba49e7fb0d600d271ac)
+        ;
+
+        
+    
+    
+            var marker_77aa4ef962ab46598d9b066e8365b6a1 = L.marker(
+                [62.028082, 129.732609],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_3ab4a93f52414e64b701df57657e15ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_77aa4ef962ab46598d9b066e8365b6a1.setIcon(icon_3ab4a93f52414e64b701df57657e15ea);
+        
+    
+        var popup_92f4b298be14402eb1fb8a281aeef8da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_297adf966c134d5f92f4e6b97541b3a3 = $(`<div id="html_297adf966c134d5f92f4e6b97541b3a3" style="width: 100.0%; height: 100.0%;">Yakutsk</div>`)[0];
+            popup_92f4b298be14402eb1fb8a281aeef8da.setContent(html_297adf966c134d5f92f4e6b97541b3a3);
+        
+
+        marker_77aa4ef962ab46598d9b066e8365b6a1.bindPopup(popup_92f4b298be14402eb1fb8a281aeef8da)
+        ;
+
+        
+    
+    
+            var poly_line_051164d3f2ac4a078cab3e96a35ba721 = L.polyline(
+                [[57.767961, 40.926858], [57.626578, 39.893858]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2390167026079146, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_c725cf3d09f34de9bdd6c792a2051a5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5d8536eb4f64b6e86114f62e422ed9b = $(`<div id="html_d5d8536eb4f64b6e86114f62e422ed9b" style="width: 100.0%; height: 100.0%;">Kostroma-Yaroslavl Real dist: 83.942  Line length: 62.25653494821321 (in km)</div>`)[0];
+            popup_c725cf3d09f34de9bdd6c792a2051a5a.setContent(html_d5d8536eb4f64b6e86114f62e422ed9b);
+        
+
+        poly_line_051164d3f2ac4a078cab3e96a35ba721.bindPopup(popup_c725cf3d09f34de9bdd6c792a2051a5a)
+        ;
+
+        
+    
+    
+            var marker_39efcf0582ff45178ce865606ba2f8eb = L.marker(
+                [57.626578, 39.893858],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_59d4ea962b084bd5bb41814c698c01f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_39efcf0582ff45178ce865606ba2f8eb.setIcon(icon_59d4ea962b084bd5bb41814c698c01f3);
+        
+    
+        var popup_52a1720d9dc640fab121c7e87e59db0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_442e28de8bd444e68b4dfb4539fd7d07 = $(`<div id="html_442e28de8bd444e68b4dfb4539fd7d07" style="width: 100.0%; height: 100.0%;">Yaroslavl</div>`)[0];
+            popup_52a1720d9dc640fab121c7e87e59db0a.setContent(html_442e28de8bd444e68b4dfb4539fd7d07);
+        
+
+        marker_39efcf0582ff45178ce865606ba2f8eb.bindPopup(popup_52a1720d9dc640fab121c7e87e59db0a)
+        ;
+
+        
+    
+    
+            var poly_line_444c3a16ce4c4066be6370dbfd52508a = L.polyline(
+                [[50.549923, 137.007948], [46.959155, 142.738023]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.1694150963718, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_c3afadff1de54573a45a0ae94a733a80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d16175b6887e4f86ac23d1c00af5136c = $(`<div id="html_d16175b6887e4f86ac23d1c00af5136c" style="width: 100.0%; height: 100.0%;">Komsomolsk-on-Amur-Yuzhno-Sakhalinsk Real dist: 887.017  Line length: 484.6834877385279 (in km)</div>`)[0];
+            popup_c3afadff1de54573a45a0ae94a733a80.setContent(html_d16175b6887e4f86ac23d1c00af5136c);
+        
+
+        poly_line_444c3a16ce4c4066be6370dbfd52508a.bindPopup(popup_c3afadff1de54573a45a0ae94a733a80)
+        ;
+
+        
+    
+    
+            var marker_2f95c841128043c792ce4c28f97b75d8 = L.marker(
+                [46.959155, 142.738023],
+                {}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+            var icon_d1b7b8dbb1e74a38b6b7937adff7c75c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2f95c841128043c792ce4c28f97b75d8.setIcon(icon_d1b7b8dbb1e74a38b6b7937adff7c75c);
+        
+    
+        var popup_1c17418d636847c892c788520b8c6254 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d238e39101ab4498b409c5187b216f1d = $(`<div id="html_d238e39101ab4498b409c5187b216f1d" style="width: 100.0%; height: 100.0%;">Yuzhno-Sakhalinsk</div>`)[0];
+            popup_1c17418d636847c892c788520b8c6254.setContent(html_d238e39101ab4498b409c5187b216f1d);
+        
+
+        marker_2f95c841128043c792ce4c28f97b75d8.bindPopup(popup_1c17418d636847c892c788520b8c6254)
+        ;
+
+        
+    
+    
+            var poly_line_2decf3ba0ee648e89b08d91a41d8f492 = L.polyline(
+                [[56.151362, 101.63408], [56.010563, 92.852572]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5158397060213344, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_80dd8fb72aa44da398a96a46e1ab9f2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d59ba4936cfd465792536060eb604798 = $(`<div id="html_d59ba4936cfd465792536060eb604798" style="width: 100.0%; height: 100.0%;">Bratsk-Krasnoyarsk Real dist: 688.511  Line length: 543.3600783444787 (in km)</div>`)[0];
+            popup_80dd8fb72aa44da398a96a46e1ab9f2f.setContent(html_d59ba4936cfd465792536060eb604798);
+        
+
+        poly_line_2decf3ba0ee648e89b08d91a41d8f492.bindPopup(popup_80dd8fb72aa44da398a96a46e1ab9f2f)
+        ;
+
+        
+    
+    
+            var poly_line_e99f3227a1fe41aba1d0e8c5a5d51157 = L.polyline(
+                [[44.997655, 41.129644], [43.02115, 44.68196]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.413014017834585, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_dd5a0be61fa1423d9913343c9e246b1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36664d545ac24bffb428f0de4073a216 = $(`<div id="html_36664d545ac24bffb428f0de4073a216" style="width: 100.0%; height: 100.0%;">Armavir-Vladikavkaz Real dist: 401.253  Line length: 299.78898779566754 (in km)</div>`)[0];
+            popup_dd5a0be61fa1423d9913343c9e246b1c.setContent(html_36664d545ac24bffb428f0de4073a216);
+        
+
+        poly_line_e99f3227a1fe41aba1d0e8c5a5d51157.bindPopup(popup_dd5a0be61fa1423d9913343c9e246b1c)
+        ;
+
+        
+    
+    
+            var poly_line_d6041a11f7624a3fbc9ce4877dc9d49f = L.polyline(
+                [[53.195063, 45.018316], [51.533103, 46.03415800000001]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3916966662506881, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_284176c385694337a10a280ee7054d69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35aeb66230c14c138dd90fb0da98def1 = $(`<div id="html_35aeb66230c14c138dd90fb0da98def1" style="width: 100.0%; height: 100.0%;">Penza-Saratov Real dist: 225.474  Line length: 133.2844989278354 (in km)</div>`)[0];
+            popup_284176c385694337a10a280ee7054d69.setContent(html_35aeb66230c14c138dd90fb0da98def1);
+        
+
+        poly_line_d6041a11f7624a3fbc9ce4877dc9d49f.bindPopup(popup_284176c385694337a10a280ee7054d69)
+        ;
+
+        
+    
+    
+            var poly_line_21f11d0b64154985ad860feb391f2ae0 = L.polyline(
+                [[55.796339, 37.938199], [55.910483, 37.73640200000001]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.22382221272450575, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_c78cc548e6ca4cfab0382b9f1d10be2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1abdc8e62794bad892f333d51a9c4c5 = $(`<div id="html_a1abdc8e62794bad892f333d51a9c4c5" style="width: 100.0%; height: 100.0%;">Balashikha-Mytishchi Real dist: 29.133  Line length: 15.285249611904176 (in km)</div>`)[0];
+            popup_c78cc548e6ca4cfab0382b9f1d10be2f.setContent(html_a1abdc8e62794bad892f333d51a9c4c5);
+        
+
+        poly_line_21f11d0b64154985ad860feb391f2ae0.bindPopup(popup_c78cc548e6ca4cfab0382b9f1d10be2f)
+        ;
+
+        
+    
+    
+            var poly_line_aed3df5d933e465cad6b4f5f1a5a9871 = L.polyline(
+                [[52.539297, 85.21382], [53.757547, 87.136044]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.4263853030472086, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_fad3349d9c84458d897f379fb9bd5197 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3cc5123b649a48f0b511e39c7102d6a2 = $(`<div id="html_3cc5123b649a48f0b511e39c7102d6a2" style="width: 100.0%; height: 100.0%;">Biysk-Novokuznetsk Real dist: 262.668  Line length: 155.4300665605495 (in km)</div>`)[0];
+            popup_fad3349d9c84458d897f379fb9bd5197.setContent(html_3cc5123b649a48f0b511e39c7102d6a2);
+        
+
+        poly_line_aed3df5d933e465cad6b4f5f1a5a9871.bindPopup(popup_fad3349d9c84458d897f379fb9bd5197)
+        ;
+
+        
+    
+    
+            var poly_line_476586821dfe4ad7a5929b4e89ec25ef = L.polyline(
+                [[53.243562, 34.363407], [51.730361, 36.192647]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_2d3d0572deb8420e9f3d9d7b198fb836 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bf0d9e15d174100b9616236b20dcc26 = $(`<div id="html_5bf0d9e15d174100b9616236b20dcc26" style="width: 100.0%; height: 100.0%;">Bryansk-Kursk Real dist: 161.36010913580014  Line length: 161.36010913580014 (in km)</div>`)[0];
+            popup_2d3d0572deb8420e9f3d9d7b198fb836.setContent(html_5bf0d9e15d174100b9616236b20dcc26);
+        
+
+        poly_line_476586821dfe4ad7a5929b4e89ec25ef.bindPopup(popup_2d3d0572deb8420e9f3d9d7b198fb836)
+        ;
+
+        
+    
+    
+            var poly_line_7fb7ecd0581b47679c717c55e27864af = L.polyline(
+                [[50.29064, 127.527173], [52.033973, 113.499432]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.6549532937937457, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_0e93cc5e92d94ee0bac99ab0e089f33d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d0f246a21a648889b14c2af186be436 = $(`<div id="html_2d0f246a21a648889b14c2af186be436" style="width: 100.0%; height: 100.0%;">Blagoveshchensk-Chita Real dist: 1556.647  Line length: 974.6849849592736 (in km)</div>`)[0];
+            popup_0e93cc5e92d94ee0bac99ab0e089f33d.setContent(html_2d0f246a21a648889b14c2af186be436);
+        
+
+        poly_line_7fb7ecd0581b47679c717c55e27864af.bindPopup(popup_0e93cc5e92d94ee0bac99ab0e089f33d)
+        ;
+
+        
+    
+    
+            var poly_line_8a6250053464481b920455b322a9cd08 = L.polyline(
+                [[55.67649399999999, 37.898116], [54.193122, 37.617348]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_0c745c6f6d6b4c18a0ef28436bd9f5cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39e3ccbbadf44e6188679c496ef26adb = $(`<div id="html_39e3ccbbadf44e6188679c496ef26adb" style="width: 100.0%; height: 100.0%;">Lyubertsy-Tula Real dist: 110.75859113779183  Line length: 110.75859113779183 (in km)</div>`)[0];
+            popup_0c745c6f6d6b4c18a0ef28436bd9f5cd.setContent(html_39e3ccbbadf44e6188679c496ef26adb);
+        
+
+        poly_line_8a6250053464481b920455b322a9cd08.bindPopup(popup_0c745c6f6d6b4c18a0ef28436bd9f5cd)
+        ;
+
+        
+    
+    
+            var poly_line_054ff3098b2341c7b7f3b1813a053865 = L.polyline(
+                [[55.796289, 49.108795], [55.63407, 51.809112]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.33583240249070284, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_9e1d09b1a94b430a9ecf84baa52a9aa6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_baf807b2ebdd48e7b33dbf17593e4516 = $(`<div id="html_baf807b2ebdd48e7b33dbf17593e4516" style="width: 100.0%; height: 100.0%;">Kazan-Nizhnekamsk Real dist: 236.569  Line length: 169.16722979979596 (in km)</div>`)[0];
+            popup_9e1d09b1a94b430a9ecf84baa52a9aa6.setContent(html_baf807b2ebdd48e7b33dbf17593e4516);
+        
+
+        poly_line_054ff3098b2341c7b7f3b1813a053865.bindPopup(popup_9e1d09b1a94b430a9ecf84baa52a9aa6)
+        ;
+
+        
+    
+    
+            var poly_line_25d4b93ed40b49ca815dcd0dea423305 = L.polyline(
+                [[55.159897, 61.402554], [53.407158, 58.980282]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.43141954902860913, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_7bf13e37ef774255b4f976227f518cc0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e09552194ce749efa7ba3fb9e11d3caa = $(`<div id="html_e09552194ce749efa7ba3fb9e11d3caa" style="width: 100.0%; height: 100.0%;">Chelyabinsk-Magnitogorsk Real dist: 310.319  Line length: 200.91532684089833 (in km)</div>`)[0];
+            popup_7bf13e37ef774255b4f976227f518cc0.setContent(html_e09552194ce749efa7ba3fb9e11d3caa);
+        
+
+        poly_line_25d4b93ed40b49ca815dcd0dea423305.bindPopup(popup_7bf13e37ef774255b4f976227f518cc0)
+        ;
+
+        
+    
+    
+            var poly_line_20d6c85cde5841f581f5c6e562eeb03b = L.polyline(
+                [[59.220496, 39.891523], [57.626578, 39.893858]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.334326186902902, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_70c988c2646f4441b25ca9ea4b4bdf74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5491434044be4c7b866743eda87fd82f = $(`<div id="html_5491434044be4c7b866743eda87fd82f" style="width: 100.0%; height: 100.0%;">Vologda-Yaroslavl Real dist: 194.053  Line length: 127.3310312789413 (in km)</div>`)[0];
+            popup_70c988c2646f4441b25ca9ea4b4bdf74.setContent(html_5491434044be4c7b866743eda87fd82f);
+        
+
+        poly_line_20d6c85cde5841f581f5c6e562eeb03b.bindPopup(popup_70c988c2646f4441b25ca9ea4b4bdf74)
+        ;
+
+        
+    
+    
+            var poly_line_f7afc7d166f84f7e94489501ece81979 = L.polyline(
+                [[45.03547, 38.975313], [47.220983, 38.9173]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7049669434528698, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_5608734ee8b74ae3a1abffd638623da1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_207f16f87b6e43cb8b7285e6175380f7 = $(`<div id="html_207f16f87b6e43cb8b7285e6175380f7" style="width: 100.0%; height: 100.0%;">Krasnodar-Taganrog Real dist: 350.884  Line length: 128.50739753623702 (in km)</div>`)[0];
+            popup_5608734ee8b74ae3a1abffd638623da1.setContent(html_207f16f87b6e43cb8b7285e6175380f7);
+        
+
+        poly_line_f7afc7d166f84f7e94489501ece81979.bindPopup(popup_5608734ee8b74ae3a1abffd638623da1)
+        ;
+
+        
+    
+    
+            var poly_line_dc8ef14394294406b2ebd3f990996422 = L.polyline(
+                [[55.159897, 61.402554], [55.44100400000001, 65.34111800000001]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_cf42b466cb5d442db3b8d92cc3f6b2bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af9eade9da444bc4993a598da5a7ef16 = $(`<div id="html_af9eade9da444bc4993a598da5a7ef16" style="width: 100.0%; height: 100.0%;">Chelyabinsk-Kurgan Real dist: 250.02079226730905  Line length: 250.02079226730905 (in km)</div>`)[0];
+            popup_cf42b466cb5d442db3b8d92cc3f6b2bb.setContent(html_af9eade9da444bc4993a598da5a7ef16);
+        
+
+        poly_line_dc8ef14394294406b2ebd3f990996422.bindPopup(popup_cf42b466cb5d442db3b8d92cc3f6b2bb)
+        ;
+
+        
+    
+    
+            var poly_line_040697fd0f2842a8837acac9b4e882ff = L.polyline(
+                [[52.60882, 39.59922], [54.193122, 37.617348]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_412c92ffebb846bfa76b0f37339b0ec4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75bcaea903454490a1d7be3cc34c7b88 = $(`<div id="html_75bcaea903454490a1d7be3cc34c7b88" style="width: 100.0%; height: 100.0%;">Lipetsk-Tula Real dist: 174.76642134490405  Line length: 174.76642134490405 (in km)</div>`)[0];
+            popup_412c92ffebb846bfa76b0f37339b0ec4.setContent(html_75bcaea903454490a1d7be3cc34c7b88);
+        
+
+        poly_line_040697fd0f2842a8837acac9b4e882ff.bindPopup(popup_412c92ffebb846bfa76b0f37339b0ec4)
+        ;
+
+        
+    
+    
+            var poly_line_48db1cef636f48489fd182e9a4d0d7d8 = L.polyline(
+                [[59.122612, 37.903461], [61.785017, 34.346878000000004]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7646097562574945, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_bdba04f16a4b4c67a73571a8007a18c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d786a8d6c0504bb89e423e9059994ae2 = $(`<div id="html_d786a8d6c0504bb89e423e9059994ae2" style="width: 100.0%; height: 100.0%;">Cherepovets-Petrozavodsk Real dist: 546.091  Line length: 299.95975200643034 (in km)</div>`)[0];
+            popup_bdba04f16a4b4c67a73571a8007a18c0.setContent(html_d786a8d6c0504bb89e423e9059994ae2);
+        
+
+        poly_line_48db1cef636f48489fd182e9a4d0d7d8.bindPopup(popup_bdba04f16a4b4c67a73571a8007a18c0)
+        ;
+
+        
+    
+    
+            var poly_line_860c00d771b44f409f4d0d37630e17d0 = L.polyline(
+                [[55.44100400000001, 65.34111800000001], [54.98934200000001, 73.368212]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_971b75c58b194b6eb788401f54bb51de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75d0e8916eac4353bdfc950a9cb8d2be = $(`<div id="html_75d0e8916eac4353bdfc950a9cb8d2be" style="width: 100.0%; height: 100.0%;">Kurgan-Omsk Real dist: 508.2153063108459  Line length: 508.2153063108459 (in km)</div>`)[0];
+            popup_971b75c58b194b6eb788401f54bb51de.setContent(html_75d0e8916eac4353bdfc950a9cb8d2be);
+        
+
+        poly_line_860c00d771b44f409f4d0d37630e17d0.bindPopup(popup_971b75c58b194b6eb788401f54bb51de)
+        ;
+
+        
+    
+    
+            var poly_line_2b5cea54f89f46d197f8e5a4a84a6366 = L.polyline(
+                [[53.407158, 58.980282], [53.630403, 55.930825]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5599447264498261, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_0d4913a926794e62a3a1f14bca44463c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5686982d472948da966d61ddcaf314cd = $(`<div id="html_5686982d472948da966d61ddcaf314cd" style="width: 100.0%; height: 100.0%;">Magnitogorsk-Sterlitamak Real dist: 365.528  Line length: 202.0617650108213 (in km)</div>`)[0];
+            popup_0d4913a926794e62a3a1f14bca44463c.setContent(html_5686982d472948da966d61ddcaf314cd);
+        
+
+        poly_line_2b5cea54f89f46d197f8e5a4a84a6366.bindPopup(popup_0d4913a926794e62a3a1f14bca44463c)
+        ;
+
+        
+    
+    
+            var poly_line_fe3cc60127d74aadb578139d46e634c6 = L.polyline(
+                [[60.939716, 76.56962800000002], [55.030199, 82.92043000000002]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 4.348140951794823, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_7c4f65a66c9640d0a455a98e75cff698 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8055caaef0524e34ad408626eca42315 = $(`<div id="html_8055caaef0524e34ad408626eca42315" style="width: 100.0%; height: 100.0%;">Nizhnevartovsk-Novosibirsk Real dist: 2092.914  Line length: 584.4496500202214 (in km)</div>`)[0];
+            popup_7c4f65a66c9640d0a455a98e75cff698.setContent(html_8055caaef0524e34ad408626eca42315);
+        
+
+        poly_line_fe3cc60127d74aadb578139d46e634c6.bindPopup(popup_7c4f65a66c9640d0a455a98e75cff698)
+        ;
+
+        
+    
+    
+            var poly_line_1831a0feb94746dd8477ef6bb1abf5ef = L.polyline(
+                [[55.796339, 37.938199], [56.129057, 40.406635]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_9e5d25dc8cb94b92b74f5052908b3cb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_009c4239f7a145a898c4f9857c548da3 = $(`<div id="html_009c4239f7a145a898c4f9857c548da3" style="width: 100.0%; height: 100.0%;">Balashikha-Vladimir Real dist: 155.65036398994638  Line length: 155.65036398994638 (in km)</div>`)[0];
+            popup_9e5d25dc8cb94b92b74f5052908b3cb4.setContent(html_009c4239f7a145a898c4f9857c548da3);
+        
+
+        poly_line_1831a0feb94746dd8477ef6bb1abf5ef.bindPopup(popup_9e5d25dc8cb94b92b74f5052908b3cb4)
+        ;
+
+        
+    
+    
+            var poly_line_ff57cf9620be44058f8c0b7012249255 = L.polyline(
+                [[52.018424, 47.819667], [54.31419200000001, 48.403123]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.4781932940704632, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_10cbfd535f054589b58cebaba081a339 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cd99b7248d741d4abd3c5b8e5637bc2 = $(`<div id="html_6cd99b7248d741d4abd3c5b8e5637bc2" style="width: 100.0%; height: 100.0%;">Balakovo-Ulyanovsk Real dist: 299.651  Line length: 170.31761527202363 (in km)</div>`)[0];
+            popup_10cbfd535f054589b58cebaba081a339.setContent(html_6cd99b7248d741d4abd3c5b8e5637bc2);
+        
+
+        poly_line_ff57cf9620be44058f8c0b7012249255.bindPopup(popup_10cbfd535f054589b58cebaba081a339)
+        ;
+
+        
+    
+    
+            var poly_line_25081d836e5b4f33909c82e3e8052a82 = L.polyline(
+                [[56.85259300000001, 53.204843], [54.735147, 55.958727]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.4305627608809611, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_f8a8248277eb4b62b25b991581372b96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5655cbd6f9c24ed2984392840a6372c2 = $(`<div id="html_5655cbd6f9c24ed2984392840a6372c2" style="width: 100.0%; height: 100.0%;">Izhevsk-Ufa Real dist: 341.884  Line length: 232.84861334462997 (in km)</div>`)[0];
+            popup_f8a8248277eb4b62b25b991581372b96.setContent(html_5655cbd6f9c24ed2984392840a6372c2);
+        
+
+        poly_line_25081d836e5b4f33909c82e3e8052a82.bindPopup(popup_f8a8248277eb4b62b25b991581372b96)
+        ;
+
+        
+    
+    
+            var poly_line_e43648f3885a409e949ae4158fc15a54 = L.polyline(
+                [[50.59566, 36.587223], [47.220983, 38.9173]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.4299600413633509, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_132c48ceee1645f6bf2a0bb0f107548a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66620e89f7cc44b59663f3cee365a557 = $(`<div id="html_66620e89f7cc44b59663f3cee365a557" style="width: 100.0%; height: 100.0%;">Belgorod-Taganrog Real dist: 766.184  Line length: 266.6453000003236 (in km)</div>`)[0];
+            popup_132c48ceee1645f6bf2a0bb0f107548a.setContent(html_66620e89f7cc44b59663f3cee365a557);
+        
+
+        poly_line_e43648f3885a409e949ae4158fc15a54.bindPopup(popup_132c48ceee1645f6bf2a0bb0f107548a)
+        ;
+
+        
+    
+    
+            var poly_line_3655d63644b84817bbfdcfa6ad74ba8c = L.polyline(
+                [[56.238377, 43.461625], [54.187433, 45.183938]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.446465362519374, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_945f99570bd24dcb855c810f1ff50be5);
+        
+    
+        var popup_9e154213297e4ca0b1c8c1bab39fd22a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84c179e43a0342279ebc4d97f8bd364f = $(`<div id="html_84c179e43a0342279ebc4d97f8bd364f" style="width: 100.0%; height: 100.0%;">Dzerzhinsk-Saransk Real dist: 302.129  Line length: 186.27771414647714 (in km)</div>`)[0];
+            popup_9e154213297e4ca0b1c8c1bab39fd22a.setContent(html_84c179e43a0342279ebc4d97f8bd364f);
+        
+
+        poly_line_3655d63644b84817bbfdcfa6ad74ba8c.bindPopup(popup_9e154213297e4ca0b1c8c1bab39fd22a)
+        ;
+
+        
+    
+</script>

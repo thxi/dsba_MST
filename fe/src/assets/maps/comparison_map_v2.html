@@ -1,0 +1,1564 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_542c65ed7d914b3bb87043a2e8f3432f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_542c65ed7d914b3bb87043a2e8f3432f" ></div>
+        
+</body>
+<script>    
+    
+            var map_542c65ed7d914b3bb87043a2e8f3432f = L.map(
+                "map_542c65ed7d914b3bb87043a2e8f3432f",
+                {
+                    center: [61.254035, 73.396221],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e7eb463aad7849fea879eae08d3a16c1 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+            var poly_line_9279d64415f84d2db3d1975577953b3d = L.polyline(
+                [[52.544358, 103.88824], [52.287054, 104.281047]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.22244015775106657, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_0731032027d441a1bb47274c7ac53926 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90301bd9992a48db9960d2c378aee184 = $(`<div id="html_90301bd9992a48db9960d2c378aee184" style="width: 100.0%; height: 100.0%;">Angarsk-Irkutsk Real dist: 45.151  Line length: 32.03556535499335 (in km)</div>`)[0];
+            popup_0731032027d441a1bb47274c7ac53926.setContent(html_90301bd9992a48db9960d2c378aee184);
+        
+
+        poly_line_9279d64415f84d2db3d1975577953b3d.bindPopup(popup_0731032027d441a1bb47274c7ac53926)
+        ;
+
+        
+    
+    
+            var poly_line_d253f0bde7ed4fe998ae75f9754072cd = L.polyline(
+                [[44.997655, 41.129644], [43.585525, 39.723062]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.741987304854161, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_1a3d649e1d574136bf06e8101dd227af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7ff84c36bb2452d919fe8b2302e73a9 = $(`<div id="html_e7ff84c36bb2452d919fe8b2302e73a9" style="width: 100.0%; height: 100.0%;">Armavir-Sochi Real dist: 371.442  Line length: 134.2926339421908 (in km)</div>`)[0];
+            popup_1a3d649e1d574136bf06e8101dd227af.setContent(html_e7ff84c36bb2452d919fe8b2302e73a9);
+        
+
+        poly_line_d253f0bde7ed4fe998ae75f9754072cd.bindPopup(popup_1a3d649e1d574136bf06e8101dd227af)
+        ;
+
+        
+    
+    
+            var poly_line_16256f046ec04c799ac953366b0d52a6 = L.polyline(
+                [[46.347869, 48.033574], [42.98306, 47.504682]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9673086487206783, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_60c12b609c5941ff8e6003f411396b99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8da097d028e428cb727c5652c743062 = $(`<div id="html_d8da097d028e428cb727c5652c743062" style="width: 100.0%; height: 100.0%;">Astrakhan-Makhachkala Real dist: 509.198  Line length: 183.9029881119954 (in km)</div>`)[0];
+            popup_60c12b609c5941ff8e6003f411396b99.setContent(html_d8da097d028e428cb727c5652c743062);
+        
+
+        poly_line_16256f046ec04c799ac953366b0d52a6.bindPopup(popup_60c12b609c5941ff8e6003f411396b99)
+        ;
+
+        
+    
+    
+            var poly_line_b4870578f8714a368cd809a90ac2f3ba = L.polyline(
+                [[52.018424, 47.819667], [51.533103, 46.03415800000001]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2825339274745927, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_038fb539bfe847d1a41adcaecc3b9e39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d5f5d435b734dbf9bd10bc100815ad4 = $(`<div id="html_0d5f5d435b734dbf9bd10bc100815ad4" style="width: 100.0%; height: 100.0%;">Balakovo-Saratov Real dist: 169.632  Line length: 126.78005768038767 (in km)</div>`)[0];
+            popup_038fb539bfe847d1a41adcaecc3b9e39.setContent(html_0d5f5d435b734dbf9bd10bc100815ad4);
+        
+
+        poly_line_b4870578f8714a368cd809a90ac2f3ba.bindPopup(popup_038fb539bfe847d1a41adcaecc3b9e39)
+        ;
+
+        
+    
+    
+            var poly_line_0085fc27abf44680843e5d2f455ad9d9 = L.polyline(
+                [[55.796339, 37.938199], [55.67649399999999, 37.898116]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2210232774539382, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_8d74ad2a2c6b48ad8d96135db239f03f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82f1f8382d934822af0bc66c1804c10d = $(`<div id="html_82f1f8382d934822af0bc66c1804c10d" style="width: 100.0%; height: 100.0%;">Balashikha-Lyubertsy Real dist: 21.779  Line length: 9.418607895483932 (in km)</div>`)[0];
+            popup_8d74ad2a2c6b48ad8d96135db239f03f.setContent(html_82f1f8382d934822af0bc66c1804c10d);
+        
+
+        poly_line_0085fc27abf44680843e5d2f455ad9d9.bindPopup(popup_8d74ad2a2c6b48ad8d96135db239f03f)
+        ;
+
+        
+    
+    
+            var poly_line_05672b6b722a45f88800b9bb0dac1e80 = L.polyline(
+                [[53.346785, 83.77685600000002], [52.539297, 85.21382]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.31034435142287353, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_f4915e37cc7f48f993ed052405709dda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ea4a3e3f8a34b928277c23bdf302804 = $(`<div id="html_4ea4a3e3f8a34b928277c23bdf302804" style="width: 100.0%; height: 100.0%;">Barnaul-Biysk Real dist: 167.152  Line length: 111.35345555373296 (in km)</div>`)[0];
+            popup_f4915e37cc7f48f993ed052405709dda.setContent(html_4ea4a3e3f8a34b928277c23bdf302804);
+        
+
+        poly_line_05672b6b722a45f88800b9bb0dac1e80.bindPopup(popup_f4915e37cc7f48f993ed052405709dda)
+        ;
+
+        
+    
+    
+            var poly_line_f82f3424fcc84881909bac7217a3b863 = L.polyline(
+                [[50.59566, 36.587223], [51.730361, 36.192647]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_da7884b48ae74952a011328858e43969 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_892181011f384aec926763e2fe80468a = $(`<div id="html_892181011f384aec926763e2fe80468a" style="width: 100.0%; height: 100.0%;">Belgorod-Kursk Real dist: 81.82954629139346  Line length: 81.82954629139346 (in km)</div>`)[0];
+            popup_da7884b48ae74952a011328858e43969.setContent(html_892181011f384aec926763e2fe80468a);
+        
+
+        poly_line_f82f3424fcc84881909bac7217a3b863.bindPopup(popup_da7884b48ae74952a011328858e43969)
+        ;
+
+        
+    
+    
+            var poly_line_63faa212ab8b4f30ad67e5399164427e = L.polyline(
+                [[50.29064, 127.527173], [48.480223, 135.07191699999998]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.48726674506821527, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_c8c186c7ea1d43ab94f8830f61d76f11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dddf18c2340e437ba57b600d18606c6f = $(`<div id="html_dddf18c2340e437ba57b600d18606c6f" style="width: 100.0%; height: 100.0%;">Blagoveshchensk-Khabarovsk Real dist: 694.732  Line length: 561.5694246441162 (in km)</div>`)[0];
+            popup_c8c186c7ea1d43ab94f8830f61d76f11.setContent(html_dddf18c2340e437ba57b600d18606c6f);
+        
+
+        poly_line_63faa212ab8b4f30ad67e5399164427e.bindPopup(popup_c8c186c7ea1d43ab94f8830f61d76f11)
+        ;
+
+        
+    
+    
+            var poly_line_4552825619a84309a25471ea0f4b1605 = L.polyline(
+                [[52.544358, 103.88824], [56.151362, 101.63408]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8436733157312533, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_18014dbc4c2f42048526a73f1308904f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15a4935202ea4f6b9d60b15a6e323cb8 = $(`<div id="html_15a4935202ea4f6b9d60b15a6e323cb8" style="width: 100.0%; height: 100.0%;">Angarsk-Bratsk Real dist: 573.051  Line length: 295.7767134713315 (in km)</div>`)[0];
+            popup_18014dbc4c2f42048526a73f1308904f.setContent(html_15a4935202ea4f6b9d60b15a6e323cb8);
+        
+
+        poly_line_4552825619a84309a25471ea0f4b1605.bindPopup(popup_18014dbc4c2f42048526a73f1308904f)
+        ;
+
+        
+    
+    
+            var poly_line_74416f443d5b4b88994d116756288cea = L.polyline(
+                [[53.243562, 34.363407], [54.513845, 36.261215]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3513297416661313, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_128498dd4a1543bf80c72c3c8f1e8294 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdf89148d3654054a2c34532ea275863 = $(`<div id="html_bdf89148d3654054a2c34532ea275863" style="width: 100.0%; height: 100.0%;">Bryansk-Kaluga Real dist: 229.873  Line length: 155.51517566418977 (in km)</div>`)[0];
+            popup_128498dd4a1543bf80c72c3c8f1e8294.setContent(html_bdf89148d3654054a2c34532ea275863);
+        
+
+        poly_line_74416f443d5b4b88994d116756288cea.bindPopup(popup_128498dd4a1543bf80c72c3c8f1e8294)
+        ;
+
+        
+    
+    
+            var poly_line_12b026f9b6c94d28b8f54ce8e009b9f2 = L.polyline(
+                [[56.14627700000001, 47.251079], [56.631595, 47.886178]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.27406494672208614, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_882223fa85d2483abfa4fff6eca3f2d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c8f7f5bc4cd4a139929b169f7bba6b3 = $(`<div id="html_8c8f7f5bc4cd4a139929b169f7bba6b3" style="width: 100.0%; height: 100.0%;">Cheboksary-Yoshkar-Ola Real dist: 92.989  Line length: 54.15382724341155 (in km)</div>`)[0];
+            popup_882223fa85d2483abfa4fff6eca3f2d0.setContent(html_8c8f7f5bc4cd4a139929b169f7bba6b3);
+        
+
+        poly_line_12b026f9b6c94d28b8f54ce8e009b9f2.bindPopup(popup_882223fa85d2483abfa4fff6eca3f2d0)
+        ;
+
+        
+    
+    
+            var poly_line_5cd1ac83d0394cb39721bb54ed53cfff = L.polyline(
+                [[55.159897, 61.402554], [56.838011, 60.597465]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.352071828191105, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_dda60639b6a24eb7a9598ab960a3b47e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42667a5f40ae4572b599cf2fac2ad350 = $(`<div id="html_42667a5f40ae4572b599cf2fac2ad350" style="width: 100.0%; height: 100.0%;">Chelyabinsk-Yekaterinburg Real dist: 213.435  Line length: 138.7457641434268 (in km)</div>`)[0];
+            popup_dda60639b6a24eb7a9598ab960a3b47e.setContent(html_42667a5f40ae4572b599cf2fac2ad350);
+        
+
+        poly_line_5cd1ac83d0394cb39721bb54ed53cfff.bindPopup(popup_dda60639b6a24eb7a9598ab960a3b47e)
+        ;
+
+        
+    
+    
+            var poly_line_47f7fe25de4d49cbbdd0af4dbb9a0401 = L.polyline(
+                [[59.122612, 37.903461], [59.220496, 39.891523]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.23941585386030004, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_7cd3005a567e4abb909c56fa55815ba5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5c1dee6b7b740cdbb96486002c4bd21 = $(`<div id="html_f5c1dee6b7b740cdbb96486002c4bd21" style="width: 100.0%; height: 100.0%;">Cherepovets-Vologda Real dist: 135.298  Line length: 113.41094831277019 (in km)</div>`)[0];
+            popup_7cd3005a567e4abb909c56fa55815ba5.setContent(html_f5c1dee6b7b740cdbb96486002c4bd21);
+        
+
+        poly_line_47f7fe25de4d49cbbdd0af4dbb9a0401.bindPopup(popup_7cd3005a567e4abb909c56fa55815ba5)
+        ;
+
+        
+    
+    
+            var poly_line_affdc5bef13e46ad91c64408c8a2f19c = L.polyline(
+                [[52.033973, 113.499432], [51.834464, 107.584574]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6594110166552676, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_26d48dd8c54e4f07a1948814d66177e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_190a31193f0241228896cabf68c26ba7 = $(`<div id="html_190a31193f0241228896cabf68c26ba7" style="width: 100.0%; height: 100.0%;">Chita-Ulan-Ude Real dist: 608.646  Line length: 404.58481012202793 (in km)</div>`)[0];
+            popup_26d48dd8c54e4f07a1948814d66177e5.setContent(html_190a31193f0241228896cabf68c26ba7);
+        
+
+        poly_line_affdc5bef13e46ad91c64408c8a2f19c.bindPopup(popup_26d48dd8c54e4f07a1948814d66177e5)
+        ;
+
+        
+    
+    
+            var poly_line_df203d44465d401f85aaca703eb24c4d = L.polyline(
+                [[56.238377, 43.461625], [57.000348, 40.973921]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3828143620233637, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_210c8166f4184d3babe1ce556be52c80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96bb38daa523463a9c072ecf09c09f10 = $(`<div id="html_96bb38daa523463a9c072ecf09c09f10" style="width: 100.0%; height: 100.0%;">Dzerzhinsk-Ivanovo Real dist: 251.786  Line length: 163.4881092925366 (in km)</div>`)[0];
+            popup_210c8166f4184d3babe1ce556be52c80.setContent(html_96bb38daa523463a9c072ecf09c09f10);
+        
+
+        poly_line_df203d44465d401f85aaca703eb24c4d.bindPopup(popup_210c8166f4184d3babe1ce556be52c80)
+        ;
+
+        
+    
+    
+            var poly_line_a8fc59c336df464489a82fb8dcbf2565 = L.polyline(
+                [[57.000348, 40.973921], [57.767961, 40.926858]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.28693554849373976, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_1a52a032df474779b37386c3a3ec08fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_256d602ad8b148dd860fce9d6ff72ca5 = $(`<div id="html_256d602ad8b148dd860fce9d6ff72ca5" style="width: 100.0%; height: 100.0%;">Ivanovo-Kostroma Real dist: 105.702  Line length: 60.777418007163455 (in km)</div>`)[0];
+            popup_1a52a032df474779b37386c3a3ec08fd.setContent(html_256d602ad8b148dd860fce9d6ff72ca5);
+        
+
+        poly_line_a8fc59c336df464489a82fb8dcbf2565.bindPopup(popup_1a52a032df474779b37386c3a3ec08fd)
+        ;
+
+        
+    
+    
+            var poly_line_523226228bc0421fa9c301bcaa23dcdb = L.polyline(
+                [[56.85259300000001, 53.204843], [55.63407, 51.809112]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.378429970825039, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_b427b0f00edb4c25bd7560553ac0f2ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ec020064d0c44d78e9ae0e1c272d118 = $(`<div id="html_4ec020064d0c44d78e9ae0e1c272d118" style="width: 100.0%; height: 100.0%;">Izhevsk-Nizhnekamsk Real dist: 212.686  Line length: 126.31534123065146 (in km)</div>`)[0];
+            popup_b427b0f00edb4c25bd7560553ac0f2ec.setContent(html_4ec020064d0c44d78e9ae0e1c272d118);
+        
+
+        poly_line_523226228bc0421fa9c301bcaa23dcdb.bindPopup(popup_b427b0f00edb4c25bd7560553ac0f2ec)
+        ;
+
+        
+    
+    
+            var poly_line_24d7fa448b5744d8a16a58e6f1f0d0a3 = L.polyline(
+                [[54.70739, 20.507307], [59.939095, 30.315868]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7742423546700667, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_42f90dee1280475b96b6a7fdc6b6dfdf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7b795a69fbb4e6db1218a93b5c79cd4 = $(`<div id="html_d7b795a69fbb4e6db1218a93b5c79cd4" style="width: 100.0%; height: 100.0%;">Kaliningrad-Saint Petersburg Real dist: 983.29  Line length: 733.3442811701372 (in km)</div>`)[0];
+            popup_42f90dee1280475b96b6a7fdc6b6dfdf.setContent(html_d7b795a69fbb4e6db1218a93b5c79cd4);
+        
+
+        poly_line_24d7fa448b5744d8a16a58e6f1f0d0a3.bindPopup(popup_42f90dee1280475b96b6a7fdc6b6dfdf)
+        ;
+
+        
+    
+    
+            var poly_line_d612f77fb8cc40c8a0c7c125a6053af9 = L.polyline(
+                [[54.513845, 36.261215], [54.193122, 37.617348]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_1df51b62146e4fd79f46de3b786b4b05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cacfd92f02b54aa39a5a7247fe4201e9 = $(`<div id="html_cacfd92f02b54aa39a5a7247fe4201e9" style="width: 100.0%; height: 100.0%;">Kaluga-Tula Real dist: 90.6960050591086  Line length: 90.6960050591086 (in km)</div>`)[0];
+            popup_1df51b62146e4fd79f46de3b786b4b05.setContent(html_cacfd92f02b54aa39a5a7247fe4201e9);
+        
+
+        poly_line_d612f77fb8cc40c8a0c7c125a6053af9.bindPopup(popup_1df51b62146e4fd79f46de3b786b4b05)
+        ;
+
+        
+    
+    
+            var poly_line_c201ba38b4034d65bb28a2b5dde7f191 = L.polyline(
+                [[55.796289, 49.108795], [56.631595, 47.886178]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.28201089530816603, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_345eacfb08d94b9ebb10c966303621c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_450f0140a0ce4f2fbca484684c34f5ed = $(`<div id="html_450f0140a0ce4f2fbca484684c34f5ed" style="width: 100.0%; height: 100.0%;">Kazan-Yoshkar-Ola Real dist: 141.981  Line length: 99.37600202489647 (in km)</div>`)[0];
+            popup_345eacfb08d94b9ebb10c966303621c9.setContent(html_450f0140a0ce4f2fbca484684c34f5ed);
+        
+
+        poly_line_c201ba38b4034d65bb28a2b5dde7f191.bindPopup(popup_345eacfb08d94b9ebb10c966303621c9)
+        ;
+
+        
+    
+    
+            var poly_line_ffffdddd9ea04e7388191e1f9047dd55 = L.polyline(
+                [[55.354727, 86.088374], [56.48464, 84.947649]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.4221784974356153, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_aeed79f2f5904cb7bd10105ec44f56cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87feadbd1f804d65b520b347f9500f16 = $(`<div id="html_87feadbd1f804d65b520b347f9500f16" style="width: 100.0%; height: 100.0%;">Kemerovo-Tomsk Real dist: 217.596  Line length: 112.17119739485443 (in km)</div>`)[0];
+            popup_aeed79f2f5904cb7bd10105ec44f56cb.setContent(html_87feadbd1f804d65b520b347f9500f16);
+        
+
+        poly_line_ffffdddd9ea04e7388191e1f9047dd55.bindPopup(popup_aeed79f2f5904cb7bd10105ec44f56cb)
+        ;
+
+        
+    
+    
+            var poly_line_200004262d4d4bba92e6c6cfa132fbcc = L.polyline(
+                [[48.480223, 135.07191699999998], [50.549923, 137.007948]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6671051467124298, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_cef1aa3e30a34f43b4fff213c7c669d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4830f769c5744dafb8405b8fdac58ef6 = $(`<div id="html_4830f769c5744dafb8405b8fdac58ef6" style="width: 100.0%; height: 100.0%;">Khabarovsk-Komsomolsk-on-Amur Real dist: 402.188  Line length: 195.02227122125464 (in km)</div>`)[0];
+            popup_cef1aa3e30a34f43b4fff213c7c669d9.setContent(html_4830f769c5744dafb8405b8fdac58ef6);
+        
+
+        poly_line_200004262d4d4bba92e6c6cfa132fbcc.bindPopup(popup_cef1aa3e30a34f43b4fff213c7c669d9)
+        ;
+
+        
+    
+    
+            var poly_line_3d5ecc3d728a4f6b927764a2a6663918 = L.polyline(
+                [[55.88874000000001, 37.43039], [55.755814, 37.617635]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.20864930638895984, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_c7dffdd545154180b5ed1f6af62816e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3652c182aec44e598a41a5c6df87f9fe = $(`<div id="html_3652c182aec44e598a41a5c6df87f9fe" style="width: 100.0%; height: 100.0%;">Khimki-Moscow Real dist: 20.94  Line length: 15.427120700344195 (in km)</div>`)[0];
+            popup_c7dffdd545154180b5ed1f6af62816e3.setContent(html_3652c182aec44e598a41a5c6df87f9fe);
+        
+
+        poly_line_3d5ecc3d728a4f6b927764a2a6663918.bindPopup(popup_c7dffdd545154180b5ed1f6af62816e3)
+        ;
+
+        
+    
+    
+            var poly_line_c1fcecb72cb2458cb82b8d906bc1bef7 = L.polyline(
+                [[58.603591, 49.668014], [56.631595, 47.886178]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.4414457152557021, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_8ac949cc9172484995e7d5e2b03331bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dabf845cd3a046b4a8ebbcbfeae1ab84 = $(`<div id="html_dabf845cd3a046b4a8ebbcbfeae1ab84" style="width: 100.0%; height: 100.0%;">Kirov-Yoshkar-Ola Real dist: 300.492  Line length: 186.7877057674129 (in km)</div>`)[0];
+            popup_8ac949cc9172484995e7d5e2b03331bc.setContent(html_dabf845cd3a046b4a8ebbcbfeae1ab84);
+        
+
+        poly_line_c1fcecb72cb2458cb82b8d906bc1bef7.bindPopup(popup_8ac949cc9172484995e7d5e2b03331bc)
+        ;
+
+        
+    
+    
+            var poly_line_72fcfdcab44c448ba84684e25ac19827 = L.polyline(
+                [[45.03547, 38.975313], [44.723912, 37.768974]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.30559405949585117, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_e045ddbdae094ebd987368559ac83ae0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03150e5bcf53450cab6fd12e105d6890 = $(`<div id="html_03150e5bcf53450cab6fd12e105d6890" style="width: 100.0%; height: 100.0%;">Krasnodar-Novorossiysk Real dist: 149.907  Line length: 96.29653437219199 (in km)</div>`)[0];
+            popup_e045ddbdae094ebd987368559ac83ae0.setContent(html_03150e5bcf53450cab6fd12e105d6890);
+        
+
+        poly_line_72fcfdcab44c448ba84684e25ac19827.bindPopup(popup_e045ddbdae094ebd987368559ac83ae0)
+        ;
+
+        
+    
+    
+            var poly_line_c1467bd33dda4997abe35c57dbfb31ff = L.polyline(
+                [[56.010563, 92.852572], [53.757547, 87.136044]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0402409480721133, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_a8f22455d08b4551822ca0c1abfdeed4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2dbb6a1096a24c9f973560583f4b4dbe = $(`<div id="html_2dbb6a1096a24c9f973560583f4b4dbe" style="width: 100.0%; height: 100.0%;">Krasnoyarsk-Novokuznetsk Real dist: 750.646  Line length: 397.3601309062488 (in km)</div>`)[0];
+            popup_a8f22455d08b4551822ca0c1abfdeed4.setContent(html_2dbb6a1096a24c9f973560583f4b4dbe);
+        
+
+        poly_line_c1467bd33dda4997abe35c57dbfb31ff.bindPopup(popup_a8f22455d08b4551822ca0c1abfdeed4)
+        ;
+
+        
+    
+    
+            var poly_line_7c062f8e131f4afcad3e4151d653c609 = L.polyline(
+                [[55.44100400000001, 65.34111800000001], [57.15303299999999, 65.534328]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_504c26c8125043bb8b8f6a8dc32049ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad6c8208cf544111aeeee7a2b9c2a446 = $(`<div id="html_ad6c8208cf544111aeeee7a2b9c2a446" style="width: 100.0%; height: 100.0%;">Kurgan-Tyumen Real dist: 133.393334929586  Line length: 133.393334929586 (in km)</div>`)[0];
+            popup_504c26c8125043bb8b8f6a8dc32049ab.setContent(html_ad6c8208cf544111aeeee7a2b9c2a446);
+        
+
+        poly_line_7c062f8e131f4afcad3e4151d653c609.bindPopup(popup_504c26c8125043bb8b8f6a8dc32049ab)
+        ;
+
+        
+    
+    
+            var poly_line_3987e251cf4b4e5cb00dbd2f3d1cb20a = L.polyline(
+                [[52.60882, 39.59922], [51.660781, 39.200269]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3276040804743704, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_0023ce41a1a54fae9970c076585dc40c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2812a71d5eb64f7393e091d61b245b28 = $(`<div id="html_2812a71d5eb64f7393e091d61b245b28" style="width: 100.0%; height: 100.0%;">Lipetsk-Voronezh Real dist: 134.246  Line length: 70.56649947922733 (in km)</div>`)[0];
+            popup_0023ce41a1a54fae9970c076585dc40c.setContent(html_2812a71d5eb64f7393e091d61b245b28);
+        
+
+        poly_line_3987e251cf4b4e5cb00dbd2f3d1cb20a.bindPopup(popup_0023ce41a1a54fae9970c076585dc40c)
+        ;
+
+        
+    
+    
+            var poly_line_6d6799abd1db4975ad99b9a12c95c8b8 = L.polyline(
+                [[53.407158, 58.980282], [51.229362, 58.475196]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5280575297144348, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_56e5d9ddbaa34cd4ad2ab9662aa35c7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc6e1cbc66934479b454f50b900f67bf = $(`<div id="html_fc6e1cbc66934479b454f50b900f67bf" style="width: 100.0%; height: 100.0%;">Magnitogorsk-Orsk Real dist: 303.291  Line length: 153.04441795787577 (in km)</div>`)[0];
+            popup_56e5d9ddbaa34cd4ad2ab9662aa35c7b.setContent(html_fc6e1cbc66934479b454f50b900f67bf);
+        
+
+        poly_line_6d6799abd1db4975ad99b9a12c95c8b8.bindPopup(popup_56e5d9ddbaa34cd4ad2ab9662aa35c7b)
+        ;
+
+        
+    
+    
+            var poly_line_a10ce8410a2148c1b7060d70153c91fe = L.polyline(
+                [[55.755814, 37.617635], [55.910483, 37.73640200000001]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.21487772400972863, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_e9f27ac743ef4250958d0ea518cd5ea1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0cddda048c8420ba64cb263aa090656 = $(`<div id="html_c0cddda048c8420ba64cb263aa090656" style="width: 100.0%; height: 100.0%;">Moscow-Mytishchi Real dist: 22.929  Line length: 13.902495773013834 (in km)</div>`)[0];
+            popup_e9f27ac743ef4250958d0ea518cd5ea1.setContent(html_c0cddda048c8420ba64cb263aa090656);
+        
+
+        poly_line_a10ce8410a2148c1b7060d70153c91fe.bindPopup(popup_e9f27ac743ef4250958d0ea518cd5ea1)
+        ;
+
+        
+    
+    
+            var poly_line_6e7e3ca1bd164a9996a044cbbcb5f37d = L.polyline(
+                [[68.970682, 33.074981], [61.785017, 34.346878000000004]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8704879696587098, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_afaba79827a34ad5a4db09fdfb8958af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f8be8af067145b38e75aa027d3aedcc = $(`<div id="html_8f8be8af067145b38e75aa027d3aedcc" style="width: 100.0%; height: 100.0%;">Murmansk-Petrozavodsk Real dist: 931.661  Line length: 643.9054734378366 (in km)</div>`)[0];
+            popup_afaba79827a34ad5a4db09fdfb8958af.setContent(html_8f8be8af067145b38e75aa027d3aedcc);
+        
+
+        poly_line_6e7e3ca1bd164a9996a044cbbcb5f37d.bindPopup(popup_afaba79827a34ad5a4db09fdfb8958af)
+        ;
+
+        
+    
+    
+            var poly_line_abc23bddb11845c1914bbc6e72818b2d = L.polyline(
+                [[60.939716, 76.56962800000002], [61.254035, 73.396221]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.29291214626232387, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_657e928cd4b347668e0e53c8bebcc709 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ae4ebe9b05a4a53b87216b9e9bdefa2 = $(`<div id="html_8ae4ebe9b05a4a53b87216b9e9bdefa2" style="width: 100.0%; height: 100.0%;">Nizhnevartovsk-Surgut Real dist: 220.246  Line length: 172.52229745432166 (in km)</div>`)[0];
+            popup_657e928cd4b347668e0e53c8bebcc709.setContent(html_8ae4ebe9b05a4a53b87216b9e9bdefa2);
+        
+
+        poly_line_abc23bddb11845c1914bbc6e72818b2d.bindPopup(popup_657e928cd4b347668e0e53c8bebcc709)
+        ;
+
+        
+    
+    
+            var poly_line_51a37cc265854b93b1c8365f4e1edfc2 = L.polyline(
+                [[55.354727, 86.088374], [53.757547, 87.136044]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3842570915580904, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_2c7b412d562d40b2b90b1e35cd4d310a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26885b61a6cb4f6cb4d4dbd9e5abd225 = $(`<div id="html_26885b61a6cb4f6cb4d4dbd9e5abd225" style="width: 100.0%; height: 100.0%;">Kemerovo-Novokuznetsk Real dist: 223.331  Line length: 134.39985683497898 (in km)</div>`)[0];
+            popup_2c7b412d562d40b2b90b1e35cd4d310a.setContent(html_26885b61a6cb4f6cb4d4dbd9e5abd225);
+        
+
+        poly_line_51a37cc265854b93b1c8365f4e1edfc2.bindPopup(popup_2c7b412d562d40b2b90b1e35cd4d310a)
+        ;
+
+        
+    
+    
+            var poly_line_b193298649f041fcae511a96458bcbf8 = L.polyline(
+                [[53.346785, 83.77685600000002], [55.030199, 82.92043000000002]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.39909485358624175, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_dbf9624845a9434689eee6ba79666fde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb769ac4dca54ccc861dead396ca5757 = $(`<div id="html_eb769ac4dca54ccc861dead396ca5757" style="width: 100.0%; height: 100.0%;">Barnaul-Novosibirsk Real dist: 231.668  Line length: 136.24965153839096 (in km)</div>`)[0];
+            popup_dbf9624845a9434689eee6ba79666fde.setContent(html_eb769ac4dca54ccc861dead396ca5757);
+        
+
+        poly_line_b193298649f041fcae511a96458bcbf8.bindPopup(popup_dbf9624845a9434689eee6ba79666fde)
+        ;
+
+        
+    
+    
+            var poly_line_4d06ded91151431dba8f041c59e0bb84 = L.polyline(
+                [[60.939716, 76.56962800000002], [54.98934200000001, 73.368212]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 2.671851022594789, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_5dc88e649fe5446abef3f8306e272a05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd6eb577be3444ba8af99871e2b1d7cd = $(`<div id="html_fd6eb577be3444ba8af99871e2b1d7cd" style="width: 100.0%; height: 100.0%;">Nizhnevartovsk-Omsk Real dist: 1437.56  Line length: 495.3601313883243 (in km)</div>`)[0];
+            popup_5dc88e649fe5446abef3f8306e272a05.setContent(html_fd6eb577be3444ba8af99871e2b1d7cd);
+        
+
+        poly_line_4d06ded91151431dba8f041c59e0bb84.bindPopup(popup_5dc88e649fe5446abef3f8306e272a05)
+        ;
+
+        
+    
+    
+            var poly_line_891ed72476e54ee793aaaf96c26e01cf = L.polyline(
+                [[51.768199, 55.096955], [53.630403, 55.930825]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.43982421603501504, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_39ceccc55d0547beb75b1dc0afb3d9b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09a37137a0f540be870e1d8ca0494a2f = $(`<div id="html_09a37137a0f540be870e1d8ca0494a2f" style="width: 100.0%; height: 100.0%;">Orenburg-Sterlitamak Real dist: 257.01  Line length: 144.00011310616682 (in km)</div>`)[0];
+            popup_39ceccc55d0547beb75b1dc0afb3d9b3.setContent(html_09a37137a0f540be870e1d8ca0494a2f);
+        
+
+        poly_line_891ed72476e54ee793aaaf96c26e01cf.bindPopup(popup_39ceccc55d0547beb75b1dc0afb3d9b3)
+        ;
+
+        
+    
+    
+            var poly_line_f051fcc02fdd4e5abe59baa6a699e8b9 = L.polyline(
+                [[53.195063, 45.018316], [54.187433, 45.183938]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.35232887745945063, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_f2f8ae8dfb804f77b9254865a9450d46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcc86b0c64dc49c5867a9880a4fd51e4 = $(`<div id="html_bcc86b0c64dc49c5867a9880a4fd51e4" style="width: 100.0%; height: 100.0%;">Penza-Saransk Real dist: 147.619  Line length: 72.81500175257172 (in km)</div>`)[0];
+            popup_f2f8ae8dfb804f77b9254865a9450d46.setContent(html_bcc86b0c64dc49c5867a9880a4fd51e4);
+        
+
+        poly_line_f051fcc02fdd4e5abe59baa6a699e8b9.bindPopup(popup_f2f8ae8dfb804f77b9254865a9450d46)
+        ;
+
+        
+    
+    
+            var poly_line_0eabe33f70e240819206af2885d9b2d3 = L.polyline(
+                [[56.85259300000001, 53.204843], [58.010374, 56.229398]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_129ace1613274847bdb90a55076f9dfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38a14d1116114fe5a792a1888d864b8e = $(`<div id="html_38a14d1116114fe5a792a1888d864b8e" style="width: 100.0%; height: 100.0%;">Izhevsk-Perm Real dist: 203.44418359459485  Line length: 203.44418359459485 (in km)</div>`)[0];
+            popup_129ace1613274847bdb90a55076f9dfc.setContent(html_38a14d1116114fe5a792a1888d864b8e);
+        
+
+        poly_line_0eabe33f70e240819206af2885d9b2d3.bindPopup(popup_129ace1613274847bdb90a55076f9dfc)
+        ;
+
+        
+    
+    
+            var poly_line_391bd3c77912458fb05b8d6fafa065e8 = L.polyline(
+                [[61.785017, 34.346878000000004], [59.939095, 30.315868]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5566579091318122, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_fe60d6e4618f40dea334973d95425cfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a90be8d68904fe1936c7623a172ce78 = $(`<div id="html_3a90be8d68904fe1936c7623a172ce78" style="width: 100.0%; height: 100.0%;">Petrozavodsk-Saint Petersburg Real dist: 428.147  Line length: 266.0383153758563 (in km)</div>`)[0];
+            popup_fe60d6e4618f40dea334973d95425cfc.setContent(html_3a90be8d68904fe1936c7623a172ce78);
+        
+
+        poly_line_391bd3c77912458fb05b8d6fafa065e8.bindPopup(popup_fe60d6e4618f40dea334973d95425cfc)
+        ;
+
+        
+    
+    
+            var poly_line_8ca0d22f874246939be8dd4aca09e40f = L.polyline(
+                [[53.195538, 50.10178300000001], [54.31419200000001, 48.403123]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.41380946861866885, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_512f8da298074727bc5271971070f242 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_251c4e96e8e34c65b28693205fb5f2b2 = $(`<div id="html_251c4e96e8e34c65b28693205fb5f2b2" style="width: 100.0%; height: 100.0%;">Samara-Ulyanovsk Real dist: 240.226  Line length: 138.41759754100437 (in km)</div>`)[0];
+            popup_512f8da298074727bc5271971070f242.setContent(html_251c4e96e8e34c65b28693205fb5f2b2);
+        
+
+        poly_line_8ca0d22f874246939be8dd4aca09e40f.bindPopup(popup_512f8da298074727bc5271971070f242)
+        ;
+
+        
+    
+    
+            var poly_line_9433127880de490092c97a168f28495d = L.polyline(
+                [[47.709601, 40.215797], [47.220983, 38.9173]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.28853213013735207, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_e11c060287d543418cb3c619b1ed3361 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f334c7751c84ddead2c89c22e2aaa15 = $(`<div id="html_0f334c7751c84ddead2c89c22e2aaa15" style="width: 100.0%; height: 100.0%;">Shakhty-Taganrog Real dist: 147.234  Line length: 101.55999883017405 (in km)</div>`)[0];
+            popup_e11c060287d543418cb3c619b1ed3361.setContent(html_0f334c7751c84ddead2c89c22e2aaa15);
+        
+
+        poly_line_9433127880de490092c97a168f28495d.bindPopup(popup_e11c060287d543418cb3c619b1ed3361)
+        ;
+
+        
+    
+    
+            var poly_line_5ee6a7ce4d474ffb9377821f04b5b3d1 = L.polyline(
+                [[53.243562, 34.363407], [54.782635, 32.045251]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3213301785217882, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_4612387111b34cd5aa0997c15715a2ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a131dbfb3a94b10a44d6f83319b3d4a = $(`<div id="html_8a131dbfb3a94b10a44d6f83319b3d4a" style="width: 100.0%; height: 100.0%;">Bryansk-Smolensk Real dist: 250.318  Line length: 189.49127373002463 (in km)</div>`)[0];
+            popup_4612387111b34cd5aa0997c15715a2ba.setContent(html_8a131dbfb3a94b10a44d6f83319b3d4a);
+        
+
+        poly_line_5ee6a7ce4d474ffb9377821f04b5b3d1.bindPopup(popup_4612387111b34cd5aa0997c15715a2ba)
+        ;
+
+        
+    
+    
+            var poly_line_90f215c466bd405a9c0bc86d3f0a39c5 = L.polyline(
+                [[45.03547, 38.975313], [43.585525, 39.723062]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6270191498457005, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_cfb3fb5c2cb6403a97b5d05c4b0dc588 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac680b4da9cd4b2a8353c1bf08e67b7a = $(`<div id="html_ac680b4da9cd4b2a8353c1bf08e67b7a" style="width: 100.0%; height: 100.0%;">Krasnodar-Sochi Real dist: 288.376  Line length: 97.43768174207187 (in km)</div>`)[0];
+            popup_cfb3fb5c2cb6403a97b5d05c4b0dc588.setContent(html_ac680b4da9cd4b2a8353c1bf08e67b7a);
+        
+
+        poly_line_90f215c466bd405a9c0bc86d3f0a39c5.bindPopup(popup_cfb3fb5c2cb6403a97b5d05c4b0dc588)
+        ;
+
+        
+    
+    
+            var poly_line_0153e123bb4d40b0a295b34feea75f54 = L.polyline(
+                [[53.630403, 55.930825], [54.735147, 55.958727]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.28747543354028215, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_97313037995d4f6f843d1636af4f228e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d8c86012b114c13956d884983c104b3 = $(`<div id="html_5d8c86012b114c13956d884983c104b3" style="width: 100.0%; height: 100.0%;">Sterlitamak-Ufa Real dist: 126.397  Line length: 81.21886257125794 (in km)</div>`)[0];
+            popup_97313037995d4f6f843d1636af4f228e.setContent(html_5d8c86012b114c13956d884983c104b3);
+        
+
+        poly_line_0153e123bb4d40b0a295b34feea75f54.bindPopup(popup_97313037995d4f6f843d1636af4f228e)
+        ;
+
+        
+    
+    
+            var poly_line_fde1316c731e4db698e2c6fe35963f82 = L.polyline(
+                [[58.603591, 49.668014], [61.66879300000001, 50.836399]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5073880797289639, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_95eed36aabb040489909889541bd519a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7450309d976942fd83f5837e972f0228 = $(`<div id="html_7450309d976942fd83f5837e972f0228" style="width: 100.0%; height: 100.0%;">Kirov-Syktyvkar Real dist: 409.596  Line length: 267.9804396317597 (in km)</div>`)[0];
+            popup_95eed36aabb040489909889541bd519a.setContent(html_7450309d976942fd83f5837e972f0228);
+        
+
+        poly_line_fde1316c731e4db698e2c6fe35963f82.bindPopup(popup_95eed36aabb040489909889541bd519a)
+        ;
+
+        
+    
+    
+            var poly_line_b308b62a9d6b4164979fc4f12a6c74b1 = L.polyline(
+                [[52.60882, 39.59922], [52.721219, 41.452274]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2138901400621119, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_a3addfb75cc6412dbb8f85c9802ec990 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c62a28e8652b4d2ea58571976479fd03 = $(`<div id="html_c62a28e8652b4d2ea58571976479fd03" style="width: 100.0%; height: 100.0%;">Lipetsk-Tambov Real dist: 133.53  Line length: 125.04988926377577 (in km)</div>`)[0];
+            popup_a3addfb75cc6412dbb8f85c9802ec990.setContent(html_c62a28e8652b4d2ea58571976479fd03);
+        
+
+        poly_line_b308b62a9d6b4164979fc4f12a6c74b1.bindPopup(popup_a3addfb75cc6412dbb8f85c9802ec990)
+        ;
+
+        
+    
+    
+            var poly_line_91390e56e9e34049993266d1a5d8bbcd = L.polyline(
+                [[55.88874000000001, 37.43039], [56.859847, 35.91199500000001]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2772309704434186, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_bc20feceb0864e5388d8c2304117d552 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7f91f6bbcc44d7799840b01b4ec85e2 = $(`<div id="html_f7f91f6bbcc44d7799840b01b4ec85e2" style="width: 100.0%; height: 100.0%;">Khimki-Tver Real dist: 160.455  Line length: 120.1135594317977 (in km)</div>`)[0];
+            popup_bc20feceb0864e5388d8c2304117d552.setContent(html_f7f91f6bbcc44d7799840b01b4ec85e2);
+        
+
+        poly_line_91390e56e9e34049993266d1a5d8bbcd.bindPopup(popup_bc20feceb0864e5388d8c2304117d552)
+        ;
+
+        
+    
+    
+            var poly_line_09ef542d2f7f43fb89d48508d078bf56 = L.polyline(
+                [[52.287054, 104.281047], [51.834464, 107.584574]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7231906198451532, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_7bd80af5ef464c6097e94fa76061155f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d2e7fb0b18f482eabbb442470c9c1eb = $(`<div id="html_7d2e7fb0b18f482eabbb442470c9c1eb" style="width: 100.0%; height: 100.0%;">Irkutsk-Ulan-Ude Real dist: 456.806  Line length: 227.14546960019257 (in km)</div>`)[0];
+            popup_7bd80af5ef464c6097e94fa76061155f.setContent(html_7d2e7fb0b18f482eabbb442470c9c1eb);
+        
+
+        poly_line_09ef542d2f7f43fb89d48508d078bf56.bindPopup(popup_7bd80af5ef464c6097e94fa76061155f)
+        ;
+
+        
+    
+    
+            var poly_line_5ac4fc7759e642a784cef407bf87f499 = L.polyline(
+                [[55.796289, 49.108795], [54.31419200000001, 48.403123]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.40930413252003406, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_56d670c83a874021ab2a63b1750ec8a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45719bb453444685855d08cd3af59b92 = $(`<div id="html_45719bb453444685855d08cd3af59b92" style="width: 100.0%; height: 100.0%;">Kazan-Ulyanovsk Real dist: 218.136  Line length: 118.27973407346956 (in km)</div>`)[0];
+            popup_56d670c83a874021ab2a63b1750ec8a1.setContent(html_45719bb453444685855d08cd3af59b92);
+        
+
+        poly_line_5ac4fc7759e642a784cef407bf87f499.bindPopup(popup_56d670c83a874021ab2a63b1750ec8a1)
+        ;
+
+        
+    
+    
+            var poly_line_99a0f5c55d0a4dafbd6c0f1ffd55ae45 = L.polyline(
+                [[42.98306, 47.504682], [43.02115, 44.68196]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2948310601861143, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_8974d7942b414d25b164f9033de9bcc0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d604b2633c6f43a09ab8424d6fa15b1b = $(`<div id="html_d604b2633c6f43a09ab8424d6fa15b1b" style="width: 100.0%; height: 100.0%;">Makhachkala-Vladikavkaz Real dist: 277.796  Line length: 229.17709846390954 (in km)</div>`)[0];
+            popup_8974d7942b414d25b164f9033de9bcc0.setContent(html_d604b2633c6f43a09ab8424d6fa15b1b);
+        
+
+        poly_line_99a0f5c55d0a4dafbd6c0f1ffd55ae45.bindPopup(popup_8974d7942b414d25b164f9033de9bcc0)
+        ;
+
+        
+    
+    
+            var poly_line_29cd37c501544f56918b875888393457 = L.polyline(
+                [[57.000348, 40.973921], [56.129057, 40.406635]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_0b1bcc05469947f986bb07bfaef78958 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88a2c8bbc4e24f08b58852386bc2faad = $(`<div id="html_88a2c8bbc4e24f08b58852386bc2faad" style="width: 100.0%; height: 100.0%;">Ivanovo-Vladimir Real dist: 75.40837535657836  Line length: 75.40837535657836 (in km)</div>`)[0];
+            popup_0b1bcc05469947f986bb07bfaef78958.setContent(html_88a2c8bbc4e24f08b58852386bc2faad);
+        
+
+        poly_line_29cd37c501544f56918b875888393457.bindPopup(popup_0b1bcc05469947f986bb07bfaef78958)
+        ;
+
+        
+    
+    
+            var poly_line_94b7345653e34e7d81e25b884318a275 = L.polyline(
+                [[48.480223, 135.07191699999998], [43.115536, 131.88548500000002]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.1108844828249451, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_c896872c25b2422684428490f3da2486 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecae695555104948a3a499f29a88d65d = $(`<div id="html_ecae695555104948a3a499f29a88d65d" style="width: 100.0%; height: 100.0%;">Khabarovsk-Vladivostok Real dist: 759.306  Line length: 379.1179131275836 (in km)</div>`)[0];
+            popup_c896872c25b2422684428490f3da2486.setContent(html_ecae695555104948a3a499f29a88d65d);
+        
+
+        poly_line_94b7345653e34e7d81e25b884318a275.bindPopup(popup_c896872c25b2422684428490f3da2486)
+        ;
+
+        
+    
+    
+            var poly_line_fb95a6ef6a6b44b7bacbfe20bf54b241 = L.polyline(
+                [[51.533103, 46.03415800000001], [48.707073, 44.51693]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.578084246018963, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_d22302a9d5d04533bd434135fc710c44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e420c97f42914e8fa9630238ae7c2762 = $(`<div id="html_e420c97f42914e8fa9630238ae7c2762" style="width: 100.0%; height: 100.0%;">Saratov-Volgograd Real dist: 381.044  Line length: 210.1055877113505 (in km)</div>`)[0];
+            popup_d22302a9d5d04533bd434135fc710c44.setContent(html_e420c97f42914e8fa9630238ae7c2762);
+        
+
+        poly_line_fb95a6ef6a6b44b7bacbfe20bf54b241.bindPopup(popup_d22302a9d5d04533bd434135fc710c44)
+        ;
+
+        
+    
+    
+            var poly_line_ffc38af4d3714f6f99d932232c4daddc = L.polyline(
+                [[50.29064, 127.527173], [62.028082, 129.732609]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 2.6740084780997018, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_4084a93c1e2b49e9b27c9d3b6af17a78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7028b8786d294264a64f53fe372e10a5 = $(`<div id="html_7028b8786d294264a64f53fe372e10a5" style="width: 100.0%; height: 100.0%;">Blagoveshchensk-Yakutsk Real dist: 1796.536  Line length: 853.5885599770926 (in km)</div>`)[0];
+            popup_4084a93c1e2b49e9b27c9d3b6af17a78.setContent(html_7028b8786d294264a64f53fe372e10a5);
+        
+
+        poly_line_ffc38af4d3714f6f99d932232c4daddc.bindPopup(popup_4084a93c1e2b49e9b27c9d3b6af17a78)
+        ;
+
+        
+    
+    
+            var poly_line_f322bba0ef654deebd02f4b20a94ffdd = L.polyline(
+                [[57.767961, 40.926858], [57.626578, 39.893858]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2390167026079146, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_6cf6de2ded4845c9957554b98dea06bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f397b178d6e44179ca0d68e8dadb148 = $(`<div id="html_4f397b178d6e44179ca0d68e8dadb148" style="width: 100.0%; height: 100.0%;">Kostroma-Yaroslavl Real dist: 83.942  Line length: 62.25653494821321 (in km)</div>`)[0];
+            popup_6cf6de2ded4845c9957554b98dea06bb.setContent(html_4f397b178d6e44179ca0d68e8dadb148);
+        
+
+        poly_line_f322bba0ef654deebd02f4b20a94ffdd.bindPopup(popup_6cf6de2ded4845c9957554b98dea06bb)
+        ;
+
+        
+    
+    
+            var poly_line_35a2eb8f160b4fb58d1a715c5a8a3337 = L.polyline(
+                [[50.549923, 137.007948], [46.959155, 142.738023]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.1694150963718, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_6e3e86bd298940db91478b5067a64af1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17e3f785ab084aecb529971cd01d8d9b = $(`<div id="html_17e3f785ab084aecb529971cd01d8d9b" style="width: 100.0%; height: 100.0%;">Komsomolsk-on-Amur-Yuzhno-Sakhalinsk Real dist: 887.017  Line length: 484.6834877385279 (in km)</div>`)[0];
+            popup_6e3e86bd298940db91478b5067a64af1.setContent(html_17e3f785ab084aecb529971cd01d8d9b);
+        
+
+        poly_line_35a2eb8f160b4fb58d1a715c5a8a3337.bindPopup(popup_6e3e86bd298940db91478b5067a64af1)
+        ;
+
+        
+    
+    
+            var poly_line_93d37de67cdc4d52b6fdb3090d6882e0 = L.polyline(
+                [[56.151362, 101.63408], [56.010563, 92.852572]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5158397060213344, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_bcdfa8ba659142a084d8b79e328f4a01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c86f7074f5364cf7a1d70068ec067501 = $(`<div id="html_c86f7074f5364cf7a1d70068ec067501" style="width: 100.0%; height: 100.0%;">Bratsk-Krasnoyarsk Real dist: 688.511  Line length: 543.3600783444787 (in km)</div>`)[0];
+            popup_bcdfa8ba659142a084d8b79e328f4a01.setContent(html_c86f7074f5364cf7a1d70068ec067501);
+        
+
+        poly_line_93d37de67cdc4d52b6fdb3090d6882e0.bindPopup(popup_bcdfa8ba659142a084d8b79e328f4a01)
+        ;
+
+        
+    
+    
+            var poly_line_62437d4136af4cd1a65b27abe96827fa = L.polyline(
+                [[44.997655, 41.129644], [43.02115, 44.68196]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.413014017834585, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_ad1bfe1cfc084843afec16255747e6d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c4c564daf3641869545776d4134d4d6 = $(`<div id="html_0c4c564daf3641869545776d4134d4d6" style="width: 100.0%; height: 100.0%;">Armavir-Vladikavkaz Real dist: 401.253  Line length: 299.78898779566754 (in km)</div>`)[0];
+            popup_ad1bfe1cfc084843afec16255747e6d0.setContent(html_0c4c564daf3641869545776d4134d4d6);
+        
+
+        poly_line_62437d4136af4cd1a65b27abe96827fa.bindPopup(popup_ad1bfe1cfc084843afec16255747e6d0)
+        ;
+
+        
+    
+    
+            var poly_line_7ce59f7eeb95415fb186cc399119d9a6 = L.polyline(
+                [[53.195063, 45.018316], [51.533103, 46.03415800000001]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.3916966662506881, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_9c5d8d71c6d84ecbab4598c97ee8dd90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2be7968194664e24a26691372693ac57 = $(`<div id="html_2be7968194664e24a26691372693ac57" style="width: 100.0%; height: 100.0%;">Penza-Saratov Real dist: 225.474  Line length: 133.2844989278354 (in km)</div>`)[0];
+            popup_9c5d8d71c6d84ecbab4598c97ee8dd90.setContent(html_2be7968194664e24a26691372693ac57);
+        
+
+        poly_line_7ce59f7eeb95415fb186cc399119d9a6.bindPopup(popup_9c5d8d71c6d84ecbab4598c97ee8dd90)
+        ;
+
+        
+    
+    
+            var poly_line_88d64c61eeb7402ea994b7f1078d1888 = L.polyline(
+                [[55.796339, 37.938199], [55.910483, 37.73640200000001]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.22382221272450575, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_b7bf5a10f05843eaaddb41dcd58d0547 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31ed3a387faf49fc831b23d1e413b770 = $(`<div id="html_31ed3a387faf49fc831b23d1e413b770" style="width: 100.0%; height: 100.0%;">Balashikha-Mytishchi Real dist: 29.133  Line length: 15.285249611904176 (in km)</div>`)[0];
+            popup_b7bf5a10f05843eaaddb41dcd58d0547.setContent(html_31ed3a387faf49fc831b23d1e413b770);
+        
+
+        poly_line_88d64c61eeb7402ea994b7f1078d1888.bindPopup(popup_b7bf5a10f05843eaaddb41dcd58d0547)
+        ;
+
+        
+    
+    
+            var poly_line_7ae133a0f69c492e99a282d9d21a82e7 = L.polyline(
+                [[52.539297, 85.21382], [53.757547, 87.136044]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.4263853030472086, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_91a81c6565d644c2883c15bb76f8d369 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49b59838fe8f4cc38f85f3a99e64a302 = $(`<div id="html_49b59838fe8f4cc38f85f3a99e64a302" style="width: 100.0%; height: 100.0%;">Biysk-Novokuznetsk Real dist: 262.668  Line length: 155.4300665605495 (in km)</div>`)[0];
+            popup_91a81c6565d644c2883c15bb76f8d369.setContent(html_49b59838fe8f4cc38f85f3a99e64a302);
+        
+
+        poly_line_7ae133a0f69c492e99a282d9d21a82e7.bindPopup(popup_91a81c6565d644c2883c15bb76f8d369)
+        ;
+
+        
+    
+    
+            var poly_line_783338e6151e4578a33b5c1b1b103c1e = L.polyline(
+                [[53.243562, 34.363407], [51.730361, 36.192647]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_4b54ce7d4670491fbdcb448240cbc035 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfa7dcb0d7c548fcbb6e44b9d751d4a5 = $(`<div id="html_dfa7dcb0d7c548fcbb6e44b9d751d4a5" style="width: 100.0%; height: 100.0%;">Bryansk-Kursk Real dist: 161.36010913580014  Line length: 161.36010913580014 (in km)</div>`)[0];
+            popup_4b54ce7d4670491fbdcb448240cbc035.setContent(html_dfa7dcb0d7c548fcbb6e44b9d751d4a5);
+        
+
+        poly_line_783338e6151e4578a33b5c1b1b103c1e.bindPopup(popup_4b54ce7d4670491fbdcb448240cbc035)
+        ;
+
+        
+    
+    
+            var poly_line_3d2d05edfb704d8c93f270cf86d78a09 = L.polyline(
+                [[50.29064, 127.527173], [52.033973, 113.499432]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.6549532937937457, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_17d58d4affed49a895b969b172bc15e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8685be46f024bdb8923afa317a96391 = $(`<div id="html_c8685be46f024bdb8923afa317a96391" style="width: 100.0%; height: 100.0%;">Blagoveshchensk-Chita Real dist: 1556.647  Line length: 974.6849849592736 (in km)</div>`)[0];
+            popup_17d58d4affed49a895b969b172bc15e6.setContent(html_c8685be46f024bdb8923afa317a96391);
+        
+
+        poly_line_3d2d05edfb704d8c93f270cf86d78a09.bindPopup(popup_17d58d4affed49a895b969b172bc15e6)
+        ;
+
+        
+    
+    
+            var poly_line_f06d102cceee418caf92ae86cdc603ca = L.polyline(
+                [[55.67649399999999, 37.898116], [54.193122, 37.617348]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_e7950a7e2a184787815616c459004157 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6edb0c21ce804fb4bc1a244b6fa3ea92 = $(`<div id="html_6edb0c21ce804fb4bc1a244b6fa3ea92" style="width: 100.0%; height: 100.0%;">Lyubertsy-Tula Real dist: 110.75859113779183  Line length: 110.75859113779183 (in km)</div>`)[0];
+            popup_e7950a7e2a184787815616c459004157.setContent(html_6edb0c21ce804fb4bc1a244b6fa3ea92);
+        
+
+        poly_line_f06d102cceee418caf92ae86cdc603ca.bindPopup(popup_e7950a7e2a184787815616c459004157)
+        ;
+
+        
+    
+    
+            var poly_line_45270bfc35d54ab0b684991c5792e259 = L.polyline(
+                [[55.796289, 49.108795], [55.63407, 51.809112]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.33583240249070284, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_44b39bd7acdf40debe61f712d2a4795a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6eefd0c27b447aa8541108617f0dad8 = $(`<div id="html_d6eefd0c27b447aa8541108617f0dad8" style="width: 100.0%; height: 100.0%;">Kazan-Nizhnekamsk Real dist: 236.569  Line length: 169.16722979979596 (in km)</div>`)[0];
+            popup_44b39bd7acdf40debe61f712d2a4795a.setContent(html_d6eefd0c27b447aa8541108617f0dad8);
+        
+
+        poly_line_45270bfc35d54ab0b684991c5792e259.bindPopup(popup_44b39bd7acdf40debe61f712d2a4795a)
+        ;
+
+        
+    
+    
+            var poly_line_f205fa32398d43268a2e8478a17f67ba = L.polyline(
+                [[55.159897, 61.402554], [53.407158, 58.980282]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.43141954902860913, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_e2f6f8d5ee6f476fbd72dc4cfb8f4a26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e411f9c25c024c55aa9d4cbc118dc254 = $(`<div id="html_e411f9c25c024c55aa9d4cbc118dc254" style="width: 100.0%; height: 100.0%;">Chelyabinsk-Magnitogorsk Real dist: 310.319  Line length: 200.91532684089833 (in km)</div>`)[0];
+            popup_e2f6f8d5ee6f476fbd72dc4cfb8f4a26.setContent(html_e411f9c25c024c55aa9d4cbc118dc254);
+        
+
+        poly_line_f205fa32398d43268a2e8478a17f67ba.bindPopup(popup_e2f6f8d5ee6f476fbd72dc4cfb8f4a26)
+        ;
+
+        
+    
+    
+            var poly_line_77f36940f7224c6e94a3cbfaea22c5c4 = L.polyline(
+                [[59.220496, 39.891523], [57.626578, 39.893858]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.334326186902902, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_ac1897a7e5634b1c8bdf72dccd536ad2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9fa120b79134976ac3501b5300c7897 = $(`<div id="html_f9fa120b79134976ac3501b5300c7897" style="width: 100.0%; height: 100.0%;">Vologda-Yaroslavl Real dist: 194.053  Line length: 127.3310312789413 (in km)</div>`)[0];
+            popup_ac1897a7e5634b1c8bdf72dccd536ad2.setContent(html_f9fa120b79134976ac3501b5300c7897);
+        
+
+        poly_line_77f36940f7224c6e94a3cbfaea22c5c4.bindPopup(popup_ac1897a7e5634b1c8bdf72dccd536ad2)
+        ;
+
+        
+    
+    
+            var poly_line_6c29d39ef48540598b7ce886c7c8b7e3 = L.polyline(
+                [[45.03547, 38.975313], [47.220983, 38.9173]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7049669434528698, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_82ca73eb98ba422b9c91a73d8216e37d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cbd3b314987846b9bb5ad0bf4e8722ef = $(`<div id="html_cbd3b314987846b9bb5ad0bf4e8722ef" style="width: 100.0%; height: 100.0%;">Krasnodar-Taganrog Real dist: 350.884  Line length: 128.50739753623702 (in km)</div>`)[0];
+            popup_82ca73eb98ba422b9c91a73d8216e37d.setContent(html_cbd3b314987846b9bb5ad0bf4e8722ef);
+        
+
+        poly_line_6c29d39ef48540598b7ce886c7c8b7e3.bindPopup(popup_82ca73eb98ba422b9c91a73d8216e37d)
+        ;
+
+        
+    
+    
+            var poly_line_61d03f1a84b44dbc8888375c5f649420 = L.polyline(
+                [[55.159897, 61.402554], [55.44100400000001, 65.34111800000001]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_10c4b793ab784d838ba26ca16d956864 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4523f485323c458e8a5c0d8af0342790 = $(`<div id="html_4523f485323c458e8a5c0d8af0342790" style="width: 100.0%; height: 100.0%;">Chelyabinsk-Kurgan Real dist: 250.02079226730905  Line length: 250.02079226730905 (in km)</div>`)[0];
+            popup_10c4b793ab784d838ba26ca16d956864.setContent(html_4523f485323c458e8a5c0d8af0342790);
+        
+
+        poly_line_61d03f1a84b44dbc8888375c5f649420.bindPopup(popup_10c4b793ab784d838ba26ca16d956864)
+        ;
+
+        
+    
+    
+            var poly_line_636c3f54ded5473483f175a9fcb776cb = L.polyline(
+                [[52.60882, 39.59922], [54.193122, 37.617348]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_a9d4afac7da74c98bb77a64f4b94ecdd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92cfe11800ee4e8c8197ea853434aa33 = $(`<div id="html_92cfe11800ee4e8c8197ea853434aa33" style="width: 100.0%; height: 100.0%;">Lipetsk-Tula Real dist: 174.76642134490405  Line length: 174.76642134490405 (in km)</div>`)[0];
+            popup_a9d4afac7da74c98bb77a64f4b94ecdd.setContent(html_92cfe11800ee4e8c8197ea853434aa33);
+        
+
+        poly_line_636c3f54ded5473483f175a9fcb776cb.bindPopup(popup_a9d4afac7da74c98bb77a64f4b94ecdd)
+        ;
+
+        
+    
+    
+            var poly_line_a60df52cd6f349a4a898fea9321c2e82 = L.polyline(
+                [[59.122612, 37.903461], [61.785017, 34.346878000000004]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7646097562574945, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_22d51734cb38462fb7c3e8909e3700fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_013a091d6cec4364ba8448af425b1fd7 = $(`<div id="html_013a091d6cec4364ba8448af425b1fd7" style="width: 100.0%; height: 100.0%;">Cherepovets-Petrozavodsk Real dist: 546.091  Line length: 299.95975200643034 (in km)</div>`)[0];
+            popup_22d51734cb38462fb7c3e8909e3700fb.setContent(html_013a091d6cec4364ba8448af425b1fd7);
+        
+
+        poly_line_a60df52cd6f349a4a898fea9321c2e82.bindPopup(popup_22d51734cb38462fb7c3e8909e3700fb)
+        ;
+
+        
+    
+    
+            var poly_line_e4cd21d7f9cd4b349f45fd1694ef4ac1 = L.polyline(
+                [[55.44100400000001, 65.34111800000001], [54.98934200000001, 73.368212]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_fc3b93d1a4cc465cb50bdb74a2e9ec47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cd8f3d7f4b1451198228a733197934f = $(`<div id="html_2cd8f3d7f4b1451198228a733197934f" style="width: 100.0%; height: 100.0%;">Kurgan-Omsk Real dist: 508.2153063108459  Line length: 508.2153063108459 (in km)</div>`)[0];
+            popup_fc3b93d1a4cc465cb50bdb74a2e9ec47.setContent(html_2cd8f3d7f4b1451198228a733197934f);
+        
+
+        poly_line_e4cd21d7f9cd4b349f45fd1694ef4ac1.bindPopup(popup_fc3b93d1a4cc465cb50bdb74a2e9ec47)
+        ;
+
+        
+    
+    
+            var poly_line_ab0327d448474ce1a4e6ee9c7b57335f = L.polyline(
+                [[53.407158, 58.980282], [53.630403, 55.930825]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5599447264498261, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_f82a535aacd9477595afc95ef397b414 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9d3957fbf674e08b3aad1e9a68b98d7 = $(`<div id="html_b9d3957fbf674e08b3aad1e9a68b98d7" style="width: 100.0%; height: 100.0%;">Magnitogorsk-Sterlitamak Real dist: 365.528  Line length: 202.0617650108213 (in km)</div>`)[0];
+            popup_f82a535aacd9477595afc95ef397b414.setContent(html_b9d3957fbf674e08b3aad1e9a68b98d7);
+        
+
+        poly_line_ab0327d448474ce1a4e6ee9c7b57335f.bindPopup(popup_f82a535aacd9477595afc95ef397b414)
+        ;
+
+        
+    
+    
+            var poly_line_bdd52c1611b3405f9a14281e4bb554ea = L.polyline(
+                [[60.939716, 76.56962800000002], [55.030199, 82.92043000000002]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 4.348140951794823, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_33a9e24cdf4c40b596a2220111f39783 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_167253d24c1742a28424daa90482bf1c = $(`<div id="html_167253d24c1742a28424daa90482bf1c" style="width: 100.0%; height: 100.0%;">Nizhnevartovsk-Novosibirsk Real dist: 2092.914  Line length: 584.4496500202214 (in km)</div>`)[0];
+            popup_33a9e24cdf4c40b596a2220111f39783.setContent(html_167253d24c1742a28424daa90482bf1c);
+        
+
+        poly_line_bdd52c1611b3405f9a14281e4bb554ea.bindPopup(popup_33a9e24cdf4c40b596a2220111f39783)
+        ;
+
+        
+    
+    
+            var poly_line_fcf1bdd9a0c344a29cb39a062784a83a = L.polyline(
+                [[55.796339, 37.938199], [56.129057, 40.406635]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.2, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_a560851b55d640d4a6025c2e2616795f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_221eb7a21ebc4b8fb927513b7bdb250e = $(`<div id="html_221eb7a21ebc4b8fb927513b7bdb250e" style="width: 100.0%; height: 100.0%;">Balashikha-Vladimir Real dist: 155.65036398994638  Line length: 155.65036398994638 (in km)</div>`)[0];
+            popup_a560851b55d640d4a6025c2e2616795f.setContent(html_221eb7a21ebc4b8fb927513b7bdb250e);
+        
+
+        poly_line_fcf1bdd9a0c344a29cb39a062784a83a.bindPopup(popup_a560851b55d640d4a6025c2e2616795f)
+        ;
+
+        
+    
+    
+            var poly_line_b73afeea6afc4b3aa521432f0ed42be5 = L.polyline(
+                [[52.018424, 47.819667], [54.31419200000001, 48.403123]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.4781932940704632, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_d1274db1d8d44de28f6c30a4e3f52308 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a5415b16fa542a998e703094d5e25d0 = $(`<div id="html_3a5415b16fa542a998e703094d5e25d0" style="width: 100.0%; height: 100.0%;">Balakovo-Ulyanovsk Real dist: 299.651  Line length: 170.31761527202363 (in km)</div>`)[0];
+            popup_d1274db1d8d44de28f6c30a4e3f52308.setContent(html_3a5415b16fa542a998e703094d5e25d0);
+        
+
+        poly_line_b73afeea6afc4b3aa521432f0ed42be5.bindPopup(popup_d1274db1d8d44de28f6c30a4e3f52308)
+        ;
+
+        
+    
+    
+            var poly_line_843458b6a1f8480f8ed44e05b4551b0c = L.polyline(
+                [[56.85259300000001, 53.204843], [54.735147, 55.958727]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.4305627608809611, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_b2838e4cb68b4c38af4ee7dc8e1bfd86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1577b8803ac34ca397b7330b1ad878d1 = $(`<div id="html_1577b8803ac34ca397b7330b1ad878d1" style="width: 100.0%; height: 100.0%;">Izhevsk-Ufa Real dist: 341.884  Line length: 232.84861334462997 (in km)</div>`)[0];
+            popup_b2838e4cb68b4c38af4ee7dc8e1bfd86.setContent(html_1577b8803ac34ca397b7330b1ad878d1);
+        
+
+        poly_line_843458b6a1f8480f8ed44e05b4551b0c.bindPopup(popup_b2838e4cb68b4c38af4ee7dc8e1bfd86)
+        ;
+
+        
+    
+    
+            var poly_line_2330cc5694d44ce88d07baeabaf76ca2 = L.polyline(
+                [[50.59566, 36.587223], [47.220983, 38.9173]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.4299600413633509, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_47bb19af104148d79a1352bd19169b6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8003337195764024a4578b224c7e0b91 = $(`<div id="html_8003337195764024a4578b224c7e0b91" style="width: 100.0%; height: 100.0%;">Belgorod-Taganrog Real dist: 766.184  Line length: 266.6453000003236 (in km)</div>`)[0];
+            popup_47bb19af104148d79a1352bd19169b6d.setContent(html_8003337195764024a4578b224c7e0b91);
+        
+
+        poly_line_2330cc5694d44ce88d07baeabaf76ca2.bindPopup(popup_47bb19af104148d79a1352bd19169b6d)
+        ;
+
+        
+    
+    
+            var poly_line_98b2385cdc774b8b987c9c82aefcbd9f = L.polyline(
+                [[56.238377, 43.461625], [54.187433, 45.183938]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.446465362519374, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_542c65ed7d914b3bb87043a2e8f3432f);
+        
+    
+        var popup_25a08e47fa24463ab239114428da1377 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d513b65bbf540d5aa63d0fdeff1d97a = $(`<div id="html_1d513b65bbf540d5aa63d0fdeff1d97a" style="width: 100.0%; height: 100.0%;">Dzerzhinsk-Saransk Real dist: 302.129  Line length: 186.27771414647714 (in km)</div>`)[0];
+            popup_25a08e47fa24463ab239114428da1377.setContent(html_1d513b65bbf540d5aa63d0fdeff1d97a);
+        
+
+        poly_line_98b2385cdc774b8b987c9c82aefcbd9f.bindPopup(popup_25a08e47fa24463ab239114428da1377)
+        ;
+
+        
+    
+</script>
