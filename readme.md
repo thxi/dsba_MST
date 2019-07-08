@@ -87,6 +87,13 @@ Comparison
 ---
 See [jupyter/Comparing distances.ipynb](https://github.com/thxi/dsba/blob/master/jupyter/Comparing%20distances.ipynb) to see how the distances were compared (the bottom of the notebook)
 
+
+We have saved around 12000 km by just connecting the cities directly
+
+It is also worth looking at the boxplot and distributions of differences:
+![Box Dist](https://github.com/thxi/dsba/blob/master/images/boxdist.png)
+As we can see the majority of distance saves were not greater than approximately 200 km
+
 Used resources:
 ---
 
