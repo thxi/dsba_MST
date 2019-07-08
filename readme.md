@@ -59,7 +59,7 @@ Algorithms can be found in [algs](https://github.com/thxi/dsba/tree/master/algs)
 
 To get the MSTs run:
 ```bash
-python3 algs/mst.py v* # * is either 1 or 2
+python3 algs/mst.py v* # where * is either 1 or 2
 ```
 
 
@@ -71,6 +71,17 @@ Distances between roads were acquired with the use of [Google Distance Matrix](h
 Corresponding [jupyter notebook](https://github.com/thxi/dsba/blob/master/jupyter/Google%20Distance%20Matrix.ipynb)
 
 Corresponding [dataset v1](https://github.com/thxi/dsba/blob/master/data/mst_real_edges_small.csv) [dataset v2](https://github.com/thxi/dsba/blob/master/data/mst_real_edges_big.csv)
+
+---
+
+The obtained MSTs were visualized using Folium library
+[algs/html_maps.py](https://github.com/thxi/dsba/blob/master/algs/html_maps.py)
+```bash
+python3 algs/html_maps.py v* # where * is either 1 or 2
+```
+
+Or refer to [jupyter/Comparing distances.ipynb](https://github.com/thxi/dsba/blob/master/jupyter/Comparing%20distances.ipynb) where we made the interactive maps (maps/comparison_map_markers_v* or maps/comparison_map_* or better use the web app)
+
 
 Used resources:
 ---
