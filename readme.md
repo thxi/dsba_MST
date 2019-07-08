@@ -83,6 +83,10 @@ python3 algs/html_maps.py v* # where * is either 1 or 2
 Or refer to [jupyter/Comparing distances.ipynb](https://github.com/thxi/dsba/blob/master/jupyter/Comparing%20distances.ipynb) where we made the interactive maps (maps/comparison_map_markers_v* or maps/comparison_map_* or better use the web app)
 
 
+Comparison
+---
+See [jupyter/Comparing distances.ipynb](https://github.com/thxi/dsba/blob/master/jupyter/Comparing%20distances.ipynb) to see how the distances were compared (the bottom of the notebook)
+
 Used resources:
 ---
 

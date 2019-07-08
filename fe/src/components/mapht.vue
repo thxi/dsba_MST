@@ -9,12 +9,12 @@
       <iframe :src="`/maps/${map_name}${postfix}`" seamless></iframe
     ></b-tab>
 
-    <template slot="tabs" v-if="tabIndex != 4">
+    <template slot="tabs" v-if="tabIndex <= 3">
       <b-button @click="markers()" variant="outline-primary"
         >{{ markers_prefix }} markers</b-button
       >
     </template>
-    <template slot="tabs" v-if="tabIndex != 4">
+    <template slot="tabs" v-if="tabIndex <= 3">
       <b-button @click="cities()" variant="outline-primary"
         >Use {{ cities_prefix }} cities</b-button
       >
@@ -22,6 +22,11 @@
     <b-tab title="Yandex map">
       <yMap />
     </b-tab>
+
+    <b-tab title="Opacity map" seamless>
+      The more transparent the edge, the less the distance difference
+      <iframe src="/maps/opacity_map.html" seamless></iframe
+    ></b-tab>
   </b-tabs>
 </template>
 
