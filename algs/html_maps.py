@@ -1,6 +1,7 @@
 import pandas as pd
 import sys
 import folium
+from folium.plugins import MarkerCluster
 
 
 def make_map(edges, coord, file_name, postfix, markers=False):

@@ -30,6 +30,7 @@ RUN pip3 install notebook
 RUN pip3 install pandas numpy matplotlib seaborn
 RUN pip3 install requests parse folium
 RUN pip3 install beautifulsoup4
+RUN pip3 install -U googlemaps
 
 # jupyter config
 RUN jupyter notebook --allow-root --generate-config -y
